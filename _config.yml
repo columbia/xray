@@ -6,8 +6,8 @@ highlighter:      pygments
 permalink:        pretty
 
 # Setup
-title:            'Mathias Lecuyer'
-bio:              ''
+title:            'Xray'
+bio:              'Transparency for the Web.'
 tagline:          ''
 description:      ''
 url:              http://mathias.lecuyer.me
