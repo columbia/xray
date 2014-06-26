@@ -17,15 +17,7 @@ author:
   url:            https://twitter.com/matlecu
 
 paginate:         1
-paginate_path:    /blog/page:num
+paginate_path:    /xray/blog/page:num
 
 # Custom vars
 version:          0.1
-
-twitter:
-  profile:        "https://twitter.com/MatLecu"
-  handle:         "@matlecu"
-
-github:
-  profile:        "https://github.com/matlecu"
-  handle:         "matlecu"
