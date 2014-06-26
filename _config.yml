@@ -1,0 +1,31 @@
+# Dependencies
+markdown:         redcarpet
+highlighter:      pygments
+
+# Permalinks
+permalink:        pretty
+
+# Setup
+title:            'Mathias Lecuyer'
+bio:              ''
+tagline:          ''
+description:      ''
+url:              http://mathias.lecuyer.me
+
+author:
+  name:           'Mathias Lecuyer'
+  url:            https://twitter.com/matlecu
+
+paginate:         1
+paginate_path:    /blog/page:num
+
+# Custom vars
+version:          0.1
+
+twitter:
+  profile:        "https://twitter.com/MatLecu"
+  handle:         "@matlecu"
+
+github:
+  profile:        "https://github.com/matlecu"
+  handle:         "matlecu"
