@@ -1,11 +1,11 @@
 ---
 layout: default
-title: Home
+title: Overview
 ---
 
 <p class="message">
-  XRay is a research project from Columbia University. We are currently running targeting
-  experiments on Steampunk, Chaldean Poetry, Cosplay and Falconry.
+  XRay is a research project from Columbia University, the promotes
+  transparency for Web services.
 </p>
 
 ### XRay: Increasing the Web's Transparency
@@ -20,14 +20,6 @@ in Amazon, etc.
 The insight is to compare ads/prices witnessed by different accounts with
 similar, but not identical, subsets of the data.
 
-* Read the USENIX Security 2014 [paper]()
-* Learn more on the project's [website]()
-* The sources are on [GitHub]()
+* Read the USENIX Security 2014 [paper](/public/xray.pdf)
+* The sources are on [GitHub](https://github.com/MatLecu/xray)
 
-
-### Experiments
-
-We are curretly running targeted ads against the following keywords:
-steampunk, chaldean poetry, cosplay and falconry.
-If you visit this web page from such an ad, it was probably targeted because of
-these.
