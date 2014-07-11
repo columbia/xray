@@ -20,6 +20,6 @@ in Amazon, etc.
 The insight is to compare ads/prices witnessed by different accounts with
 similar, but not identical, subsets of the data.
 
-* Read the USENIX Security 2014 [paper](/public/xray.pdf)
+* Read the USENIX Security 2014 [paper]({{ site.baseurl }}/public/xray.pdf)
 * The sources are on [GitHub](https://github.com/MatLecu/xray)
 

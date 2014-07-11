@@ -1,20 +1,16 @@
 # Dependencies
 markdown:         redcarpet
 highlighter:      pygments
+baseurl:          /xray
 
 # Permalinks
 permalink:        pretty
 
 # Setup
 title:            'XRay'
-bio:              'Transparency for the Web.'
-tagline:          ''
+tagline:          'Transparency for the Web.'
 description:      ''
 url:              http://mathias.lecuyer.me
-
-author:
-  name:           'Mathias Lecuyer'
-  url:            https://twitter.com/matlecu
 
 paginate:         1
 paginate_path:    /xray/blog/page:num
