@@ -1,0 +1,30 @@
+/bin/sh: 1: runuser: not found
+Configuration file: /home/mathias/gh/xray/_config.yml
+            Source: /home/mathias/gh/xray
+       Destination: /home/mathias/gh/xray/_site
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done.
+Configuration file: /home/mathias/gh/xray/_config.yml
+    Server address: http://0.0.0.0:4000/xray/
+  Server running... press ctrl-c to stop.
+jekyll: no process found
+Configuration file: /home/mathias/gh/xray/_config.yml
+            Source: /home/mathias/gh/xray
+       Destination: /home/mathias/gh/xray/_site
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done.
+Configuration file: /home/mathias/gh/xray/_config.yml
+    Server address: http://0.0.0.0:4000/xray/
+  Server running... press ctrl-c to stop.
+Already up-to-date.
+Configuration file: /home/mathias/gh/xray/_config.yml
+            Source: /home/mathias/gh/xray
+       Destination: /home/mathias/gh/xray/_site
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m
+                    done.
+Configuration file: /home/mathias/gh/xray/_config.yml
+    Server address: http://0.0.0.0:4000/xray/
+  Server running... press ctrl-c to stop.
