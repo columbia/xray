@@ -14,11 +14,12 @@ title: Demo
 As a show-case experiment, we've used XRay to observe Gmail ads attracted
 by various topics, such as various diseases, sexual orientation,
 pregnancy, race, divorce, debt, etc.  We've found some pretty interesting
-associations:  a "Shamanic healing" ad appeared exclusively in
-accounts containing emails about depression; a number of big store
-brands correlate strongly with the presence of pregnancy-related
-emails in a user's inbox; and a car dealership ad correlates strongly
-with debt-related emails, indicating subprime targeting.
+associations:  a <font color="red">"Shamanic healing"</font> ad appeared
+exclusively in accounts containing emails about
+<font color="green">depression</font>; a number of big clothing brand ads
+correlate strongly with the presence of pregnancy-related emails in a user's
+inbox; and a car dealership ad correlates strongly with debt-related emails,
+indicating subprime targeting.
 
 We thought that others might be interested in such data, so we built
 an [<b>XRay-based service</b>](xxx) that continuously collects and
