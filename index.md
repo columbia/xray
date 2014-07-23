@@ -10,29 +10,60 @@ title: Overview
 
 ### Toward a Transparent Web
 
-The recent NSA leaks by Snowden brought forth to the public's attention the
-massive data collection practiced by the government XXX.  They opened a
-public debate about the implications of this data collection and unsupervised
-use.  Its potential uses XXX.  However, it's not only the NSA that is collecting
-personal data and using it for a wide variety of purposes.  Many private
-companies are now doing the exact same thing.  They get the data through
-mobile apps that follow users' every location, search, or visited website;
-.
+We live in a data-driven world, in which many of the Web services, mobile
+apps, and third parties we interact with daily are collecting immense amounts
+of information about us -- every location, click, and site that we visit.
+They're mining our emails and documents. And they're using all of this
+information for various purposes; at times, they even share the data with
+third-parties -- {\em all without our knowledge or consent}.
+For example, did you know that some companies target ads on illness-related emails,
+and if you click on them, and then authenticate to buy something, you leak out
+potentially sensitive personal health information?  Or that credit companies [might
+use](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/) your
+Facebook data to decide whether to give out a loan?  Or that certain travel
+companies [discriminate](XXX) their prices based on user profile and location?
+Maybe you already knew these things -- you probably read the news just like we do. 
+But the question is: do you know when such things happen to {\em you}? Probably
+not always.
 
+In light of these problems, one question arises: is there a way to tell what
+Web services do with our data?  Just like Web services track our data, we wish
+to monitor their use of it.  For example, wouldn't it be great if we knew which
+emails trigger which ads, which prior purchases trigger which recommendations
+or prices?  Or whether our services share our data with third parties, and then
+how *those* parties use the data?  It would be great if we had such visibility,
+right?
 
+At Columbia, we are building precisely such a system, which we call *XRay*.
+It adds a level of transparency hitherto unavailable.  It tracks the use of
+personal data on the Web.  It tells you which specific data items trigger which
+outputs, such as ads, and it can track data both within and across arbitrary web
+services.  How do we do that?  The details are complex, but the high-level
+idea is intuitive:  XRay monitors inputs into the services (like emails),
+the outputs that the services return (like ads), and then it *correlates* them.
+To do so, it populates a series of extra accounts with subsets of the inputs and
+then looks at the differences and commonalities between
+the outputs that they get versus your own outputs, and that's how we can tell
+correlation.  And the great thing is that we can do this surprisingly accurately:
+80-90% precision and recall for all three services we've applied XRay to thus far,
+Gmail, YouTube, and Amazon.  Moreover, it can do so while requiring extremely
+few extra accounts (*logarithmic* in terms of number of tracked inputs).
+We know of no other system that can achieve this level of accuracy and scale.
+Read about the XRay's design and evaluation in our research
+[paper]({{ site.baseurl }}/public/xray.pdf), which will appear at USENIX Security
+2014 in August.
 
+While our end goal is to enable transparency for the end users, our prototype is
+still in early research stages.  The challenges of tracking data use in the 
+uncontrolled and complex Web environment are extremely difficult, and while we've
+made the first significant few advancements, we still have a long way to go.
+In particular, our system can be manipulated.
+Thus, at this time, we are making available our prototype and data from our
+evaluation to researchers and other investigators, who can start using certain
+parts of the system and improve upon others.
 
-
-Today's Web services accumulate enormous
-sensitive information -- such as emails, search logs, or locations -- and use
-them to target advertisements, prices, or products at users. Presently, users
-have little insight into how their data is used for such purposes. To enhance
-transparency, we are building XRay, a generic system that predicts what data --
-such as emails or searches -- is used to target which ads in Gmail, which prices
-in Amazon, etc.  The insight is to compare ads/prices witnessed by different
-accounts with similar, but not identical, subsets of the data.
-
-* Read the USENIX Security 2014 [paper]({{ site.baseurl }}/public/xray.pdf)
-* The sources are on [GitHub](https://github.com/MatLecu/xray)
+You can access the source code of our prototype on
+[GitHub](https://github.com/MatLecu/xray). You can access the data we are gathering
+about ad targeting in Gmail on our [demo page]({{ site.baseurl }}/demo/). 
 
 

@@ -49,12 +49,12 @@ body {
 
 html {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 16px;
+  font-size: 10px;
   line-height: 1.5;
 }
 @media (min-width: 38rem) {
   html {
-    font-size: 20px;
+    font-size: 14px;
   }
 }
 
@@ -260,8 +260,8 @@ tbody tr:nth-child(odd) th {
 
 .container {
   max-width: 38rem;
-  padding-left:  1rem;
-  padding-right: 1rem;
+  padding-left:  0.5rem;
+  padding-right: 0.5rem;
   margin-left:  auto;
   margin-right: auto;
 }
