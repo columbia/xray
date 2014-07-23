@@ -82,8 +82,8 @@ examples of ineffective advertising.
 We observed that different topics were targeted more frequently than others.
 For example, while disease-related emails were targeted rarely, the debt, loan,
 pregnancy, and divorce emails were targeted very frequently.  Most notably,
-we found that surprisingly many used car ads targeted the <i>debt</i> email.
-For example, a used car dealership ad that entices the targeted users to take
+we found that surprisingly many used car ads targeted the <i>debt</i> and <i>loan</i>
+emails.  For example, a car dealership ad that entices the targeted users to take
 a Toyota test drive using a $50 gift offering; it clearly targets the keyword
 "debt" in our inbox.  Other such examples are included in the
 [table](#table).  Given the recent reports about
