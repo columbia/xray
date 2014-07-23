@@ -62,7 +62,7 @@ targeting correlation only requires a small number of extra accounts (*logarithm
 in terms of number of tracked inputs). We know of no other system that can achieve
 this level of accuracy and scale across multiple services.  We thus deem XRay as a
 major new step toward enabling Web transparency compared to the state of the art.
-Read about the XRay's design and evaluation in our research
+Read about XRay's design and evaluation in our research
 [paper]({{ site.baseurl }}/public/xray.pdf), which will appear at USENIX Security
 2014 in August.
 
@@ -79,6 +79,6 @@ prototype into a [demo service]({{ site.baseurl }}/demo/), which can already giv
 a unique level of transparency into Gmail's targeted ad environment to researchers
 and journalists interested in this topic. For example, if you're interested in
 seeing ads related to sensitive topics, such as cancer, depression, or race, visit
-our [demo service]({{ site.baseurl }}/demo/.
+our [demo service]({{ site.baseurl }}/demo/).
 
 
