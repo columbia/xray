@@ -44,7 +44,7 @@ The [table](#table) below shows sample ads that XRay associated with
 each topic.  Conservatively, we only show here ads where XRay computed very high
 confidence scores.  We make several observations:
 
-* <b>It is possible to target sensitive topics in users' inboxes:</b>
+1. <b>It is possible to target sensitive topics in users' inboxes:</b>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
@@ -52,13 +52,7 @@ assisted living services target the Alzheimer email; and a Ford campaign to
 fight breast cancer targets the cancer email.
 Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
 
-<!-- For example, the pregnancy email is strongly targeted by an ad for baby-shower
-invitations, maternity- and lactation-related ads, and, interestingly, a number
-of ads for general-purpose clothing.  As another example, the debt email
-is strongly targeted by a car dealership ad that entices the targeted users to take
-a Toyota test drive using a $50 gift offering. -->
-
-* <b>Targeting is often obscure and may be dangerous:</b>
+2. <b>Targeting is often obscure and may be dangerous:</b>
 For many of the ads in the table, the association with the targeted email
 is not obvious at all.  Nothing in the "Shamanic healing" ad suggests targeting
 against depression; nothing in the general-purpose clothing ads suggest targeting
@@ -71,7 +65,7 @@ they could be disclosing private information to advertisers.  Inspired by these
 ads, we developed an [attack]({{ site.baseurl }}/attack/) that illustrates the dangers of
 obscure targeting.
 
-* <b>Targeting sometimes misses the point:</b>
+3. <b>Targeting sometimes misses the point:</b>
 One might think that ad targeting is always precise and sophisticated.  However,
 we found quite a few cases where targeting seemed to be done through very basic
 keyword matching and completely missed the semantic meaning of the email.
@@ -83,16 +77,8 @@ because it contained the word "watch" (as in "watch TV") in its body. We wonder,
 whether those were the placements intended by the advertisers, or whether they are
 examples of ineffective advertising.
 
-<!-- 
-Finally, lots of ads about stock investments were targeted against an email about debt
-and personal bankruptcy.  Incidentally, searching for "end of marriage" in Google
-yields only divorce-related results, suggesting that search may be more semantic
-than ad targeting in this particular case.
-Regardless, this finding suggests that increased transparency may be valuable
-not just for users, but also for advertisers, who may wish to know how their ads
-are actually being placed. -->
 
-* <b>There's lots of subprime targeting:</b>
+4. <b>There's lots of subprime targeting:</b>
 We observed that different topics were targeted more frequently than others.
 For example, while disease-related emails were targeted rarely, the debt, loan,
 pregnancy, and divorce emails were targeted very frequently.  Most notably,
@@ -107,6 +93,24 @@ category.  We plan to investigate subprime targeting at larger scale in the
 near future.
 
 
+
+<!-- 
+Finally, lots of ads about stock investments were targeted against an email about debt
+and personal bankruptcy.  Incidentally, searching for "end of marriage" in Google
+yields only divorce-related results, suggesting that search may be more semantic
+than ad targeting in this particular case.
+Regardless, this finding suggests that increased transparency may be valuable
+not just for users, but also for advertisers, who may wish to know how their ads
+are actually being placed. -->
+
+<!-- For example, the pregnancy email is strongly targeted by an ad for baby-shower
+invitations, maternity- and lactation-related ads, and, interestingly, a number
+of ads for general-purpose clothing.  As another example, the debt email
+is strongly targeted by a car dealership ad that entices the targeted users to take
+a Toyota test drive using a $50 gift offering. -->
+
+
+
 ### The Ad Targeting Data [table]
 
 The table below gives examples of ads targeting various topics in users' inboxes.
@@ -114,11 +118,32 @@ We handpicked examples with high XRay confidence scores and that seemed interest
 to us.  Our [demo service](xxx) contains more data, along with the
 associated confidence levels.
 
-| Topic         | Ad                           |
-| ------------- | ---------------------------- |
-| Alzheimer     | Black Mold Allergy Symptoms? |
+<font size="3.5pt">
 
-XXX Francis: please fill in with the paper's table.
+| Topic               | Ad                                                               |
+| -------------------:|:---------------------------------------------------------------- |
+| **Alzheimer**       | *Black Mold Allergy Symptoms? Expert to remove Black Mold.*      |
+| **Alzheimer**       | *Adult Assisted Living. Affordable assisted Living.*             |
+| **Cancer**          | *Ford Warriors in Pink. Join the fight.*                         |
+| **Cancer**          | *Rosen Method Bodywork for physical or emotional pain.*          |
+| **Depression**      | *Shamanic healing over the phone.*                               |
+| **Depression**      | *Text Coach - Get the girl you want and desire.*                 |
+| **African American**| *Racial Harrassment? Learn your rights now.*                     |
+| **African American**| *Racial Harrassment. Hearing racial slurs?*                      |
+| **Homosexuality**   | *SF Gay Pride Hotel. Luxury Waterfront.*                         |
+| **Homosexuality**   | *Cedars Hotel Loughborough. 36 Bedrooms, restaurant, bar.*       |
+| **Pregnancy**       | *Find Baby Shower Invitations. Get up to 60% off here!*          |
+| **Pregnancy**       | *Ralph Lauren Apparel.  Official online store.*                  |
+| **Pregnancy**       | *Bonobos Official Site. Your closet will thank you.*             |
+| **Pregnancy**       | *Clothing Label-USA. Best custom woven labels.*                  |
+| **Divorce**         | *Law Attorneys specializing in special needs kids education.*    |
+| **Divorce**         | *Cerbone Law Firm. Helping good people thru bad times.*          |
+| **Debt**            | *Take a New Toyota Test Drive. Get a $50 gift card on the spot.* |
+| **Debt**            | *Great Credit Card Search.  Apply for VISA, Mastercard...*       |
+| **Loan**            | *Car Loan without Cosigner 100% Accepted. [...]*|
+| **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*|
+
+</font>
 
 
 ### Interested in Ad Targeting?  What To Do
