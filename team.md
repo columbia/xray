@@ -11,7 +11,7 @@ Professors:
 
 Primary Students:
 
-- [Mathias Lecuyer](www.cs.columbia.edu/~matlecu/) (Ph.D.)
+- [Mathias Lecuyer](http://cs.columbia.edu/~mathias/) (Ph.D.)
 - Francis Lan (M.S.)
 - Guillaume Ducoffe (visiting student) xxx ask abt plans
 
