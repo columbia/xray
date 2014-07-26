@@ -20,6 +20,7 @@ Contributors:
 - [Riley Spahn](http://www.cs.columbia.edu/~riley/) (Ph.D.)
 - [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
 - Sravan Bhamidipati
+- Bogdan Geambasu (helped discover subprime targeting in our XRay results)
 
 
 ### Acknowledgements:
