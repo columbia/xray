@@ -138,7 +138,7 @@ a Toyota test drive using a $50 gift offering. -->
 
 <h3 id="attack"> A Potential Attack </h3>
 
-Our realization that it is possible to target ads against what sensitive topics,
+Our realization that it is possible to target ads against sensitive topics,
 including various diseases, sexual orientation, personal financial situation, etc.,
 made us think about a particular attack.  Imagine an insurance company wanted to
 gain insight into pre-existing conditions of its customers before signing them up.
@@ -171,11 +171,11 @@ are being targeted with various emails. XXX
 
 ### Interested in Ad Targeting?  What To Do
 
-The above findings are examples of the kinds of observations one can make using XRay.
+The above findings are examples of observations one can make using XRay.
 They come from our limited and somewhat ad-hoc experience with using XRay to reverse ad
 targeting in Gmail for a few specific topics that we thought were interesting.  Over the
-next period, we plan to run larger scale experiments to quantify some of our example
-driven-observations from above.
+next period, we plan to run larger scale experiments to quantify some of our example-driven
+observations from above.
 
 There are undoubtedly many more other hypotheses to try (e.g., topics to track, hypotheses
 to formulate from our existing data).  If you have an idea for a topic that would be

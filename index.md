@@ -53,17 +53,18 @@ which will appear in August at USENIX Security 2014, a top systems security
 conference.
 
 The big breakthrough in XRay is its <font color="green">*robust and scalable
-correlation engine*</font>, which can achieve surprisingly accurate correlations
-on many services.  We initially built XRay to correlate ads to the emails they
+correlation engine*</font>, whose correlations are surprisingly accurate on
+many services.  We initially built XRay to correlate ads to the emails they
 target in Gmail, and then applied its correlation engine *as-is* to correlate
-recommendations in YouTube and Amazon based on various inputs.  Across all of
-these very different services, XRay predicted targeting with 80-90% accuracy
-without a single change in its code or parameters.  Moreover, we discovered
-that tracking many forms of data use only requires a small number of extra
-accounts (*logarithmic* in terms of number of tracked inputs).  We know of no
-other system that can achieve this level of accuracy and scale across multiple
-services.  We thus deem XRay as a major new step toward making the data-driven
-Web a more transparent place.
+recommendations in YouTube and Amazon based on various inputs.  Across these
+very different services, XRay predicted targeting with 80-90% accuracy
+without a single change in its code or parameters.
+Moreover, we discovered that revealing many forms of data use only
+requires a small number of extra accounts (*logarithmic* in terms of number of
+tracked inputs). We know of no other system that can achieve this level of
+accuracy and scale across multiple services.
+We thus deem XRay as a major new step toward making the data-driven Web a more
+transparent place.
 
 While our dreams for XRay and Web transparency are grand, our prototype is still
 in a research stage.  Many difficult challenges remain open for tracking data in
@@ -79,5 +80,4 @@ a unique level of visibility into Gmail's targeted ad environment to researchers
 and journalists interested in this topic.  For example, if you're interested in
 seeing ads targeting very sensitive topics in users' inboxes, such as cancer,
 depression, or race, visit our [demo service]({{ site.baseurl }}/demo/).
-
 

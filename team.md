@@ -6,19 +6,19 @@ title: Team
 
 Professors:
 
-- [Roxana Geambasu](www.cs.columbia.edu/~roxana/)
-- [Augustin Chaintreau](www.cs.columbia.edu/~augustin/)
+- [Roxana Geambasu](http://www.cs.columbia.edu/~roxana/)
+- [Augustin Chaintreau](http://www.cs.columbia.edu/~augustin/)
 
 Primary Students:
 
-- [Mathias Lecuyer](www.cs.columbia.edu/~matlecu/) (Ph.D.)
+- [Mathias Lecuyer](http://www.cs.columbia.edu/~mathias/) (Ph.D.)
 - Francis Lan (M.S.)
 - Guillaume Ducoffe (visiting student) xxx ask abt plans
 
 Contributors:
 
-- <a href="www.cs.columbia.edu/~riley/">Riley Spahn</a> (Ph.D.)
-- <a href="">Theofilos Petsios</a> (Ph.D.)
+- [Riley Spahn](http://www.cs.columbia.edu/~riley/) (Ph.D.)
+- [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
 - Sravan Bhamidipati
 
 
