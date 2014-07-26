@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Demo
+title: Demo Service
 ---
 
 <p class = "message" align="right">
