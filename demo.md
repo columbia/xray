@@ -9,9 +9,9 @@ title: Demo Service
 </p>
 
 
-### Example Use Case:  Revealing Ad Targeting
+### Use Case:  Revealing Gmail Ad Targeting
 
-As a show-case experiment, we created an [XRay demo service](http://data.lec.io/) that
+As a show-case experiment, we created an XRay demo service that
 continuously collects and diagnoses Gmail ads related to a particular
 set of topics, including various diseases, pregnancy, race, sexual
 orientation, divorce, debt, etc.  We've found some interesting
@@ -23,9 +23,10 @@ in a user's inbox; and <font color="magenta">used car ads</font> correlate
 strongly with <font color="magenta">debt-related emails</font>, suggesting
 subprime targeting.
 
-Below we discuss a few sample findings, which illustrate XRay's potential.
-If you're interested in our latest data, please refer to our
-[XRay demo service](http://data.lec.io/).
+Below we discuss a few example findings, which illustrate XRay's potential.
+If you're interested in our latest data, please visit our
+<a href="http://data.lec.io/"><font color="blue"><b>live XRay ad service</b></font></a>,
+which is continuously collecting ads targeted on over a hundred topics.
 
 
 ### Example Findings
@@ -37,11 +38,11 @@ included <i>depression</i>, <i>depressed</i>, and <i>sad</i>; the pregnancy
 email included <i>pregnancy</i> and <i>pregnant</i>).
 We then launched XRay to collect and diagnose ads shown for these emails.
 
-The table below shows sample ads that XRay associated with
-each topic.  Conservatively, we only show here ads where XRay computed very high
-confidence scores.  Our [demo service](http://data.lec.io/) contains more data,
-along with associated confidence levels.  Scroll down for  observations from our
-data.
+The table below shows sample ads that XRay associated with each topic.
+Conservatively, we only show here ads where XRay computed very high confidence scores
+ Under the table, we discuss four observations from this data. Our
+<a href="http://data.lec.io/"><font color="blue"><b>XRay ad service</b></font></a>
+contains much more data, along with associated confidence levels.
 
 <font size="3.5pt">
 
@@ -71,6 +72,7 @@ data.
 </font>
 
 
+### Example Insights
 
 Based on our data, we make four observations:
 
@@ -112,15 +114,17 @@ not just for users, but also for advertisers.
 4. <b>XRay has surprisingly broad applicability:</b>
 Looking at the ad data, we realized that XRay's potential is even greater
 than providing transparency to end users.  Using it, we were able to
-witness what we believe is a projection of the current [subprime bubble for used cars](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/).  Specifically, we have seen a significant number of used car ads that
-strongly correlated with the <i>debt</i> or <i>loan</i> emails.  For example, 
-a car dealership ad correlated strongly with the *debt* keyword in our inbox;
-it enticed the targeted users to take a Toyota test drive by offering a $50 gift.
-A few more examples are available in the table above and many more examples are in
-our [demo service](http://data.lec.io/).  These examples made us reflect on a new use for XRay:
-if advertising is an integral part of the economy, our hypothesis is that revealing
-ad targeting might enable new, interesting ways to quantify trends within our
-economy.  We leave investigation of this hypothesis for future work.
+witness what we believe is a projection of the current [subprime bubble for used cars](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/).  Specifically, we have seen a significant number of used car ads that strongly
+correlated with the <i>debt</i> or <i>loan</i> emails.
+For example,  a car dealership ad correlated strongly with the *debt* keyword in
+our inbox; it enticed the targeted users to take a Toyota test drive by offering a
+$50 gift.  A few more examples are available in the table above and many more
+examples are in our <a href="http://data.lec.io/"><font color="blue">XRay ad
+service</font></a>.  These examples made us
+reflect on a new use for XRay: if advertising is an integral part of the economy,
+our hypothesis is that revealing ad targeting might enable new, interesting ways
+to quantify trends within our economy.  We leave investigation of this hypothesis
+for future work.
 
 
 <!--Inspired by these ads, we developed an
@@ -180,11 +184,13 @@ targeting in Gmail for a few specific topics that we thought were interesting.  
 next period, we plan to run larger scale experiments to quantify some of our
 example-driven observations from above.
 
-There are undoubtedly many more other things to try using our XRay/Gmail demo service
+There are undoubtedly many more other things to try using our <a href="http://data.lec.io/">
+<font color="blue">XRay ad service</font></a>
 (e.g., topics on which to collect ads, observations to make from our existing data).
 If you have an idea for a topic that would be interesting to track ad targeting for,
 please [send us an email]({{ site.baseurl }}/team/).  We'll try to incorporate your
-topic of interest into our [XRay service](http://data.lec.io/) and make the ads
+topic of interest into our <a href="http://data.lec.io/">
+<font color="blue">XRay ad service</font></a> and make the ads
 targeting that topic available to you.
 
 XRay as a framework is very general and can track use of data for targeting well beyond
