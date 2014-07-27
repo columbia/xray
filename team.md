@@ -21,6 +21,10 @@ Contributors:
 - [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
 - Sravan Bhamidipati
 
+### Contact Info:
+
+You can find our contact info by clicking on our links.  You can also
+write to the entire team at xray at lists.cs.colulumbia.edu.
 
 ### Acknowledgements:
 

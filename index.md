@@ -20,7 +20,7 @@ third-parties -- <font color="red">*all without our knowledge or consent*</font>
 For example, did you know that credit companies [might be adjusting loan offers](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/) based on your Facebook
 data?   Or that certain travel companies [discriminate prices](http://online.wsj.com/news/articles/SB10001424052702304458604577488822667325882)
 based on user profile and location?
-Or that some companies target [ads on illness-related emails]({{ site.baseurl }}/demo#observation2),
+Or that some companies target [ads on illness-related emails]({{ site.baseurl }}/demo/),
 and if you click on them, you can leak sensitive information to them?
 Maybe you already knew these things in the abstract, but the question is: *Do
 you know when such things are happening to you*?  Not always, we bet.
