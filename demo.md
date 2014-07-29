@@ -25,8 +25,9 @@ subprime targeting.
 
 Below we discuss a few example findings, which illustrate XRay's potential.
 If you're interested in our latest data, please visit our
-<a href="http://data.lec.io/"><font color="blue"><b>live XRay ad service</b></font></a>,
-which is continuously collecting ads targeted on over a hundred topics.
+<a href="http://data.lec.io/"><font color="blue"><b>live XRay ad
+service</b></font></a>, which is continuously collecting ads targeted on a
+number of topics.
 
 
 ### Example Findings
@@ -39,10 +40,12 @@ email included <i>pregnancy</i> and <i>pregnant</i>).
 We then launched XRay to collect and diagnose ads shown for these emails.
 
 The table below shows sample ads that XRay associated with each topic.
-Conservatively, we only show here ads where XRay computed very high confidence scores.
- Under the table, we discuss four observations from this data. Our
+Conservatively, we only show here ads where XRay computed very high confidence
+scores. Under the table, we discuss four observations from this data. Our
 <a href="http://data.lec.io/"><font color="blue"><b>XRay ad service</b></font></a>
-contains much more data, along with associated confidence levels.
+contains more data, along with associated confidence levels.
+Note that all findings we describe are results from correlation analyses
+and do not imply causality.
 
 <font size="3.5pt">
 
@@ -74,9 +77,11 @@ contains much more data, along with associated confidence levels.
 
 ### Example Insights
 
-Based on our data, we make four observations:
+While larger-scale experience with more topics is needed to reach statistically
+meaningful, quantitative conclusions, we next formulate four high-level observations:
 
-1. <font color="red"><b>It is possible to target sensitive topics in users' inboxes:</b></font>
+1. <font color="red"><b>It is possible to target sensitive topics in users'
+inboxes:</b></font>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
@@ -90,12 +95,11 @@ is not obvious at all and would likely be indiscernable to the users.
 Nothing in the "Shamanic healing" ad suggests targeting against depression;
 nothing in the general-purpose clothing ads suggest targeting against pregnancy;
 and nothing in the "Cedars hotel" ad suggests an orientation toward the
-homosexuality email.
-This obscurity, coupled with the ability to target very sensitive aspects, opens
-users to subtle dangers and show-cases an urgent need for increased transparency
-in ad targeting.  If no keyword in the ad suggests relation with sensitive topics,
-a user clicking on the ad may not realize that they could be disclosing private
-information to advertisers.
+homosexuality email.  This obscurity, coupled with the ability to target very
+sensitive aspects, opens users to subtle dangers and show-cases an urgent need
+for increased transparency in ad targeting.  If no keyword in the ad suggests
+relation with sensitive topics, a user clicking on the ad may not realize that
+they could be disclosing private information to advertisers.
 
 3. <font color="red"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise and sophisticated.  However,
@@ -107,9 +111,8 @@ but also several ads related to wedding planning and invitations.  As another ex
 an email about TV shows was targeted by ads related to various brands of watches just
 because it contained the word "watch" (as in "watch TV") in its body. We wonder, then,
 whether those were the placements intended by the advertisers, or whether they are
-examples of ineffective advertising.
-Regardless, this finding suggests that increased transparency may be valuable
-not just for users, but also for advertisers.
+examples of ineffective advertising.  Regardless, this finding suggests that increased
+transparency may be valuable not just for users, but also for advertisers.
 
 4. <font color="red"><b>XRay has surprisingly broad applicability:</b></font>
 Looking at the ad data, we realized that XRay's potential is even greater
@@ -118,12 +121,12 @@ form of targeting: *subprime targeting*.  According to a
 [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
 time for used cars.  We were able to witness a projection of this
 trend in the ads we collected.  We saw a significant number of car loan
-ads that promised 100% acceptance without credit or backing, and which
-targeted specifically keywords such as *loan*, *borrow*, or *debt*.
+ads that promised 100% acceptance without credit score or backing, and
+which targeted specifically keywords such as *loan*, *borrow*, or *debt*.
 We also saw a car dealership ad that enticed users to take a Toyota test drive
-for a $50 gift card, being targeted against *debt*.
-So these lenders don't just advertise the availability of easy loans, they
-explicitly target population that lacks credit solvence.
+for a $50 gift card; that ad was targeting the *debt* keyword.  This suggests
+that lenders don't just advertise the availability of easy loans to the general
+public, they explicitly try to target population that lacks credit solvence.
 
 <!-- We've also seen a car dealership ad correlated strongly with the *debt*
 keyword; it enticed the targeted users to take a Toyota test drive by
