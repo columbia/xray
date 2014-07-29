@@ -117,7 +117,7 @@ transparency may be valuable not just for users, but also for advertisers.
 4. <font color="red"><b>XRay has surprisingly broad applicability:</b></font>
 Looking at the ad data, we realized that XRay's potential is even greater
 than providing transparency to end users.  Using it, we found a pretty interesting
-form of targeting: *subprime targeting*.  According to a
+form of targeting: <font color="blue"><b>subprime targeting</b></font>.  According to a
 [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
 time for used cars.  We were able to witness a projection of this
 trend in the ads we collected.  We saw a significant number of car loan
