@@ -114,8 +114,8 @@ not just for users, but also for advertisers.
 4. <font color="red"><b>XRay has surprisingly broad applicability:</b></font>
 Looking at the ad data, we realized that XRay's potential is even greater
 than providing transparency to end users.  Using it, we found a pretty interesting
-form of targeting: *subprime targeting*.  According to a [recent NYT
-article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
+form of targeting: *subprime targeting*.  According to a
+[recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
 time for used cars.  We were able to witness a projection of this
 trend in the ads we collected.  We saw a significant number of car loan
 ads that promised 100% acceptance without credit or backing, and which
@@ -203,10 +203,9 @@ topic of interest into our <a href="http://data.lec.io/">
 available to you.  Due to the volume of emails we receive, we may not be able to
 respond directly to all requests.
 
-XRay as a framework is very general and can track use of data for targeting well beyond
-ads.  Read about other potential use cases in our
-[research paper]({{ site.baseurl }}/public/xray.pdf).
-If you have an idea for some other form of targeting to verify with it, please feel
-free to use our [prototype source code](https://github.com/MatLecu/xray) to investigate
-it.  Time permitting, we'd be happy to help with any customization you may need to do.
+XRay as a framework is very general and can track use of data for targeting well
+beyond ads.  Read about other potential use cases in our
+[research paper]({{ site.baseurl }}/public/xray.pdf) and feel free to use our
+[source code](https://github.com/MatLecu/xray) to investigate your own ideas.
+Time permitting, we'd be happy to help with any customization you may need to do.
 

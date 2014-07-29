@@ -24,7 +24,7 @@ Contributors:
 ### Contact Info:
 
 You can find our contact info by clicking on our links.  You can also
-write to the entire team at xray at lists.cs.colulumbia.edu.
+write to the entire team at xray at lists.cs.columbia.edu.
 
 ### Acknowledgements:
 

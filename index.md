@@ -58,7 +58,7 @@ in YouTube and Amazon based on various inputs.  Across these very different
 services, XRay predicted targeting with 80-90% accuracy without a single change in
 its code or parameters.  Moreover, we discovered that revealing certain forms
 of data use only requires a modest number of extra accounts (*logarithmic*
-in terms of number of tracked inputs).  We know of no other system that
+in the number of tracked inputs).  We know of no other system that
 comes close to XRay's accuracy, scale, or robustness.  We thus deem XRay
 as a major new step toward making the data-driven Web a more transparent place.
 
