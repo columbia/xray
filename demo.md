@@ -41,7 +41,7 @@ We then launched XRay to collect and diagnose ads shown for these emails.
 
 The table below shows sample ads that XRay associated with each topic.
 Conservatively, we only show here ads where XRay computed very high confidence
-scores. Under the table, we discuss four observations from this data. Our
+scores. Below the table we discuss four observations from this data. Our
 <a href="http://data.lec.io/"><font color="blue"><b>XRay ad service</b></font></a>
 contains more data, along with associated confidence levels.
 Note that all findings we describe are results from correlation analyses
@@ -209,6 +209,6 @@ respond directly to all requests.
 XRay as a framework is very general and can track use of data for targeting well
 beyond ads.  Read about other potential use cases in our
 [research paper]({{ site.baseurl }}/public/xray.pdf) and feel free to use our
-[source code](https://github.com/MatLecu/xray) to investigate your own ideas.
+[source code](https://github.com/MatLecu/xray/) to investigate your own ideas.
 Time permitting, we'd be happy to help with any customization you may need to do.
 
