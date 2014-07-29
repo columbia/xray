@@ -141,6 +141,11 @@ a.sidebar-nav-item:focus {
   }
 }
 
+.content a {
+  color: #515151;
+  text-decoration: underline;
+}
+
 
 /*
  * Reverse layout

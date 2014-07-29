@@ -10,7 +10,7 @@
 
   <title>
     
-      Demo &middot; XRay
+      Demo Service &middot; XRay
     
   </title>
 
@@ -29,8 +29,7 @@
 </head>
 
 
-  <body class="layout-reverse">
-
+  <body class="layout">  <!-- reverse -->
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -56,7 +55,7 @@
         
           
             <li class="sidebar-nav-item active">
-            <a href="/xray/demo/">Demo</a>
+            <a href="/xray/demo/">Demo Service</a>
             </li>
           
         
@@ -66,6 +65,14 @@
         
       
         
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+            <a href="/xray/resources/">Resources</a>
+            </li>
           
         
       
@@ -73,14 +80,6 @@
           
             <li class="sidebar-nav-item">
             <a href="/xray/team/">Team</a>
-            </li>
-          
-        
-      
-        
-          
-            <li class="sidebar-nav-item">
-            <a href="/xray/xray/">XRay</a>
             </li>
           
         
@@ -95,93 +94,284 @@
   </div>
 </div>
 
-
     <div class="content container">
       <div class="page">
-  <h1 class="page-title">Demo</h1>
-  <div class = "message">
-    <i>"Shamanic healing over the phone" ad targets the depression email?!</i>
-</div>
+  <h1 class="page-title">Demo Service</h1>
+  <p class = "message" align="right">
+    <i><font color="red">"Shamanic healing"</font> ad targets
+       <font color="red">depression</font> keyword in my inbox?!</i>
+</p>
 
-<p>As a show-case experiment, we&#39;ve used XRay to observe ads attracted
-by various topics, such as various diseases, sexual orientation,
-pregnancy, race, divorce, etc.  We&#39;ve found some pretty interesting
-associations:  a ``Shamanic healing&#39;&#39; ad appeared exclusively in
-accounts containing emails about depression; a number of big store
-brands correlate strongly with the presence of pregnancy-related
-emails in a user&#39;s inbox; and a car dealership ad correlates strongly
-with debt-related emails.  A few more examples are included
-<a href="#examples">below</a>.</p>
+<h3 id="use-case:-revealing-gmail-ad-targeting">Use Case:  Revealing Gmail Ad Targeting</h3>
 
-<p>We thought that others might be interested in such data, so we built
-an <a href=""><b>XRay-based service</b></a> that continuously collects and
-diagnoses ads related to a particular set of topics.  If you&#39;re interested
-in our latest data, please refer to our <a href="">service</a>.  If
-you&#39;d like to ad some more topics for us to track, please
-<a href="">contact us</a>.</p>
+<p>As a show-case experiment, we created an XRay demo service that
+continuously collects and diagnoses Gmail ads related to a particular
+set of topics, including various diseases, pregnancy, race, sexual
+orientation, divorce, debt, etc.  We&#39;ve found some interesting
+associations: a <font color="red">&quot;Shamanic healing&quot;</font> ad appeared
+exclusively in accounts containing emails about <font color="red">depression</font>;
+a number of <font color="green">clothing brand ads</font> correlate strongly
+with the presence of <font color="green">pregnancy-related emails</font>
+in a user&#39;s inbox; and <font color="magenta">used car ads</font> correlate
+strongly with <font color="magenta">debt-related emails</font>, suggesting
+subprime targeting.</p>
 
-<h3 id="examples">Example Findings</h3>
+<p>Below we discuss a few example findings, which illustrate XRay&#39;s potential.
+If you&#39;re interested in our latest data, please visit our
+<a href="http://data.lec.io/"><font color="blue"><b>live XRay ad
+service</b></font></a>, which is continuously collecting ads targeted on a
+number of topics.</p>
 
-<p>We created emails focused on topics such as cancer, Alzheimer, depression,
+<h3 id="example-findings">Example Findings</h3>
+
+<p>We created emails focused on topics such as cancer, Alzheimer&#39;s, depression,
 race, homosexuality, pregnancy, divorce, and debt.  Each email consisted
 of keywords closely related to one topic (e.g., the depression-related email
-included <i>depression</i>, <i>depressed</i>, and <i>sad</i>; the homosexuality
-email included <i>gay</i>, <i>homosexual</i>, and <i>lesbian</i>).
+included <i>depression</i>, <i>depressed</i>, and <i>sad</i>; the pregnancy
+email included <i>pregnancy</i> and <i>pregnant</i>).
 We then launched XRay to collect and diagnose ads shown for these emails.</p>
 
-<p>The table below shows ads that XRay associated with each topic, along with its
-confidence scores.  One thing to always keep in mind is that our mechanisms
-are probabilistic, hence confidence levels must be considered when interpreting
-results from XRay.  Conservatively, we only show here ads with very high scores.
-We make two observations:</p>
+<p>The table below shows sample ads that XRay associated with each topic.
+Conservatively, we only show here ads where XRay computed very high confidence
+scores. Under the table, we discuss four observations from this data. Our
+<a href="http://data.lec.io/"><font color="blue"><b>XRay ad service</b></font></a>
+contains more data, along with associated confidence levels.
+Note that all findings we describe are results from correlation analyses
+and do not imply causality.</p>
+
+<p><font size="3.5pt"></p>
+
+<table><thead>
+<tr>
+<th style="text-align: right">Topic</th>
+<th style="text-align: left">Ad</th>
+</tr>
+</thead><tbody>
+<tr>
+<td style="text-align: right"><strong>Alzheimer</strong></td>
+<td style="text-align: left"><em>Black Mold Allergy Symptoms? Expert to remove Black Mold.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Alzheimer</strong></td>
+<td style="text-align: left"><em>Adult Assisted Living. Affordable assisted Living.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Cancer</strong></td>
+<td style="text-align: left"><em>Ford Warriors in Pink. Join the fight.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Cancer</strong></td>
+<td style="text-align: left"><em>Rosen Method Bodywork for physical or emotional pain.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Depression</strong></td>
+<td style="text-align: left"><em>Shamanic healing over the phone.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Depression</strong></td>
+<td style="text-align: left"><em>Text Coach - Get the girl you want and desire.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>African American</strong></td>
+<td style="text-align: left"><em>Racial Harassment? Learn your rights now.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>African American</strong></td>
+<td style="text-align: left"><em>Racial Harassment. Hearing racial slurs?</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Homosexuality</strong></td>
+<td style="text-align: left"><em>SF Gay Pride Hotel. Luxury Waterfront.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Homosexuality</strong></td>
+<td style="text-align: left"><em>Cedars Hotel Loughborough. 36 Bedrooms, restaurant, bar.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Pregnancy</strong></td>
+<td style="text-align: left"><em>Find Baby Shower Invitations. Get up to 60% off here!</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Pregnancy</strong></td>
+<td style="text-align: left"><em>Ralph Lauren Apparel.  Official online store.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Pregnancy</strong></td>
+<td style="text-align: left"><em>Bonobos Official Site. Your closet will thank you.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Pregnancy</strong></td>
+<td style="text-align: left"><em>Clothing Label-USA. Best custom woven labels.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Divorce</strong></td>
+<td style="text-align: left"><em>Law Attorneys specializing in special needs kids education.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Divorce</strong></td>
+<td style="text-align: left"><em>Cerbone Law Firm. Helping good people thru bad times.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Debt/broke</strong></td>
+<td style="text-align: left"><em>Take a New Toyota Test Drive. Get a $50 gift card on the spot.</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Debt/broke</strong></td>
+<td style="text-align: left"><em>Great Credit Card Search.  Apply for VISA, Mastercard...</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Loan</strong></td>
+<td style="text-align: left"><em>Car Loan without Cosigner 100% Accepted. [...]</em></td>
+</tr>
+<tr>
+<td style="text-align: right"><strong>Loan</strong></td>
+<td style="text-align: left"><em>Car Loans w/ Bad Credit 100% Acceptance! [...]</em></td>
+</tr>
+</tbody></table>
+
+<p></font></p>
+
+<h3 id="example-insights">Example Insights</h3>
+
+<p>While larger-scale experience with more topics is needed to reach statistically
+meaningful, quantitative conclusions, we next formulate four high-level observations:</p>
 
 <ol>
-
-<li><i>It is possible to target sensitive topics in users' inboxes.</i>
+<li><p><font color="red"><b>It is possible to target sensitive topics in users&#39;
+inboxes:</b></font>
 Many of our disease-related emails are strongly correlated with
-a number of ads.  A ``Shamanic healing'' ad appears exclusively in accounts
+a number of ads.  A &quot;Shamanic healing&quot; ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
 assisted living services target the Alzheimer email; and a Ford campaign to
 fight breast cancer targets the cancer email.
-Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
-For example, the pregnancy email is strongly targeted by an ad for baby-shower
-invitations (shown in the figure), maternity- and lactation-related ads (not shown),
-and, interestingly, a number of ads for general-purpose clothing (shown).
-As another example, the debt email is strongly targeted by a car dealership ad that
-entices the targeted users to take a Toyota test drive using a $50 gift offering.
-</li>
-
-<li><i>Targeting is often obscure and may be dangerous.</i>
-For many of the ads we show in the table, the association with the targeted email
-is not obvious at all.  Nothing in the ``Shamanic healing'' ad suggests targeting
-against depression; nothing in the general-purpose clothing ads suggest targeting
-against pregnancy; and nothing in the ``Cedars hotel'' ad suggests an orientation
-toward the homosexuality email.
-This obscurity opens users to subtle dangers and, we believe, show-cases an urgent
-need for increased transparency in ad targeting. If no keyword in the ad suggests
+Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.</p></li>
+<li><p><font color="red"><b>Targeting is often obscure and potentially dangerous:</b></font>
+For many of the ads in the table, the association with the targeted email
+is not obvious at all and would likely be indiscernable to the users.
+Nothing in the &quot;Shamanic healing&quot; ad suggests targeting against depression;
+nothing in the general-purpose clothing ads suggest targeting against pregnancy;
+and nothing in the &quot;Cedars hotel&quot; ad suggests an orientation toward the
+homosexuality email.  This obscurity, coupled with the ability to target very
+sensitive aspects, opens users to subtle dangers and show-cases an urgent need
+for increased transparency in ad targeting.  If no keyword in the ad suggests
 relation with sensitive topics, a user clicking on the ad may not realize that
-they could be disclosing private information to advertisers.
-
-<!--
-Imagine an insurance company wanted to gain insight into pre-existing conditions of
-its customers before signing them up. It could create two ad campaigns -- one that
-targets cancer and another youth -- and assign different URLs to each campaign.
-It could then offer higher premium quotes to visitors who come through the
-cancer-related ads to discourage them from signing up while offering lower premium
-quotes to those who come through youth-related ads.  We believe that the potential
-for this attack illustrates the urgent need for increased transparency in ad targeting.
--->
-</li>
-
+they could be disclosing private information to advertisers.</p></li>
+<li><p><font color="red"><b>Targeting sometimes misses the point:</b></font>
+One might think that ad targeting is always precise and sophisticated.  However,
+we found quite a few cases where targeting seemed to be done through very basic
+keyword matching and completely missed the semantic meaning of the email.
+For example, an email about divorce, which happened to contain the keyword &quot;marriage&quot;
+in its body (in the format &quot;end of marriage&quot;), attracted not only divorce-related ads,
+but also several ads related to wedding planning and invitations.  As another example,
+an email about TV shows was targeted by ads related to various brands of watches just
+because it contained the word &quot;watch&quot; (as in &quot;watch TV&quot;) in its body. We wonder, then,
+whether those were the placements intended by the advertisers, or whether they are
+examples of ineffective advertising.  Regardless, this finding suggests that increased
+transparency may be valuable not just for users, but also for advertisers.</p></li>
+<li><p><font color="red"><b>XRay has surprisingly broad applicability:</b></font>
+Looking at the ad data, we realized that XRay&#39;s potential is even greater
+than providing transparency to end users.  Using it, we found a pretty interesting
+form of targeting: <em>subprime targeting</em>.  According to a
+<a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/">recent NYT article</a>, our society is undergoing a new subprime loan bubble, this
+time for used cars.  We were able to witness a projection of this
+trend in the ads we collected.  We saw a significant number of car loan
+ads that promised 100% acceptance without credit score or backing, and
+which targeted specifically keywords such as <em>loan</em>, <em>borrow</em>, or <em>debt</em>.
+We also saw a car dealership ad that enticed users to take a Toyota test drive
+for a $50 gift card; that ad was targeting the <em>debt</em> keyword.  This suggests
+that lenders don&#39;t just advertise the availability of easy loans to the general
+public, they explicitly try to target population that lacks credit solvence.</p></li>
 </ol>
 
-<p>| Topic         | Ad                           | Confidence  | Raw Data   |
-|:------------- |:---------------------------- |:-----------:|:----------:| 
-| Alzheimer     | Black Mold Allergy Symptoms? |    0.99     | 9/9, 61/198|</p>
+<!-- We've also seen a car dealership ad correlated strongly with the *debt*
+keyword; it enticed the targeted users to take a Toyota test drive by
+offering a $50 gift. -->
+
+<!--These examples made us reflect on a new use for XRay: if
+advertising is an integral part of our society, our hypothesis is that
+revealing ad targeting might enable new, interesting ways to quantify trends
+within the society (e.g., economic trends, political campaigns, etc.).
+We leave investigation of this hypothesis for future work.-->
+
+<!--Inspired by these ads, we developed an
+[attack](#attack) that illustrates the dangers of obscure targeting.-->
+
+<!-- 
+Finally, lots of ads about stock investments were targeted against an email about debt
+and personal bankruptcy.  Incidentally, searching for "end of marriage" in Google
+yields only divorce-related results, suggesting that search may be more semantic
+than ad targeting in this particular case.
+Regardless, this finding suggests that increased transparency may be valuable
+not just for users, but also for advertisers, who may wish to know how their ads
+are actually being placed.
+-->
+
+<!--
+<h3 id="attack"> A Potential Attack </h3>
+
+Our realization that it is possible to target ads against sensitive topics,
+including various diseases, sexual orientation, personal financial situation, etc.,
+made us think about a particular attack.  Imagine an insurance company wanted to
+gain insight into pre-existing conditions of its customers before signing them up.
+It could create two ad campaigns -- one that targets cancer and another youth -- and
+assign different URLs to each campaign.  It could then offer higher premium quotes to
+visitors who come through the cancer-related ads to discourage them from signing up
+while offering lower premium quotes to those who come through youth-related ads.
+We believe that the potential for this attack illustrates the urgent need for increased
+transparency in ad targeting.
+-->
+
+<!--
+To verify that this attack is possible, we implemented an innocuous version of it.
+We created some ad campaigns, each targeted against various sensitive topics, including
+cancer, depression, pregnancy, sexuality, race, etc.  Our ads clearly stated their
+research-related purpose and the fact that clicking on them would leak out potentially
+sensitive information about them to us.  Upon clicking on an ad, the user would be
+redirected to a page that revealed to them what we knew about them from just this click.
+We then asked them to fill in a form to relate their level of surprise at realizing what
+we knew about them.  We retained no personally identifiable information (e.g., IP,
+location, cookies, etc.) associated with the responses. -->
+
+<!--
+The table below shows our impressions, clicks, and form fill-ins for each
+ad campaign, along with a few example .  XXX (1) It is possible to customize
+the service to the campaign.  (2) It would be trivial to collect this
+information using PII .  (3) Users are extremely surprised at realizing that they
+are being targeted with various emails. XXX
+-->
+
+<h3 id="interested-in-ad-targeting?-what-you-can-do">Interested in Ad Targeting?  What You Can Do</h3>
+
+<p>The above findings are examples of observations one can make using XRay.
+They come from our limited and somewhat ad-hoc experience using XRay to reverse ad
+targeting in Gmail for a few specific topics that we thought were interesting.  Over the
+next period, we plan to run larger scale experiments to quantify some of our
+example-driven observations from above.</p>
+
+<p>There are undoubtedly many more other things to try using our <a href="http://data.lec.io/">
+<font color="blue">XRay ad service</font></a>
+(e.g., topics on which to collect ads, observations to make from our existing data).
+If you have an idea for a topic that would be interesting to track ad targeting for,
+please <a href="/xray/team/">send us an email</a>.  We&#39;ll try to incorporate your
+topic of interest into our <a href="http://data.lec.io/">
+<font color="blue">XRay ad service</font></a> and make the ads targeting that topic
+available to you.  Due to the volume of emails we receive, we may not be able to
+respond directly to all requests.</p>
+
+<p>XRay as a framework is very general and can track use of data for targeting well
+beyond ads.  Read about other potential use cases in our
+<a href="/xray/public/xray.pdf">research paper</a> and feel free to use our
+<a href="https://github.com/MatLecu/xray">source code</a> to investigate your own ideas.
+Time permitting, we&#39;d be happy to help with any customization you may need to do.</p>
 
 </div>
 
-    </div>
+      <div id="footer">
+  <div class="message" align="center">
+    <p>Hello World!</p>
+  </div>
+</div>
 
+    </div>
   </body>
 </html>
