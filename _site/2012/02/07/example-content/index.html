@@ -29,8 +29,7 @@
 </head>
 
 
-  <body class="layout-reverse">
-
+  <body class="layout">  <!-- reverse -->
     <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
@@ -56,7 +55,7 @@
         
           
             <li class="sidebar-nav-item">
-            <a href="/xray/demo/">Demo</a>
+            <a href="/xray/demo/">Demo Service</a>
             </li>
           
         
@@ -66,6 +65,14 @@
         
       
         
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+            <a href="/xray/resources/">Resources</a>
+            </li>
           
         
       
@@ -73,14 +80,6 @@
           
             <li class="sidebar-nav-item">
             <a href="/xray/team/">Team</a>
-            </li>
-          
-        
-      
-        
-          
-            <li class="sidebar-nav-item">
-            <a href="/xray/xray/">XRay</a>
             </li>
           
         
@@ -94,7 +93,6 @@
     <!-- <p>Made with <a href="http://hyde.getpoole.com/">hyde</a>.</p> -->
   </div>
 </div>
-
 
     <div class="content container">
       <div class="post">
@@ -112,15 +110,15 @@
 
 <p>Etiam porta <em>sem malesuada magna</em> mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
 
-<h2>Heading</h2>
+<h2 id="heading">Heading</h2>
 
 <p>Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.</p>
 
-<h3>Sub-heading</h3>
+<h3 id="sub-heading">Sub-heading</h3>
 
 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
 
-<div class="highlight"><pre><code class="language-js" data-lang="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
+<div class="highlight"><pre><code class="js"><span class="c1">// Example can be run directly in your JavaScript console</span>
 
 <span class="c1">// Create a function that takes two arguments and returns the sum of those arguments</span>
 <span class="kd">var</span> <span class="nx">adder</span> <span class="o">=</span> <span class="k">new</span> <span class="nb">Function</span><span class="p">(</span><span class="s2">&quot;a&quot;</span><span class="p">,</span> <span class="s2">&quot;b&quot;</span><span class="p">,</span> <span class="s2">&quot;return a + b&quot;</span><span class="p">);</span>
@@ -131,7 +129,7 @@
 
 <p>Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.</p>
 
-<h3>Sub-heading</h3>
+<h3 id="sub-heading">Sub-heading</h3>
 
 <p>Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
 
@@ -191,7 +189,19 @@
   </ul>
 </div>
 
-    </div>
+      <div id="footer" style="font-size:medium">
+  <div class="message" align="center">
+    <p class="muted credit">
+      This site presents the results of on-going research. <br />
+      The work is being supported by NSF (grants CNS-1351089 and CNS-1254035),
+      DARPA (contract #FA8650-11-C-7190), a joint Columbia/Stanford Brown Institute
+      grant, and Google and Microsoft gifts.
+      All views and commentaries belong to the authors alone and may not be shared
+      by the funding parties.
+      </p>
+  </div>
+</div>
 
+    </div>
   </body>
 </html>

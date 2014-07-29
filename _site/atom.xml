@@ -4,7 +4,7 @@
  <title>XRay</title>
  <link href="http://mathias.lecuyer.me/atom.xml" rel="self"/>
  <link href="http://mathias.lecuyer.me/"/>
- <updated>2014-07-22T19:17:03-04:00</updated>
+ <updated>2014-07-29T12:16:56-07:00</updated>
  <id>http://mathias.lecuyer.me</id>
  <author>
    <name></name>
@@ -15,11 +15,11 @@
  <entry>
    <title>XRay experiments</title>
    <link href="http://mathias.lecuyer.me/2014/06/26/experiment/"/>
-   <updated>2014-06-26T00:00:00-04:00</updated>
+   <updated>2014-06-26T00:00:00-07:00</updated>
    <id>http://mathias.lecuyer.me/2014/06/26/experiment</id>
    <content type="html">&lt;p&gt;We are currently running targeting experiments for XRay.&lt;/p&gt;
 
-&lt;h3&gt;Experiment&lt;/h3&gt;
+&lt;h3 id=&quot;experiment&quot;&gt;Experiment&lt;/h3&gt;
 
 &lt;p&gt;We target different ads that we then measure. If you end up on this
 website from an Ad, this is the reason.&lt;/p&gt;
@@ -29,11 +29,11 @@ website from an Ad, this is the reason.&lt;/p&gt;
  <entry>
    <title>Introducing Hyde</title>
    <link href="http://mathias.lecuyer.me/2013/12/28/introducing-hyde/"/>
-   <updated>2013-12-28T00:00:00-05:00</updated>
+   <updated>2013-12-28T00:00:00-08:00</updated>
    <id>http://mathias.lecuyer.me/2013/12/28/introducing-hyde</id>
    <content type="html">&lt;p&gt;Hyde is a brazen two-column &lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; theme that pairs a prominent sidebar with uncomplicated content. It&amp;#39;s based on &lt;a href=&quot;http://getpoole.com&quot;&gt;Poole&lt;/a&gt;, the Jekyll butler.&lt;/p&gt;
 
-&lt;h3&gt;Built on Poole&lt;/h3&gt;
+&lt;h3 id=&quot;built-on-poole&quot;&gt;Built on Poole&lt;/h3&gt;
 
 &lt;p&gt;Poole is the Jekyll Butler, serving as an upstanding and effective foundation for Jekyll themes by &lt;a href=&quot;https://twitter.com/mdo&quot;&gt;@mdo&lt;/a&gt;. Poole, and every theme built on it (like Hyde here) includes the following:&lt;/p&gt;
 
@@ -46,7 +46,7 @@ website from an Ad, this is the reason.&lt;/p&gt;
 &lt;li&gt;Syntax highlighting, courtesy Pygments (the Python-based code snippet highlighter)&lt;/li&gt;
 &lt;/ul&gt;
 
-&lt;h3&gt;Hyde features&lt;/h3&gt;
+&lt;h3 id=&quot;hyde-features&quot;&gt;Hyde features&lt;/h3&gt;
 
 &lt;p&gt;In addition to the features of Poole, Hyde adds the following:&lt;/p&gt;
 
@@ -58,11 +58,11 @@ website from an Ad, this is the reason.&lt;/p&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://github.com/poole/hyde#readme&quot;&gt;Head to the readme&lt;/a&gt; to learn more.&lt;/p&gt;
 
-&lt;h3&gt;Browser support&lt;/h3&gt;
+&lt;h3 id=&quot;browser-support&quot;&gt;Browser support&lt;/h3&gt;
 
 &lt;p&gt;Hyde is by preference a forward-thinking project. In addition to the latest versions of Chrome, Safari (mobile and desktop), and Firefox, it is only compatible with Internet Explorer 9 and above.&lt;/p&gt;
 
-&lt;h3&gt;Download&lt;/h3&gt;
+&lt;h3 id=&quot;download&quot;&gt;Download&lt;/h3&gt;
 
 &lt;p&gt;Hyde is developed on and hosted with GitHub. Head to the &lt;a href=&quot;https://github.com/poole/hyde&quot;&gt;GitHub repository&lt;/a&gt; for downloads, bug reports, and features requests.&lt;/p&gt;
 
@@ -73,7 +73,7 @@ website from an Ad, this is the reason.&lt;/p&gt;
  <entry>
    <title>Example content</title>
    <link href="http://mathias.lecuyer.me/2012/02/07/example-content/"/>
-   <updated>2012-02-07T00:00:00-05:00</updated>
+   <updated>2012-02-07T00:00:00-08:00</updated>
    <id>http://mathias.lecuyer.me/2012/02/07/example-content</id>
    <content type="html">&lt;p&gt;This blog post shows a few different types of content that&amp;#39;s supported and styled with Hyde. Basic typography, images, and code are all supported.&lt;/p&gt;
 
@@ -87,15 +87,15 @@ website from an Ad, this is the reason.&lt;/p&gt;
 
 &lt;p&gt;Etiam porta &lt;em&gt;sem malesuada magna&lt;/em&gt; mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.&lt;/p&gt;
 
-&lt;h2&gt;Heading&lt;/h2&gt;
+&lt;h2 id=&quot;heading&quot;&gt;Heading&lt;/h2&gt;
 
 &lt;p&gt;Vivamus sagittis lacus vel augue laoreet rutrum faucibus dolor auctor. Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros.&lt;/p&gt;
 
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;sub-heading&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.&lt;/p&gt;
 
-&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-js&quot; data-lang=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
+&lt;div class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;js&quot;&gt;&lt;span class=&quot;c1&quot;&gt;// Example can be run directly in your JavaScript console&lt;/span&gt;
 
 &lt;span class=&quot;c1&quot;&gt;// Create a function that takes two arguments and returns the sum of those arguments&lt;/span&gt;
 &lt;span class=&quot;kd&quot;&gt;var&lt;/span&gt; &lt;span class=&quot;nx&quot;&gt;adder&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;k&quot;&gt;new&lt;/span&gt; &lt;span class=&quot;nb&quot;&gt;Function&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;a&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;return a + b&amp;quot;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;);&lt;/span&gt;
@@ -106,7 +106,7 @@ website from an Ad, this is the reason.&lt;/p&gt;
 
 &lt;p&gt;Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa.&lt;/p&gt;
 
-&lt;h3&gt;Sub-heading&lt;/h3&gt;
+&lt;h3 id=&quot;sub-heading&quot;&gt;Sub-heading&lt;/h3&gt;
 
 &lt;p&gt;Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Aenean lacinia bibendum nulla sed consectetur. Etiam porta sem malesuada magna mollis euismod. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.&lt;/p&gt;
 
@@ -135,7 +135,7 @@ website from an Ad, this is the reason.&lt;/p&gt;
  <entry>
    <title>What's Jekyll?</title>
    <link href="http://mathias.lecuyer.me/2012/02/06/whats-jekyll/"/>
-   <updated>2012-02-06T00:00:00-05:00</updated>
+   <updated>2012-02-06T00:00:00-08:00</updated>
    <id>http://mathias.lecuyer.me/2012/02/06/whats-jekyll</id>
    <content type="html">&lt;p&gt;&lt;a href=&quot;http://jekyllrb.com&quot;&gt;Jekyll&lt;/a&gt; is a static site generator, an open-source tool for creating simple yet powerful websites of all shapes and sizes. From &lt;a href=&quot;https://github.com/mojombo/jekyll/blob/master/README.markdown&quot;&gt;the project&amp;#39;s readme&lt;/a&gt;:&lt;/p&gt;
 
