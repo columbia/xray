@@ -13,7 +13,7 @@ Primary Students:
 
 - [Mathias Lecuyer](http://www.cs.columbia.edu/~mathias/) (Ph.D.)
 - Francis Lan (M.S.)
-- Guillaume Ducoffe (visiting student) xxx ask abt plans
+- Guillaume Ducoffe (visiting student)
 
 Contributors:
 
@@ -21,10 +21,12 @@ Contributors:
 - [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
 - Sravan Bhamidipati
 
+XXX Augustin: Where and who do we put for Brown? XXX
+
 ### Contact Info:
 
 You can find our contact info by clicking on our links.  You can also
-write to the entire team at xray at lists.cs.columbia.edu.
+write to the entire team at <font color="blue">**xray at lists.cs.columbia.edu**</font>.
 
 ### Acknowledgements:
 
