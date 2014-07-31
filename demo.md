@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Demo Service
+title: Demo
 ---
 
 <p class = "message" align="right">
@@ -23,14 +23,24 @@ in a user's inbox; and <font color="magenta">used car ads</font> correlate
 strongly with <font color="magenta">debt-related emails</font>, suggesting
 subprime targeting.
 
-Below we discuss a few example findings, which illustrate XRay's potential.
-If you're interested in our latest data, please visit our
-<a href="http://data.lec.io/"><font color="blue"><b>live XRay ad
-service</b></font></a>, which is continuously collecting ads targeted on a
-number of topics.
+[Below]({{ site.baseurl }}/demo#observations) we discuss a few example
+results, which illustrate XRay's potential.  If you're interested in our
+latest data, please visit our <a href="http://data.lec.io/"><font color="blue"><b>live
+XRay ad service</b></font></a>, which is continuously collecting ads targeted
+on a number of topics.
+
+_Disclaimer_:  All results below are focused on Gmail's ad ecosystem
+because that is where we have experience.  However, we stress that
+the lack of transparency is common to all Web services, mobile apps, and
+third-parties involved in this data-driven Web world.  Complete
+transparency is also a difficult thing to achieve.  In showing our results,
+our goal is *not* to point fingers at specific service providers; rather,
+we aim to illustrate with concrete examples the dangers raised by the lack
+of transparency and hopefully bolster a conversation about how we might
+go about improving this situation over time.
 
 
-### Example Findings
+<h3 id="table">Example Results</h3>
 
 We created emails focused on topics such as cancer, Alzheimer's, depression,
 race, homosexuality, pregnancy, divorce, and debt.  Each email consisted
@@ -41,15 +51,15 @@ We then launched XRay to collect and diagnose ads shown for these emails.
 
 The table below shows sample ads that XRay associated with each topic.
 Conservatively, we only show here ads where XRay computed very high confidence
-scores. Below the table we discuss four observations from this data. Our
-<a href="http://data.lec.io/"><font color="blue"><b>XRay ad service</b></font></a>
-contains more data, along with associated confidence levels.
+scores. Below the table we discuss several [observations]({{ site.baseurl }}/demo#observations)
+from this data. Our <a href="http://data.lec.io/"><font color="blue"><b>XRay ad
+service</b></font></a> contains more data, along with associated confidence levels.
 Note that all findings we describe are results from correlation analyses
 and do not imply causality.
 
 <font size="3.5pt">
 
-| Topic               | Ad                                                               |
+| Topic               | Ad Text                                                          |
 | -------------------:|:---------------------------------------------------------------- |
 | **Alzheimer**       | *Black Mold Allergy Symptoms? Expert to remove Black Mold.*      |
 | **Alzheimer**       | *Adult Assisted Living. Affordable assisted Living.*             |
@@ -75,10 +85,10 @@ and do not imply causality.
 </font>
 
 
-### Example Insights
+<h3 id="observations">Observations</h3>
 
 While larger-scale experience with more topics is needed to reach statistically
-meaningful, quantitative conclusions, we next formulate four high-level observations:
+meaningful, quantitative conclusions, we next formulate five high-level observations:
 
 1. <font color="red"><b>It is possible to target sensitive topics in users'
 inboxes:</b></font>
@@ -97,9 +107,10 @@ nothing in the general-purpose clothing ads suggest targeting against pregnancy;
 and nothing in the "Cedars hotel" ad suggests an orientation toward the
 homosexuality email.  This obscurity, coupled with the ability to target very
 sensitive aspects, opens users to subtle dangers and show-cases an urgent need
-for increased transparency in ad targeting.  If no keyword in the ad suggests
-relation with sensitive topics, a user clicking on the ad may not realize that
-they could be disclosing private information to advertisers.
+for increased transparency in ad targeting, particularly for sensitive targeting.
+If no keyword in the ad suggests relation with sensitive topics, a user clicking
+on the ad may not realize that they could be disclosing private information to
+advertisers.
 
 3. <font color="red"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise and sophisticated.  However,
@@ -128,64 +139,19 @@ for a $50 gift card; that ad was targeting the *debt* keyword.  This suggests
 that lenders don't just advertise the availability of easy loans to the general
 public, they explicitly try to target population that lacks credit solvence.
 
-<!-- We've also seen a car dealership ad correlated strongly with the *debt*
-keyword; it enticed the targeted users to take a Toyota test drive by
-offering a $50 gift. -->
-
-<!--These examples made us reflect on a new use for XRay: if
-advertising is an integral part of our society, our hypothesis is that
-revealing ad targeting might enable new, interesting ways to quantify trends
-within the society (e.g., economic trends, political campaigns, etc.).
-We leave investigation of this hypothesis for future work.-->
-
-
-<!--Inspired by these ads, we developed an
-[attack](#attack) that illustrates the dangers of obscure targeting.-->
-
-<!-- 
-Finally, lots of ads about stock investments were targeted against an email about debt
-and personal bankruptcy.  Incidentally, searching for "end of marriage" in Google
-yields only divorce-related results, suggesting that search may be more semantic
-than ad targeting in this particular case.
-Regardless, this finding suggests that increased transparency may be valuable
-not just for users, but also for advertisers, who may wish to know how their ads
-are actually being placed.
--->
-
-
-<!--
-<h3 id="attack"> A Potential Attack </h3>
-
-Our realization that it is possible to target ads against sensitive topics,
-including various diseases, sexual orientation, personal financial situation, etc.,
-made us think about a particular attack.  Imagine an insurance company wanted to
-gain insight into pre-existing conditions of its customers before signing them up.
-It could create two ad campaigns -- one that targets cancer and another youth -- and
-assign different URLs to each campaign.  It could then offer higher premium quotes to
-visitors who come through the cancer-related ads to discourage them from signing up
-while offering lower premium quotes to those who come through youth-related ads.
-We believe that the potential for this attack illustrates the urgent need for increased
-transparency in ad targeting.
--->
-
-<!--
-To verify that this attack is possible, we implemented an innocuous version of it.
-We created some ad campaigns, each targeted against various sensitive topics, including
-cancer, depression, pregnancy, sexuality, race, etc.  Our ads clearly stated their
-research-related purpose and the fact that clicking on them would leak out potentially
-sensitive information about them to us.  Upon clicking on an ad, the user would be
-redirected to a page that revealed to them what we knew about them from just this click.
-We then asked them to fill in a form to relate their level of surprise at realizing what
-we knew about them.  We retained no personally identifiable information (e.g., IP,
-location, cookies, etc.) associated with the responses. -->
-
-<!--
-The table below shows our impressions, clicks, and form fill-ins for each
-ad campaign, along with a few example .  XXX (1) It is possible to customize
-the service to the campaign.  (2) It would be trivial to collect this
-information using PII .  (3) Users are extremely surprised at realizing that they
-are being targeted with various emails. XXX
--->
+5. <font color="red"><b>Targeting does not imply bad intentions:</b></font>
+We believe it is important to always keep a positive attitude, hence we
+wish to end by pointing out that targeting sensitive topics does not necessarily
+imply bad intentions.  In our results, we have seen ads for various support
+groups trying to reach relevant users through targeting (e.g., an ad for a
+campaign against breast cancer targeted the keyword cancer; a number of ads
+for legal counsel to deal with racial slurs at the office, etc.).  Imagine a
+non-profit depression support group posted an ad on Gmail; targeting of those
+users might end up reaching the vulnerable users more effectively, and perhaps
+helping improve their lives sooner.  Our question is then: *In this data-driven
+world, how do we think about good vs. bad uses of personal data?*  We cannot
+provide such answers; instead, we provide the technology to empower users and
+auditors alike to judge on a case by case basis.
 
 
 ### Interested in Ad Targeting?  What You Can Do
