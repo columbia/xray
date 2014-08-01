@@ -28,7 +28,7 @@ All results must be considered in the context of our prototype's
 [limitations]({{ site.baseurl }}/gmail-demo#caveats).
 
 
-<h3 id="table">Example Ad/Topic Associations</h3>
+<h3 id="table">Example Associations</h3>
 
 The table below shows examples of topic/ad correlations XRay made.
 For each topic, we were tracking an email containing keywords related to
@@ -67,7 +67,7 @@ based on our data.
 </font>
 
 
-<h3 id="observations">High-level Observations</h3>
+<h3 id="observations">Observations</h3>
 
 While a larger-scale experiment is required to reach statistically
 meaningful, quantitative conclusions,  we would like to make here a few
