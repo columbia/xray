@@ -47,8 +47,9 @@ you need some background in statistics.
 hypothesize is caused by *targeting*.  However, it is conceivable
 that some other, obscure effect that we are not aware of might
 cause the correlation.  We make this jump from correlation to targeting
-in our own analyses, as researchers working on similar often do, but we
-acknowledge it as a limitation that our readers should also keep in mind.
+in our own analyses, as researchers working on similar problems often do,
+but we acknowledge it as a limitation that our readers should also keep
+in mind.
 
 3. All results come from an in-progress research prototype.  Although we
 have tested our system extensively, it is conceivable that yet undiscovered
