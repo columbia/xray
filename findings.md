@@ -28,7 +28,7 @@ All results must be considered in the context of our prototype's
 [limitations]({{ site.baseurl }}/demo#caveats).
 
 
-<h3 id="table">Sample Correlations</h3>
+<h3 id="table">Sample Ads</h3>
 
 We created emails focused on topics such as cancer, Alzheimer's, depression,
 race, homosexuality, pregnancy, divorce, and debt.  Each email consisted
