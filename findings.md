@@ -21,10 +21,10 @@ subprime targeting.
 This page first shows some [example associations]({{ site.baseurl }}/findings#table)
 and then presents a few [high-level observations]({{ site.baseurl }}/findings#observations)
 we were able to make from our early data.  We report our results *not* to point fingers at
-Gmail; indeed, the lack of transparency is a pervasive and difficult to address problem.
-Rather, we aim to illustrate the dangers raised by the lack of transparency and hopefully
-bolster a conversation about how to go about improving this situation over time.
-All results must be considered in the context of our prototype's
+Gmail or any advertisers; indeed, the lack of transparency is a pervasive and difficult
+to address problem.  Rather, we aim to illustrate the dangers raised by the lack of
+transparency and hopefully bolster a conversation about how to go about improving this
+situation over time.  All results must be considered in the context of our prototype's
 [limitations]({{ site.baseurl }}/gmail-demo#caveats).
 
 
@@ -70,10 +70,11 @@ based on our data.
 <h3 id="observations">Observations</h3>
 
 While a larger-scale experiment is required to reach statistically
-meaningful, quantitative conclusions,  we would like to make here a few
-high-level, example-driven observations:
+meaningful conclusions, we group our examples into a few higher-level
+observations next:
 
-1. <font color="blue"><b>It is possible to target sensitive topics in users' inboxes:</b></font>
+1. <font color="blue"><b>It is possible to target sensitive topics in users'
+inboxes:</b></font>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
@@ -95,15 +96,18 @@ realize that they could be disclosing private information to advertisers.
 3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
 Looking at the ad data, we realized that XRay's potential is even greater
 than providing transparency to end users.  Using it, we found a pretty
-interesting form of advertising: subprime advertising.  According to a
-recent NYT article, our society is undergoing a new subprime loan bubble,
-this time for used cars.  We were able to witness a projection of this
-trend in the ads we collected. We saw a significant number of subprime
- ads for used cars that promised 100% acceptance without credit backing.
- Some of these ads correlated strongly with keywords such as *loan*, *borrow*,
- or *debt*.  We also saw a car dealership ad that enticed users to take a
- Toyota test drive for a $50 gift card; that ad was strongly correlated with
- the *debt* keyword.
+interesting form of advertising: <b>subprime advertising</b>.  According to a
+recent <a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0">NYT article</a>, our society is
+undergoing a new subprime loan bubble, this time for used cars.  We were able
+to witness a projection of this trend in the ads we collected. We saw a
+significant number of subprime ads for used cars that promised 100% acceptance
+without credit backing.  Some of these ads correlated strongly with keywords
+such as *loan*, *borrow*, or *debt*.  We also saw a car dealership ad that
+enticed users to take a Toyota test drive for a $50 gift card; that ad was
+strongly correlated with the *debt* keyword.  While we cannot comment on what
+is causing these correlations -- the lenders themselves or some ad placement
+algorithms within Google -- however we believe that these examples showcase
+XRay's usefulness at revealing all kinds of trends within the ad market.
 
 4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise.  However, we found quite a
