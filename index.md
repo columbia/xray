@@ -47,7 +47,7 @@ you can leak sensitive information to them?  Maybe you already knew these
 things in the abstract, but do you always know when such things are happening
 to *you*?  Not always, we bet.
 
-One approach to increasing privacy is to *prevent services' use of our data*.
+A common approach to increasing privacy is to *prevent services' use of our data*.
 If you talk to a security expert, s/he might tell you to install an ad blocker,
 never click on recommendations, and encrypt your emails.  But these defenses all
 come with downsides.  Many of us love our recommendations for new music and
