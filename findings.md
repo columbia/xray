@@ -73,7 +73,7 @@ While a larger-scale experiment is required to reach statistically
 meaningful, quantitative conclusions,  we would like to make here a few
 high-level, example-driven observations:
 
-1. <b>It is possible to target sensitive topics in users' inboxes:</b>
+1. <font color="blue"><b>It is possible to target sensitive topics in users' inboxes:</b></font>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
@@ -81,7 +81,7 @@ assisted living services target the Alzheimer email; and a Ford campaign to
 fight breast cancer targets the cancer email.
 Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
 
-2. <b>Targeting is often obscure and potentially dangerous:</b>
+2. <font color="blue"><b>Targeting is often obscure and potentially dangerous:</b></font>
 For many of the ads in the table, the association with the targeted email
 is not obvious at all and would likely be indiscernable to the users. Nothing
 in the "Shamanic healing" ad suggests targeting against depression; nothing in
@@ -92,7 +92,7 @@ in ad targeting, particularly for sensitive targeting.  If no keyword in the ad
 suggests relation with sensitive topics, a user clicking on the ad may not
 realize that they could be disclosing private information to advertisers.
 
-3. <b>XRay has surprisingly broad applicability:</b>
+3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
 Looking at the ad data, we realized that XRay's potential is even greater
 than providing transparency to end users.  Using it, we found a pretty
 interesting form of advertising: subprime advertising.  According to a
@@ -105,7 +105,7 @@ trend in the ads we collected. We saw a significant number of subprime
  Toyota test drive for a $50 gift card; that ad was strongly correlated with
  the *debt* keyword.
 
-4. <b>Targeting sometimes misses the point:</b>
+4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise.  However, we found quite a
 few cases where targeting seemed to be done through very basic keyword matching
 and completely missed the semantic meaning of the email.  For example, an email
