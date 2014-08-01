@@ -94,20 +94,19 @@ suggests relation with sensitive topics, a user clicking on the ad may not
 realize that they could be disclosing private information to advertisers.
 
 3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
-Looking at the ad data, we realized that XRay's potential is even greater
-than providing transparency to end users.  Using it, we found a pretty
-interesting form of advertising: <b>subprime advertising</b>.  According to a
-recent <a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0">NYT article</a>, our society is
-undergoing a new subprime loan bubble, this time for used cars.  We were able
-to witness a projection of this trend in the ads we collected. We saw a
-significant number of subprime ads for used cars that promised 100% acceptance
-without credit backing.  Some of these ads correlated strongly with keywords
-such as *loan*, *borrow*, or *debt*.  We also saw a car dealership ad that
-enticed users to take a Toyota test drive for a $50 gift card; that ad was
-strongly correlated with the *debt* keyword.  While we cannot comment on what
-is causing these correlations -- the lenders themselves or some ad placement
-algorithms within Google -- however we believe that these examples showcase
-XRay's usefulness at revealing all kinds of trends within the ad market.
+According to a recent
+<a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0">NYT article</a>, our society is
+undergoing a new subprime loan bubble, this time for used cars.  Using XRay,
+we were able to witness a projection of this trend in the ads we collected.
+We saw a significant number of subprime ads for used cars that promised 100%
+acceptance without credit backing.  Some of these ads correlated strongly
+with keywords such as *loan*, *borrow*, or *debt*.  We also saw a car
+dealership ad that enticed users to take a Toyota test drive for a $50 gift
+card; that ad was strongly correlated with the *debt* keyword.  While we cannot
+comment on what is causing these correlations -- the lenders themselves or some
+ad placement algorithms within Google -- however we believe that these examples
+showcase XRay's usefulness at revealing a wide variety of effects within the ad
+market.
 
 4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise.  However, we found quite a
