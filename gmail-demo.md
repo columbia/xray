@@ -32,7 +32,7 @@ interpretation, if not our [technical paper]({{ site.baseurl }}/public/usenix14l
   </a>
 </center>
 
-<h3 id="caveats">Caveats</h3>
+<h3 id="caveats">Limitations and Caveats</h3>
 
 In interpreting the data from our service, one must take several aspects
 into account, which we explain next in layman's terms.  See our
@@ -53,8 +53,8 @@ created a correlation that an advertiser might not even have thought about.
 
 3. The data we report right now is small in scale.  We track only about 20
 topics. We plan to increase that significantly in the near future, to
-track hundreds of topics.  For the time being, please use the data responsibly
-and use the data merely to create intuition, and not reach definite conclusions.
+track hundreds of topics.  For the time being, please use the data merely to
+create intuition, and not claim definite conclusions.
 
 4. All results come from an in-progress research prototype.  Although we
 have tested our system extensively, it is conceivable that yet undiscovered
