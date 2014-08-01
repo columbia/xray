@@ -23,16 +23,6 @@ Theofilos Petsios, Riley Spahn, Augustin Chaintreau, and Roxana Geambasu.
 Available on [Github](https://github.com/MatLecu/xray).
 
 
-### Demo Service
-
-We wrapped XRay into a [demo service](http://data.lec.io/) that reveals
-targeting of certain ads in Gmail's ecosystem.  With it you can ask
-questions, such as: what are some ads targeted against *depression*,
-*cancer*, *debt*, *divorce*, etc.? Using it we've found interesting
-trends, including evidence of [subprime
-targeting]({{ site.baseurl }}/demo#observations). Try our service out
-[here](http://data.lec.io/).
-
 
 
 

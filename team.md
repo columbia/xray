@@ -21,7 +21,6 @@ Contributors:
 - [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
 - Sravan Bhamidipati
 
-XXX Augustin: Where and who do we put for Brown? XXX
 
 ### Contact Info:
 
