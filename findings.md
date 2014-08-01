@@ -73,8 +73,7 @@ While a larger-scale experiment is required to reach statistically
 meaningful, quantitative conclusions,  we would like to make here a few
 high-level, example-driven observations:
 
-1. <font color="blue"><b>It is possible to target sensitive topics in users'
-inboxes:</b></font>
+1. <b>It is possible to target sensitive topics in users' inboxes:</b>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
 containing the depression-related email, and many times in its context; ads for
@@ -82,7 +81,7 @@ assisted living services target the Alzheimer email; and a Ford campaign to
 fight breast cancer targets the cancer email.
 Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
 
-2. <font color="blue"><b>Targeting is often obscure and potentially dangerous:</b></font>
+2. <b>Targeting is often obscure and potentially dangerous:</b>
 For many of the ads in the table, the association with the targeted email
 is not obvious at all and would likely be indiscernable to the users. Nothing
 in the "Shamanic healing" ad suggests targeting against depression; nothing in
@@ -93,18 +92,20 @@ in ad targeting, particularly for sensitive targeting.  If no keyword in the ad
 suggests relation with sensitive topics, a user clicking on the ad may not
 realize that they could be disclosing private information to advertisers.
 
-3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
- Looking at the ad data, we were surprised to notice what we believe is
- a projection of a general economic trend in our society.  According to a
- [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble,
- this time for used cars.  We saw a significant number of subprime
+3. <b>XRay has surprisingly broad applicability:</b>
+Looking at the ad data, we realized that XRay's potential is even greater
+than providing transparency to end users.  Using it, we found a pretty
+interesting form of advertising: subprime advertising.  According to a
+recent NYT article, our society is undergoing a new subprime loan bubble,
+this time for used cars.  We were able to witness a projection of this
+trend in the ads we collected. We saw a significant number of subprime
  ads for used cars that promised 100% acceptance without credit backing.
  Some of these ads correlated strongly with keywords such as *loan*, *borrow*,
  or *debt*.  We also saw a car dealership ad that enticed users to take a
  Toyota test drive for a $50 gift card; that ad was strongly correlated with
  the *debt* keyword.
 
-4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
+4. <b>Targeting sometimes misses the point:</b>
 One might think that ad targeting is always precise.  However, we found quite a
 few cases where targeting seemed to be done through very basic keyword matching
 and completely missed the semantic meaning of the email.  For example, an email
