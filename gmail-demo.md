@@ -38,18 +38,17 @@ into account, which we explain next in layman's terms.  See our
 
 1. All targeting information comes from our correlation method, which is
 inherently probabilistic and could err.  While our service is configured
-to only reveal correlation when it is quite sure of it, we strongly suggest
-that you consult the confidence data that we make available for every ad
-to verify that it meets your requirement for certainty.  To interpret that
-data, you need decent background in statistics.
+to only reveal correlation when it is quite strong, we recommend that you
+consult the confidence data that we make available for every ad to verify
+that it meets your requirement for certainty.  To interpret that data,
+you need some background in statistics.
 
-2. Correlation, which XRay reports, does not always imply causality.  For
-example, it is conceivable that the strong correlation between an ad and
-a particular email is caused by some other, obscure effect instead of
-explicit targeting or Gmail placement algorithms. Since our accounts
-are extremely clean and controlled, we believe that this is unlikely,
-and hence in our own analyses we often make the leap from correlation
-to targeting.  We do acknowledge this limitation, however.
+2. XRay detects *correlation* between emails and ads, which we
+hypothesize is caused by *targeting*.  However, it is conceivable
+that some other, obscure effect that we are not aware of might
+cause the correlation.  We make this jump from correlation to targeting
+in our own analyses, as researchers working on similar often do, but we
+acknowledge it as a limitation that our readers should also keep in mind.
 
 3. All results come from an in-progress research prototype.  Although we
 have tested our system extensively, it is conceivable that yet undiscovered

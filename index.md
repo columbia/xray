@@ -79,12 +79,12 @@ transparency system for the Web.  It reveals which specific data inputs (such as
 emails) are used to target which outputs (such as ads).  It is general and can
 track targeting both within and across arbitrary Web services.  The key idea
 behind XRay is to *detect targeting through black-box input/output correlation*.
-XRay populates a series of extra accounts with subsets of the inputs and then looks at the
-differences and commonalities between the outputs that they get in order to
-obtain correlation.  This mechanism is effective at detecting certain types of
-data uses, though not all.  For its details, please refer to our [research
-paper]({{ site.baseurl }}/public/usenix14lecuyer.pdf), which will appear in August
-at USENIX Security 2014, a top systems security conference.
+XRay populates a series of extra accounts with subsets of the inputs and then
+looks at the differences and commonalities between the outputs that they get
+in order to obtain correlation.  This mechanism is effective at detecting
+certain types of data uses, though not all.  For its details, please refer
+to our [research paper]({{ site.baseurl }}/public/usenix14lecuyer.pdf), which
+will appear in August at USENIX Security 2014, a top systems security conference.
 
 Scientifically, the big breakthrough in XRay is its <font color="blue">*service-independent,
 accurate, and scalable correlation engine*</font>, which can be used as a
