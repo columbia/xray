@@ -13,7 +13,8 @@ related to that topic (e.g., the depression-related email included <i>depression
 and <i>pregnant</i>).
 
 Using our service, we've already found some pretty interesting associations,
-about which you can read on our [Findings]({{ site.baseurl }}/findings/) page.
+about which you can read on our <a href="{{ site.baseurl }}/findings/">
+<font color="blue">Gmail Findings</font></a> page.
 For example, we've seen ads correlating with various illnesses and
 lots of subprime loan ads for used cars that correlate strongly with
 the presence of the *debt* or *broke* keywords users' inboxes.
@@ -30,7 +31,7 @@ interpretation, if not our [technical paper]({{ site.baseurl }}/public/usenix14l
   </a>
 </center>
 
-<h3 id="caveats">Limitations and Caveats</h3>
+<h3 id="caveats">Caveats</h3>
 
 In interpreting the data from our service, one must take several aspects
 into account, which we explain next in layman's terms.  See our
@@ -47,9 +48,9 @@ you need some background in statistics.
 hypothesize is caused by *targeting*.  However, it is conceivable
 that some other effect that we are not aware of might cause some
 correlations.  We make the jump from correlation to targeting
-in our own analyses, as researchers working on similar problems often do,
-but we acknowledge it is a limitation that our readers should also keep
-in mind.
+in our own [analyses]({{ site.baseurl }}/findings/), as researchers
+working on similar problems often do, but we do acknowledge this is a
+limitation that our readers should also keep in mind.
 
 3. All results come from an in-progress research prototype.  Although we
 have tested our system extensively, it is conceivable that yet undiscovered

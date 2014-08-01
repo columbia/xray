@@ -19,7 +19,8 @@ Contributors:
 
 - [Riley Spahn](http://www.cs.columbia.edu/~riley/) (Ph.D.)
 - [Theofilos Petsios](http://www.cs.columbia.edu/~theofilos/) (Ph.D.)
-- Sravan Bhamidipati
+- Bogdan Geambasu (independent)
+- Sravan Bhamidipati (former M.S.)
 
 
 ### Contact Info:

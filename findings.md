@@ -8,7 +8,7 @@ title: Gmail Findings
        <font color="red">depression</font> keyword in my inbox?!</i>
 </p>
 
-We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/demo/)
+We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/gmail-demo/)
 and found some pretty interesting associations, which we report here.
 For example, a <font color="red">"Shamanic healing"</font> ad appeared
 exclusively in accounts containing emails about <font color="red">depression</font>;
@@ -19,16 +19,16 @@ strongly with <font color="magenta">debt-related emails</font>, suggesting
 subprime targeting.
 
 This page first shows some [example associations]({{ site.baseurl }}/findings#table)
-and then presents a few high-level [observations]({{ site.baseurl }}/findings#observations)
+and then presents a few [high-level observations]({{ site.baseurl }}/findings#observations)
 we were able to make from our early data.  We report our results *not* to point fingers at
 Gmail; indeed, the lack of transparency is a pervasive and difficult to address problem.
 Rather, we aim to illustrate the dangers raised by the lack of transparency and hopefully
 bolster a conversation about how to go about improving this situation over time.
 All results must be considered in the context of our prototype's
-[limitations]({{ site.baseurl }}/demo#caveats).
+[limitations]({{ site.baseurl }}/gmail-demo#caveats).
 
 
-<h3 id="table">Sample Ads</h3>
+<h3 id="table">Example Ad/Topic Associations</h3>
 
 We created emails focused on topics such as cancer, Alzheimer's, depression,
 race, homosexuality, pregnancy, divorce, and debt.  Each email consisted
@@ -72,7 +72,7 @@ based on our data.
 
 <h3 id="observations">High-level Observations</h3>
 
-In the context of our prototype's [limitations]({{ site.baseurl }}/demo#caveats),
+In the context of our prototype's [limitations]({{ site.baseurl }}/gmail-demo#caveats),
 we formulate five high-level observations about Gmail's ad ecosystem:
 
 1. <font color="red"><b>It is possible to target sensitive topics in users'
@@ -138,7 +138,7 @@ transparency may be valuable not just for users, but also for advertisers.
 
 The above observations were reached from an early, small-scale deployment of
 our system.  Our
-<a href="http://data.lec.io/"><font color="blue"><b>XRay demo service</b></font></a>
+<a href="{{ site.baseurl }}/gmail-demo/"><font color="blue"><b>XRay demo service</b></font></a>
 has since been collecting much more data, which we invite you to visit to
 draw your own observations about Gmail's ad ecosystem.
 

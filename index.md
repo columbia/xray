@@ -22,9 +22,9 @@ tool that reveals how Web services use our data (such as emails or searches)
 to target various outputs (such as ads or recommendations).
 
 This page describes the problem XRay deals with, how it addresses it,
-and how you can use it.  Our <a href="{{ site.baseurl }}/demo/"><font color="blue">Findings</font></a>
-page describes some interesting data uses we observed using XRay to reveal
-targeting of ads on Gmail.
+and how you can use it.  Our <a href="{{ site.baseurl }}/findings/">
+<font color="blue">Gmail Findings</font></a> page describes some interesting data
+uses we observed using XRay to reveal targeting of ads on Gmail.
 
 
 ### Problem and Approach
@@ -42,7 +42,7 @@ offers](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/
 based on your Facebook data?   Or that certain travel companies [used to
 discriminate prices](http://online.wsj.com/news/articles/SB10001424052702304458604577488822667325882)
 based on user profile and location?  Or that some companies [target ads on
-illness-related emails]({{ site.baseurl }}/demo/), and if you click on them,
+illness-related emails]({{ site.baseurl }}/findings#observations), and if you click on them,
 you can leak sensitive information to them?  Maybe you already knew these
 things in the abstract, but do you always know when such things are happening
 to *you*?  Not always, we bet.
@@ -110,13 +110,13 @@ of malicious services, usability, and ease of instantiation on more services.
 To spur further progress in this important, and largely unexplored, area of Web
 transparency, we are releasing three artifacts:
 
-1. A <a href="{{ site.baseurl }}/demo/"><font color="blue">demo service</font></a>,
+1. A <a href="{{ site.baseurl }}/gmail-demo/"><font color="blue">demo service</font></a>,
 which wraps our XRay Gmail prototype and can be used by researchers, journalists, and
 investigators to gain visibility into Gmail's ad ecosystem.  Using this service, we
 found some pretty interesting correlations, such as lots of ads targeting
 depression, cancer, and other illnesses; clothing ads targeting pregnancy; and lots
 of subprime loan ads for used cars that targeted the debt and broke keywords users'
-inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Findings</font></a>
+inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Gmail Findings</font></a>
 page includes more results.
 
 2. Our prototype's <a href="https://github.com/MatLecu/xray/"><font color="blue">source
