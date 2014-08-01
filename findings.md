@@ -9,7 +9,7 @@ title: Gmail Findings
 </p>
 
 We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/gmail-demo/)
-and found some pretty interesting associations, which we report here.
+and found some pretty interesting associations, which we describe here.
 For example, a <font color="red">"Shamanic healing"</font> ad appeared
 exclusively in accounts containing emails about <font color="red">depression</font>;
 a number of <font color="green">clothing brand ads</font> correlate strongly
@@ -30,13 +30,10 @@ All results must be considered in the context of our prototype's
 
 <h3 id="table">Example Ad/Topic Associations</h3>
 
-We created emails focused on topics such as cancer, Alzheimer's, depression,
-race, homosexuality, pregnancy, divorce, and debt.  Each email consisted
-of keywords closely related to one topic (e.g., the depression-related email
-included *depression*, *depressed*, and *sad*).  We then launched XRay to
-collect and report ads correlated with the presence of these emails.
-
 The table below shows examples of topic/ad correlations XRay made.
+For each topic, we were tracking an email containing keywords related to
+that topic (e.g., the depression-related email included *depression*, *depressed*,
+and *sad*).  We used XRay to detect correlation between emails and ads.
 Conservatively, we only show here correlations that were very strong. Below the
 table we derive [higher-level observations]({{ site.baseurl }}/findings#observations)
 based on our data.
@@ -72,8 +69,9 @@ based on our data.
 
 <h3 id="observations">High-level Observations</h3>
 
-In the context of our prototype's [limitations]({{ site.baseurl }}/gmail-demo#caveats),
-we formulate five high-level observations about Gmail's ad ecosystem:
+While a larger-scale experiment is required to reach statistically
+meaningful, quantitative conclusions,  we would like to make here a few
+high-level, example-driven observations:
 
 1. <font color="blue"><b>It is possible to target sensitive topics in users'
 inboxes:</b></font>
@@ -99,11 +97,12 @@ realize that they could be disclosing private information to advertisers.
  Looking at the ad data, we were surprised to notice what we believe is
  a projection of a general economic trend in our society.  According to a
  [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble,
- this time for used cars.  We saw a significant number of car loan
- ads that promised 100% acceptance without credit score or backing, and
- which correlated strongly with keywords such as *loan*, *borrow*, or *debt*.
- We also saw a car dealership ad that enticed users to take a Toyota test drive
- for a $50 gift card; that ad was strongly correlated with the *debt* keyword.
+ this time for used cars.  We saw a significant number of subprime
+ ads for used cars that promised 100% acceptance without credit backing.
+ Some of these ads correlated strongly with keywords such as *loan*, *borrow*,
+ or *debt*.  We also saw a car dealership ad that enticed users to take a
+ Toyota test drive for a $50 gift card; that ad was strongly correlated with
+ the *debt* keyword.
 
 4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise.  However, we found quite a
