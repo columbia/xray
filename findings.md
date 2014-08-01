@@ -75,7 +75,7 @@ based on our data.
 In the context of our prototype's [limitations]({{ site.baseurl }}/gmail-demo#caveats),
 we formulate five high-level observations about Gmail's ad ecosystem:
 
-1. <font color="red"><b>It is possible to target sensitive topics in users'
+1. <font color="blue"><b>It is possible to target sensitive topics in users'
 inboxes:</b></font>
 Many of our disease-related emails are strongly correlated with
 a number of ads.  A "Shamanic healing" ad appears exclusively in accounts
@@ -84,7 +84,7 @@ assisted living services target the Alzheimer email; and a Ford campaign to
 fight breast cancer targets the cancer email.
 Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
 
-2. <font color="red"><b>Targeting is often obscure and potentially dangerous:</b></font>
+2. <font color="blue"><b>Targeting is often obscure and potentially dangerous:</b></font>
 For many of the ads in the table, the association with the targeted email
 is not obvious at all and would likely be indiscernable to the users.
 Nothing in the "Shamanic healing" ad suggests targeting against depression;
@@ -98,7 +98,7 @@ on the ad may not realize that they could be disclosing private information to
 advertisers.
 
 
-3. <font color="red"><b>XRay has surprisingly broad applicability:</b></font>
+3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
  Looking at the ad data, we realized that XRay's potential is even greater
  than providing transparency to end users.  Using it, we found a pretty
  interesting form of targeting: <font color="blue"><b>subprime targeting</b></font>.
@@ -114,7 +114,7 @@ advertisers.
  solvency.
 
 
-4. <font color="red"><b>Targeting does not imply bad intentions:</b></font>
+4. <font color="blue"><b>Targeting does not imply bad intentions:</b></font>
 We believe it is important to always keep a positive attitude, hence we
 wish to point out that targeting sensitive topics does not necessarily
 imply bad intentions.  In our results, we have seen ads for various support
@@ -125,7 +125,7 @@ non-profit depression support group posted an ad on Gmail; targeting of those
 users might end up reaching the vulnerable users more effectively, and perhaps
 help improve their lives sooner.
 
-5. <font color="red"><b>Targeting sometimes misses the point:</b></font>
+5. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
 One might think that ad targeting is always precise and sophisticated.  However,
 we found quite a few cases where targeting seemed to be done through very basic
 keyword matching and completely missed the semantic meaning of the email.

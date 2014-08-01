@@ -33,7 +33,7 @@ Many of the Web services, mobile apps, and third parties we interact with
 daily collect immense amounts of information about us -- every location,
 click, search, and site that we visit. They mine our emails and documents.
 Occasionally, they share our information with third parties.  All of this
-happens *without our knowledge or consent*. This <font color="red">lack of
+happens *without our knowledge or consent*. This <font color="blue">lack of
 transparency</font> exposes us to unforeseen risks and abusive uses of our
 data.
 
