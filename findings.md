@@ -97,17 +97,22 @@ If no keyword in the ad suggests relation with sensitive topics, a user clicking
 on the ad may not realize that they could be disclosing private information to
 advertisers.
 
-3. <font color="red"><b>Evidence of subprime targeting:</b></font>
-Looking at XRay's associations, we observed what we believe could be classified as
-subprime targeting.  According to a [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
-time for used cars.  We were able to witness a projection of this trend in
-the ads we collected.  We saw a significant number of car loan ads that promised
-100% acceptance without credit score or backing, and which targeted specifically
-keywords such as *loan*, *borrow*, or *debt*.  We also saw a car dealership ad
-that enticed users to take a Toyota test drive for a $50 gift card; that ad was
-targeting the *debt* keyword.  This suggests that these ads don't just advertise
-the availability of easy loans to the general public, they explicitly seek out
-population that lacks credit solvence.
+
+3. <font color="red"><b>XRay has surprisingly broad applicability:</b></font>
+ Looking at the ad data, we realized that XRay's potential is even greater
+ than providing transparency to end users.  Using it, we found a pretty
+ interesting form of targeting: <font color="blue"><b>subprime targeting</b></font>.
+ According to a [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime
+ loan bubble, this time for used cars.  We were able to witness a projection
+ of this trend in the ads we collected.  We saw a significant number of car loan
+ ads that promised 100% acceptance without credit score or backing, and
+ which targeted specifically keywords such as *loan*, *borrow*, or *debt*.
+ We also saw a car dealership ad that enticed users to take a Toyota test drive
+ for a $50 gift card; that ad was strongly targeted the *debt* keyword.
+ This suggests that these ads don't just advertise the availability of easy loans
+ to the general public, they explicitly seek out population that lacks credit
+ solvency.
+
 
 4. <font color="red"><b>Targeting does not imply bad intentions:</b></font>
 We believe it is important to always keep a positive attitude, hence we
@@ -133,6 +138,21 @@ whether those were the placements intended by the advertisers, or whether they a
 examples of ineffective advertising.  Regardless, this finding suggests that increased
 transparency may be valuable not just for users, but also for advertisers.
 
+
+<!--
+3. <font color="red"><b>Evidence of subprime targeting:</b></font>
+Looking at XRay's associations, we observed what we believe could be classified as
+subprime targeting.  According to a [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble, this
+time for used cars.  We were able to witness a projection of this trend in
+the ads we collected.  We saw a significant number of car loan ads that promised
+100% acceptance without credit score or backing, and which targeted specifically
+keywords such as *loan*, *borrow*, or *debt*.  We also saw a car dealership ad
+that enticed users to take a Toyota test drive for a $50 gift card; that ad was
+targeting the *debt* keyword.  This suggests that these ads don't just advertise
+the availability of easy loans to the general public, they explicitly seek out
+population that lacks credit solvence.
+
+-->
 
 ### Interested in Ad Data?  Visit our Demo Service
 
