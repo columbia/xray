@@ -8,8 +8,9 @@ title: Gmail Findings
        <font color="red">depression</font> keyword in my inbox?!</i>
 </p>
 
-We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/gmail-demo/)
-and found some pretty interesting associations, which we describe here.
+We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/gmail-demo/).
+While our data is too small scale to reach definite conclusions,
+we did observe some pretty interesting associations.
 For example, a <font color="red">"Shamanic healing"</font> ad appeared
 exclusively in accounts containing emails about <font color="red">depression</font>;
 a number of <font color="green">clothing brand ads</font> correlate strongly
@@ -19,7 +20,7 @@ strongly with <font color="magenta">debt-related emails</font>, suggesting
 subprime targeting.
 
 This page first shows some [example associations]({{ site.baseurl }}/findings#table)
-and then presents a few [high-level observations]({{ site.baseurl }}/findings#observations)
+and then formulates a few [example-driven observations]({{ site.baseurl }}/findings#observations)
 we were able to make from our early data.  We report our results *not* to point fingers at
 Gmail or any advertisers; indeed, the lack of transparency is a pervasive and difficult
 to address problem.  Rather, we aim to illustrate the dangers raised by the lack of
