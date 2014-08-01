@@ -12,19 +12,19 @@ title: Overview
 
 Privacy has all but disappeared in today's data-driven world.
 This is due to users who are often too eager to share their data online
-and Web services that are too eager to collect and use this information.
+and Web services that are too eager to collect and use their information.
 Our approach is to <font color="blue"><b>increase transparency</b></font>
-of what Web services do with users' data -- what data they collect, what
-they use it for, and whom they share it with -- and empower users, and
-auditors on their behalf, to reach informed conclusions about the services
-they use.  We are releasing <font color="blue"><b>XRay</b></font>, a first
-tool that reveals how Web services use our data (such as emails or searches)
-to target various outputs (such as ads or recommendations).
+of what Web services do with users' data -- what data they collect, for what
+purposes they are using it, and with whom they share it -- thereby empowering
+users, and auditors on their behalf, to reach informed conclusions about
+the services they use.  We are releasing <font color="blue"><b>XRay</b></font>,
+a first tool that reveals how Web services use our data (such as emails or
+searches) to target various outputs (such as ads or recommendations).
 
 This page describes the problem XRay deals with, how it addresses it,
 and how you can use it.  Our <a href="{{ site.baseurl }}/findings/">
-<font color="blue">Gmail Findings</font></a> page describes some interesting data
-uses we observed using XRay to reveal targeting of ads on Gmail.
+<font color="blue">Gmail Findings</font></a> page describes some interesting
+data uses we observed using XRay to reveal targeting of ads on Gmail.
 
 
 ### Problem and Approach
@@ -47,12 +47,12 @@ you can leak sensitive information to them?  Maybe you already knew these
 things in the abstract, but do you always know when such things are happening
 to *you*?  Not always, we bet.
 
-A common approach to increasing privacy is to *prevent services' use of our data*.
+<!-- A common approach to increasing privacy is to *prevent services' use of our data*.
 If you talk to a security expert, s/he might tell you to install an ad blocker,
 never click on recommendations, and encrypt your emails.  But these defenses all
 come with downsides.  Many of us love our recommendations for new music and
 movies to watch; if we encrypt our emails we cannot search for them; and the
-services we all use for free are funded, for better or worse, through this data.
+services we all use for free are funded, for better or worse, through this data. -->
 
 Our approach to privacy is to <font color="blue">*increase transparency*</font>
 of how our data is being used by the various Web services that collect it, and
