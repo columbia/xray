@@ -86,57 +86,36 @@ Race, homosexuality, pregnancy, divorce, and debt also attract plenty of ads.
 
 2. <font color="blue"><b>Targeting is often obscure and potentially dangerous:</b></font>
 For many of the ads in the table, the association with the targeted email
-is not obvious at all and would likely be indiscernable to the users.
-Nothing in the "Shamanic healing" ad suggests targeting against depression;
-nothing in the general-purpose clothing ads suggest targeting against pregnancy;
-and nothing in the "Cedars hotel" ad suggests an orientation toward the
-homosexuality email.  This obscurity, coupled with the ability to target very
-sensitive aspects, opens users to subtle dangers and show-cases an urgent need
-for increased transparency in ad targeting, particularly for sensitive targeting.
-If no keyword in the ad suggests relation with sensitive topics, a user clicking
-on the ad may not realize that they could be disclosing private information to
-advertisers.
-
+is not obvious at all and would likely be indiscernable to the users. Nothing
+in the "Shamanic healing" ad suggests targeting against depression; nothing in
+the general-purpose clothing ads suggest targeting against pregnancy.
+This obscurity, coupled with the ability to target very sensitive aspects, opens
+users to subtle dangers and show-cases an urgent need for increased transparency
+in ad targeting, particularly for sensitive targeting.  If no keyword in the ad
+suggests relation with sensitive topics, a user clicking on the ad may not
+realize that they could be disclosing private information to advertisers.
 
 3. <font color="blue"><b>XRay has surprisingly broad applicability:</b></font>
- Looking at the ad data, we realized that XRay's potential is even greater
- than providing transparency to end users.  Using it, we found a pretty
- interesting form of targeting: <font color="blue"><b>subprime targeting</b></font>.
- According to a [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime
- loan bubble, this time for used cars.  We were able to witness a projection
- of this trend in the ads we collected.  We saw a significant number of car loan
+ Looking at the ad data, we were surprised to notice what we believe is
+ a projection of a general economic trend in our society.  According to a
+ [recent NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/), our society is undergoing a new subprime loan bubble,
+ this time for used cars.  We saw a significant number of car loan
  ads that promised 100% acceptance without credit score or backing, and
- which targeted specifically keywords such as *loan*, *borrow*, or *debt*.
+ which correlated strongly with keywords such as *loan*, *borrow*, or *debt*.
  We also saw a car dealership ad that enticed users to take a Toyota test drive
- for a $50 gift card; that ad was strongly targeted the *debt* keyword.
- This suggests that these ads don't just advertise the availability of easy loans
- to the general public, they explicitly seek out population that lacks credit
- solvency.
+ for a $50 gift card; that ad was strongly correlated with the *debt* keyword.
 
-
-4. <font color="blue"><b>Targeting does not imply bad intentions:</b></font>
-We believe it is important to always keep a positive attitude, hence we
-wish to point out that targeting sensitive topics does not necessarily
-imply bad intentions.  In our results, we have seen ads for various support
-groups trying to reach relevant users through targeting (e.g., an ad for a
-campaign against breast cancer targeted the keyword cancer; a number of ads
-for legal counsel to deal with racial slurs at the office, etc.).  Imagine a
-non-profit depression support group posted an ad on Gmail; targeting of those
-users might end up reaching the vulnerable users more effectively, and perhaps
-help improve their lives sooner.
-
-5. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
-One might think that ad targeting is always precise and sophisticated.  However,
-we found quite a few cases where targeting seemed to be done through very basic
-keyword matching and completely missed the semantic meaning of the email.
-For example, an email about divorce, which happened to contain the keyword "marriage"
-in its body (in the format "end of marriage"), attracted not only divorce-related ads,
-but also several ads related to wedding planning and invitations.  As another example,
+4. <font color="blue"><b>Targeting sometimes misses the point:</b></font>
+One might think that ad targeting is always precise.  However, we found quite a
+few cases where targeting seemed to be done through very basic keyword matching
+and completely missed the semantic meaning of the email.  For example, an email
+about divorce, which happened to contain the keyword "marriage" in its body (in
+the format "end of marriage"), attracted not only divorce-related ads, but also
+several ads related to wedding planning and invitations.  As another example,
 an email about TV shows was targeted by ads related to various brands of watches just
-because it contained the word "watch" (as in "watch TV") in its body. We wonder, then,
-whether those were the placements intended by the advertisers, or whether they are
-examples of ineffective advertising.  Regardless, this finding suggests that increased
-transparency may be valuable not just for users, but also for advertisers.
+because it contained the word "watch" (as in "watch TV") in its body. We wonder whether
+those were the placements intended by the advertisers, or whether they are examples
+of ineffective advertising.
 
 
 <!--
@@ -152,6 +131,16 @@ targeting the *debt* keyword.  This suggests that these ads don't just advertise
 the availability of easy loans to the general public, they explicitly seek out
 population that lacks credit solvence.
 
+4. <font color="blue"><b>Targeting does not imply bad intentions:</b></font>
+We believe it is important to always keep a positive attitude, hence we
+wish to point out that targeting sensitive topics does not necessarily
+imply bad intentions.  In our results, we have seen ads for various support
+groups trying to reach relevant users through targeting (e.g., an ad for a
+campaign against breast cancer targeted the keyword cancer; a number of ads
+for legal counsel to deal with racial slurs at the office, etc.).  Imagine a
+non-profit depression support group posted an ad on Gmail; targeting of those
+users might end up reaching the vulnerable users more effectively, and perhaps
+help improve their lives sooner.
 -->
 
 ### Interested in Ad Data?  Visit our Demo Service
