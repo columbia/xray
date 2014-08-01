@@ -25,9 +25,9 @@ This page describes the problem XRay deals with, how it addresses it,
 and how you can use it.  Our <a href="{{ site.baseurl }}/findings/">
 <font color="blue">Gmail Findings</font></a> page describes some interesting
 data uses we observed using XRay to reveal targeting of ads on Gmail.
-For example, lots of ads targeting depression, cancer, and other illnesses;
-clothing ads targeting pregnancy; and lots of subprime loan ads for used cars
-that targeted the debt and broke keywords users' inboxes.
+For example, we saw lots of ads targeting depression, cancer, and other illnesses
+in users' emails;  clothing ads targeting pregnancy; and subprime
+loan ads for used cars that targeted the debt keyword in users' inboxes.
 
 
 ### Problem and Approach
