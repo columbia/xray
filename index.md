@@ -113,8 +113,8 @@ transparency, we are releasing three artifacts:
 1. A <a href="{{ site.baseurl }}/demo/"><font color="blue">demo service</font></a>,
 which wraps our XRay Gmail prototype and can be used by researchers, journalists, and
 investigators to gain visibility into Gmail's ad ecosystem.  Using this service, we
-found some pretty interesting targeting cases, such as lots of ads targeting
-depression, cancer, and other illnesses, clothing ads targeting pregnancy, and lots
+found some pretty interesting correlations, such as lots of ads targeting
+depression, cancer, and other illnesses; clothing ads targeting pregnancy; and lots
 of subprime loan ads for used cars that targeted the debt and broke keywords users'
 inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Findings</font></a>
 page includes more results.
