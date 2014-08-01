@@ -45,10 +45,10 @@ you need some background in statistics.
 
 2. XRay detects *correlation* between emails and ads, which we
 hypothesize is caused by *targeting*.  However, it is conceivable
-that some other, obscure effect that we are not aware of might
-cause the correlation.  We make this jump from correlation to targeting
+that some other effect that we are not aware of might cause some
+correlations.  We make the jump from correlation to targeting
 in our own analyses, as researchers working on similar problems often do,
-but we acknowledge it as a limitation that our readers should also keep
+but we acknowledge it is a limitation that our readers should also keep
 in mind.
 
 3. All results come from an in-progress research prototype.  Although we
