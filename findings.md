@@ -103,8 +103,8 @@ acceptance without credit backing.  Some of these ads correlated strongly
 with keywords such as *loan*, *borrow*, or *debt*.  We also saw a car
 dealership ad that enticed users to take a Toyota test drive for a $50 gift
 card; that ad was strongly correlated with the *debt* keyword.  While we cannot
-comment on what is causing these correlations -- the lenders themselves or some
-ad placement algorithms within Google -- however we believe that these examples
+comment on what caused these correlations -- the lenders themselves or some
+ad placement algorithms within Google -- we believe that these examples
 showcase XRay's usefulness at revealing a wide variety of effects within the ad
 market.
 
