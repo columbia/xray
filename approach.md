@@ -1,10 +1,10 @@
 ---
 layout: default
-title: XRay
+title: About XRay
 ---
 
 <p class="message" align="right">
-  <i>New tool to increase the Web's transparency.</i>
+  <i>New tool to increase the Web's <font color="red">transparency</font></i>
 </p>
 
 

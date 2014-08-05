@@ -3,6 +3,10 @@ layout: page
 title: Demo Service
 ---
 
+<p class="message" align="right">
+  <i>Revealing targeting of <font color="red">Gmail ads</font></i>
+</p>
+
 We wrapped XRay's Gmail implementation into a demo service, which
 continuously collects ads and reports those strongly correlated with
 some topics in a dictionary of topics.  Right now, the service
