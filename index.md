@@ -24,8 +24,9 @@ and watchdogs with the necessary tools to keep the Web in check.
 Currently, XRay can reveal some forms of targeting for Gmail ads,
 Amazon product recommendations, and YouTube video recommendations.
 However, XRay's core mechanisms are largely service-agnostic, providing
-the necessary building blocks that we hope will enable a new ecosystem
-of auditing tools that will be necessary to keep the Web in check.
+the necessary building blocks that we hope will enable a new generation
+of auditing tools that will help increase transparency of many web
+services.
 
 Using our XRay Gmail prototype, we found some pretty interesting
 examples of data uses, such as a number of ads targeting depression,
@@ -53,7 +54,6 @@ Read about:
 * How to use our Gmail ad demo service, which phishes for ads
 targeted on certain topics and reports them for your analysis
 [[Demo]({{ site.baseurl }}/gmail-demo/)].
-* The materials we make available today, including our upcoming
-research paper and XRay's source code [[Resources]({{ site.baseurl }}/resources/)].
-* Our XRay team [[Team]({{ site.baseurl }}/team/)].
+* Materials we make available today, including our research paper
+and XRay's source code, plus contact info [[Resources]({{ site.baseurl }}/resources/)].
 
