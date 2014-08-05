@@ -1,6 +1,6 @@
 ---
-layout: default
-title: About XRay
+layout: page
+title: XRay
 ---
 
 <p class="message" align="right">
@@ -98,7 +98,7 @@ investigators to gain visibility into Gmail's ad ecosystem.  Using this service,
 found some pretty interesting correlations, such as lots of ads targeting
 depression, cancer, and other illnesses; clothing ads targeting pregnancy; and lots
 of subprime loan ads for used cars that targeted the debt and broke keywords users'
-inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Gmail Findings</font></a>
+inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Results</font></a>
 page includes more results.
 
 2. Our prototype's <a href="https://github.com/MatLecu/xray/"><font color="blue">source

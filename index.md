@@ -4,7 +4,7 @@ title: Overview
 ---
 
 <p class="message" align="right">
-  <i>What are <font color="red">"they"</font> doing with
+  <i>What are <font color="red">"They"</font> doing with
      <font color="red">our data</font>?</i>
 </p>
 
@@ -48,12 +48,12 @@ searches) to target various outputs (such as ads or recommendations).
 
 Read about:
 
-* The XRay system [[page XRay]({{ site.baseurl }}/approach/)].
-* Examples of findings using XRay on Gmail [[page Gmail Findings]({{ site.baseurl }}/findings/)].
+* The XRay system [[XRay]({{ site.baseurl }}/approach/)].
+* Examples of findings using XRay on Gmail [[Results]({{ site.baseurl }}/findings/)].
 * How to use our Gmail ad demo service, which phishes for ads
 targeted on certain topics and reports them for your analysis
-[[page Demo Service](gmail-demo/)].
-* The materials we make available today, including our USENIX Security
-2014 paper and XRay's source code [[page Resources]({{ site.baseurl }}/resources/)].
-* Our XRay team [[page Team]({{ site.baseurl }}/team/)].
+[[Demo]({{ site.baseurl }}/gmail-demo/)].
+* The materials we make available today, including our upcoming
+research paper and XRay's source code [[Resources]({{ site.baseurl }}/resources/)].
+* Our XRay team [[Team]({{ site.baseurl }}/team/)].
 

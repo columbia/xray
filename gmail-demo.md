@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Demo Service
+title: Demo
 ---
 
 <p class="message" align="right">
@@ -19,7 +19,7 @@ and <i>sad</i>; the pregnancy email included <i>pregnancy</i> and <i>pregnant</i
 
 Using our service, we've already found some pretty interesting associations,
 about which you can read on our <a href="{{ site.baseurl }}/findings/">
-<font color="blue">Gmail Findings</font></a> page.
+<font color="blue">Results</font></a> page.
 For example, we've seen ads correlating with various illnesses and
 lots of subprime loan ads for used cars that correlate strongly with
 the presence of the *debt* or *broke* keywords users' inboxes.

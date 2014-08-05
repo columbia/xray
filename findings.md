@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Gmail Findings
+title: Results
 ---
 
 <p class = "message" align="right">
