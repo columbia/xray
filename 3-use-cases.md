@@ -14,8 +14,8 @@ scrutiny (e.g., FTC investigators, researchers, or journalists).  You can find
 some powerful example use cases we envision XRay supporting in the future
 [here]({{ site.baseurl }}/scenarios/).
 
-To assess XRay's usefulness at this time, we have been developing a 
-<a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue">service</font></a>,
+To assess XRay's usefulness at this time, we have been developing an 
+<a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue">XRay-based demo service</font></a>,
 which continuously collects ads from Gmail and reports those strongly correlated
 with certain topics, such as cancer, depression, race, or debt.  It's still work
 in progress, but we've already found some pretty <font color="blue">jarring
@@ -24,7 +24,7 @@ we've seen ads on spiritual meditation courses that targeted depression or cance
 we've seen big-store clothing ads targeting pregnancy; and we've seen used car
 ads that correlate strongly with the presence of the debt keyword in a user's inbox.
 
-This page shows some example interesting associations and some high-level
+This page shows some example associations and some high-level
 implications we draw from them.  Our purpose is to illustrate through
 examples the great potential inherent in the targeting data XRay is gathering.
 Thorough studies of the data are among our future plans.  We are making the
