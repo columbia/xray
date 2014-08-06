@@ -25,8 +25,8 @@ Currently, XRay can reveal some forms of targeting for Gmail ads,
 Amazon product recommendations, and YouTube video recommendations.
 However, XRay's core mechanisms are largely service-agnostic, providing
 the necessary building blocks that we hope will enable a new generation
-of auditing tools that will help increase transparency of many web
-services.
+of auditing tools that will help lift the curtain on how our personal
+data is being used.
 
 Using our XRay Gmail prototype, we found some pretty interesting
 examples of data uses, such as a number of ads targeting depression,

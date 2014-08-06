@@ -10,13 +10,15 @@ title: XRay
 
 ### The Problem
 
-Many of the Web services, mobile apps, and third parties we interact with
+<!-- Many of the Web services, mobile apps, and third parties we interact with
 daily collect immense amounts of information about us -- every location,
 click, search, and site that we visit. They mine our emails and documents.
 Occasionally, they share our information with third parties.  All of this
 happens *without our knowledge or consent*. This <font color="blue">lack of
 transparency</font> exposes us to unforeseen risks and abusive uses of our
-data.
+data. -->
+
+We live in a data-driven world. Many of the Web services, mobile apps, and third parties we interact with daily are collecting immense amounts of information about us -- every location, click, search, email, document, and site that we visit. And they are using all of this information for various purposes. Some uses of these uses might be beneficial for us (e.g., recommendations for new videos or songs to see); other uses may not be as beneficial. The problem is that we have <font color="blue"><i>limited visibility</i></font> into how our data is being used, and hence we are vulnerable to potential deceptive or unfair practices.
 
 For example, did you know that credit companies [might be adjusting loan
 offers](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/)
@@ -27,6 +29,17 @@ illness-related emails]({{ site.baseurl }}/findings#observations), and if you cl
 things in the abstract, but do you always know when such things are happening
 to *you*?  Not always, we bet.
 
+At Columbia, we have been pondering over the past several years on the following
+related question: <i>Can we build tools that <font color="blue">increase visibility</font>
+into what Web services are doing with users' data?</i> If Web services are tracking
+our data, we wish in turn to track their use of it. For example, wouldn't it be great
+if we knew which emails trigger which ads, which prior purchases trigger which
+recommendations or prices? Or whether our services share our data with third parties,
+and then how those parties use the data? We believe that such visibility would be
+valuable for users but also to auditors, such as researchers, journalists, or
+regulators, who can serve as watchdogs of this data-driven world.
+
+<!--
 A common approach to increasing privacy is to *prevent services' use of our data*.
 If you talk to a security expert, s/he might tell you to install an ad blocker,
 never click on recommendations, and encrypt your emails.  But these defenses all
@@ -35,31 +48,34 @@ movies to watch; if we encrypt our emails we cannot search for them; and the
 services we all use for free are funded, for better or worse, through this data.
 
 Our approach to privacy is to <font color="blue">*increase transparency*</font>
-of how our data is being used by the various Web services that collect it, and
-enable the end users, and more importantly, auditors to judge the propriety of
-personal data use on a case-by-case basis.  For example, wouldn't it be great
-if we knew which emails trigger which ads so we can avoid clicking on those
-that might reveal sensitive data? Or which prior purchases trigger which prices?
-Or whether our services share our data with third parties, and then how *those*
+of how our data is being used by the various Web services that collect it.
+We seek to enable the end users, as well as auditors on their behalf, to
+better understand and judge the propriety. thereby empowering
+users, and auditors on their behalf, to reach informed conclusions about
+the services they use.  For example, wouldn't it be great if we knew
+which emails trigger which ads so we can avoid clicking on those that might
+reveal sensitive data? Or which prior purchases trigger which prices? Or
+whether our services share our data with third parties, and then how *those*
 parties use the data?  We believe that such visibility would be valuable for
 users but also to auditors, such as researchers, journalists, or regulators,
 who can serve as watchdogs of this data-driven world.
+-->
 
 Unfortunately, revealing data use in the uncontrolled Web is incredibly difficult,
-and hardly any tools exist to do so.   The science of doing so is also largely
-non-existent.  The Web is a complex world, with immense scale and as many diverse
-data uses as Web services.  Our research, then, aims to build both the tools and
-the scientific building blocks necessary to reveal data use on the Web.
-
+and hardly any tools exist to do so.   Worse, the scientific foundations -- the
+algorithms, mechanisms, and protocols -- for doing so are largely non-existent.
+Our research, then, aims to build both the <font color="blue"><i>tools</i></font>
+and the <font color="blue"><i>scientific building blocks</i></font> necessary to
+reveal data use on the Web.
 
 
 ### XRay
 
-Today, we are releasing <font color="blue"><b><i>XRay</i></b></font>, our first
+Today, we are releasing <font color="blue">XRay</font>, our first
 transparency system for the Web.  It reveals which specific data inputs (such as
 emails) are used to target which outputs (such as ads).  It is general and can
-track targeting both within and across arbitrary Web services.  The key idea
-behind XRay is to *detect targeting through black-box input/output correlation*.
+track targeting both within and across arbitrary Web services.  The key idea behind
+XRay is to *detect targeting through black-box input/output correlation*.
 XRay populates a series of extra accounts with subsets of the inputs and then
 looks at the differences and commonalities between the outputs that they get
 in order to obtain correlation.  This mechanism is effective at detecting
@@ -67,19 +83,25 @@ certain types of data uses, though not all.  For its details, please refer
 to our [research paper]({{ site.baseurl }}/public/usenix14lecuyer.pdf), which
 will appear in August at USENIX Security 2014, a top systems security conference.
 
-Scientifically, the big breakthrough in XRay is its <font color="blue">*service-independent,
-accurate, and scalable correlation engine*</font>, which can be used as a
-building block for revealing targeting on many services.  We initially built
-XRay to correlate ads to the emails they target in Gmail, and then applied its
-correlation engine *as-is* to correlate recommendations in YouTube and Amazon
-based on various inputs.  Across these very different services, XRay predicted
-targeting with 80-90% accuracy without a single change in its code or parameters.
-Moreover, XRay scales surprisingly well, requiring only a modest number of extra
-accounts to track use of a large number of inputs (logarithmic).
+Our current XRay prototype works with Gmail, YouTube, and Amazon.  It can correlate
+ads in Gmail to the emails they target, and recommendations in YouTube and
+Amazon based on previously viewed videos and products, respectively.  However, XRay's
+correlation mechanism -- its *"brain"* -- is *service-agnostic* and can be reused
+as a building block to construct future tools that reveal targeting in other services.
 
-We know of no other system that comes close to XRay's generality, accuracy,
-or scale.  We thus deem XRay as a *major new step toward <font color="blue">increased
-transparency</font> in this data-driven Web*.
+We evaluated XRay across the three services it currently supports.  Unlike Amazon and
+YouTube, Gmail does not provide detailed explanations of its targeting, so we manually
+validated XRay's correlations.  For all these very different services, XRay predicted
+targeting with 80-90% accuracy without requiring a single change in its correlation
+mechanisms.  Moreover, XRay we have proven both theoretically and experimentally that
+XRay scales surprisingly well, requiring only a modest number of extra accounts to
+track use of a large number of inputs.
+
+We know of no other system that comes close to XRay's generality, accuracy, or
+scale at detecting targeting on the Web.  We hope that its reusable components can
+bolster the creation of a new generation of auditing tools that will help lift the
+curtain on how personal data is being used.  We thus deem XRay as a *major new step
+toward <font color="blue">increased transparency</font> in this data-driven Web*.
 
 
 ### Using XRay
@@ -90,16 +112,13 @@ for revealing data use in this complex Web world, including robustness in face
 of malicious services, usability, and ease of instantiation on more services.
 
 To spur further progress in this important, and largely unexplored, area of Web
-transparency, we are releasing three artifacts:
+transparency, we are releasing several artifacts:
 
 1. A <a href="{{ site.baseurl }}/gmail-demo/"><font color="blue">demo service</font></a>,
 which wraps our XRay Gmail prototype and can be used by researchers, journalists, and
-investigators to gain visibility into Gmail's ad ecosystem.  Using this service, we
-found some pretty interesting correlations, such as lots of ads targeting
-depression, cancer, and other illnesses; clothing ads targeting pregnancy; and lots
-of subprime loan ads for used cars that targeted the debt and broke keywords users'
-inboxes. Our <a href="{{ site.baseurl }}/findings/"><font color="blue">Results</font></a>
-page includes more results.
+investigators to gain visibility into Gmail's ad ecosystem.  Our experience with
+this service thus far 
+
 
 2. Our prototype's <a href="https://github.com/MatLecu/xray/"><font color="blue">source
 code</font></a>, which can be used by researchers to both improve XRay and
