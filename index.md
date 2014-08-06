@@ -25,7 +25,7 @@ Currently, XRay can reveal some forms of targeting for Gmail ads,
 Amazon product recommendations, and YouTube video recommendations.
 However, XRay's core mechanisms are largely service-agnostic, providing
 the necessary building blocks that we hope will enable a new generation
-of auditing tools that will help lift the curtain on how our personal
+of auditing tools that will help lift the curtain on how users' personal
 data is being used.
 
 Using our XRay Gmail prototype, we found some pretty interesting
@@ -49,11 +49,12 @@ searches) to target various outputs (such as ads or recommendations).
 
 Read about:
 
-* The XRay system [[XRay]({{ site.baseurl }}/approach/)].
-* Examples of findings using XRay on Gmail [[Results]({{ site.baseurl }}/findings/)].
-* How to use our Gmail ad demo service, which phishes for ads
-targeted on certain topics and reports them for your analysis
-[[Demo]({{ site.baseurl }}/gmail-demo/)].
-* Materials we make available today, including our research paper
-and XRay's source code, plus contact info [[Resources]({{ site.baseurl }}/resources/)].
+* The XRay system. [[XRay]({{ site.baseurl }}/approach/)]
+* Examples of findings using XRay on Gmail. [[Use Cases]({{ site.baseurl }}/findings/)]
+* How to use our Gmail ad demo service, which reveals ads
+targeted on certain sensitive topics, such as depression, cancer,
+pregnancy, race, or debt.  [[Demo]({{ site.baseurl }}/gmail-demo/)]
+* Materials we make available today, including our upcoming
+USENIX Security paper and XRay's source code, plus contact info.
+[[Resources]({{ site.baseurl }}/resources/)]
 

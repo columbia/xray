@@ -64,6 +64,8 @@ who can serve as watchdogs of this data-driven world.
 Unfortunately, revealing data use in the uncontrolled Web is incredibly difficult,
 and hardly any tools exist to do so.   Worse, the scientific foundations -- the
 algorithms, mechanisms, and protocols -- for doing so are largely non-existent.
+While some tools (e.g., [this](https://www.eff.org/privacybadger), [this](https://www.mozilla.org/en-US/lightbeam/), [this](https://citp.princeton.edu/webtransparency/)) exist for revealing data *collection* by Web services, none of them
+can reveal data *use*.
 Our research, then, aims to build both the <font color="blue"><i>tools</i></font>
 and the <font color="blue"><i>scientific building blocks</i></font> necessary to
 reveal data use on the Web.
@@ -71,10 +73,10 @@ reveal data use on the Web.
 
 ### XRay
 
-Today, we are releasing <font color="blue">XRay</font>, our first
-transparency system for the Web.  It reveals which specific data inputs (such as
-emails) are used to target which outputs (such as ads).  It is general and can
-track targeting both within and across arbitrary Web services.  The key idea behind
+Today, we are releasing <font color="blue">XRay</font>, the first tool for revealing
+personal data use on the Web.  It reveals which specific data inputs (such as emails)
+are used to target which outputs (such as ads).  It is general and can
+track data use both within and across arbitrary Web services.  The key idea behind
 XRay is to *detect targeting through black-box input/output correlation*.
 XRay populates a series of extra accounts with subsets of the inputs and then
 looks at the differences and commonalities between the outputs that they get
@@ -106,19 +108,38 @@ toward <font color="blue">increased transparency</font> in this data-driven Web*
 
 ### Using XRay
 
-While our long-term plans for XRay and Web transparency are ambitious, our
-prototype is still in a research stage.  Many difficult challenges remain open
-for revealing data use in this complex Web world, including robustness in face
-of malicious services, usability, and ease of instantiation on more services.
+XRay can be used to increase user awareness about how their data is being used,
+as well as provide much needed tools for auditors seeking to keep that use under
+scrutiny (e.g., FTC investigators, researchers, or journalists).  For example,
+*users* using our XRay Gmail browser plugin, which labels ads with the topics they
+target, might choose to avoid clicking on an ad targeting a topic she considers
+sensitive, thereby avoiding potential leakage.  *Investigators*, such as FTC
+agents, can test Web services' privacy claims (e.g., does service X truly stop
+targeting when the user opts out from targeting?), or probe the services for
+deceptive or unfair data practices.  *Researchers* can leverage XRay to study
+targeting trends at a level of detail that was not possible before.  You can
+find more example use cases [here]({{ site.baseurl }}/usecases/).
 
-To spur further progress in this important, and largely unexplored, area of Web
-transparency, we are releasing several artifacts:
+While in the long term we plan to support all such use cases, our current
+prototype is still in an early research stage.  Many difficult challenges remain
+open for revealing data use in this complex Web world, including robustness in
+face of malicious services, usability, and ease of instantiation on more services.
+More about our prototype's limitations [here]({{ site.baseurl }}/gmail-demo#caveats).
+
+For this reason, today we are making XRay and its Gmail instantiation available
+to researchers, investigators, and journalists who have the context to understand
+these limitations.  We hope that this release will spur further progress in this
+important, and largely unexplored, area of Web transparency.  Specifically, we
+make the following artifacts available:
 
 1. A <a href="{{ site.baseurl }}/gmail-demo/"><font color="blue">demo service</font></a>,
 which wraps our XRay Gmail prototype and can be used by researchers, journalists, and
-investigators to gain visibility into Gmail's ad ecosystem.  Our experience with
-this service thus far 
-
+investigators to gain visibility into Gmail's ad ecosystem.  As a teaser, using
+the service we found examples of ads targeting various sensitive topics, such as
+illnesses, depression, race, pregnancy, or sexual orientation (see more examples
+on our [Results](<a href="{{ site.baseurl }}/findings#observations">).
+The service makes ad targeting data available to you, but please do be careful when
+you use it, as it does come with [caveats]({{ site.baseurl }}/gmail-demo#caveats).
 
 2. Our prototype's <a href="https://github.com/MatLecu/xray/"><font color="blue">source
 code</font></a>, which can be used by researchers to both improve XRay and
