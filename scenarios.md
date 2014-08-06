@@ -25,7 +25,7 @@ convenient way to discover new retail offerings.  Recently, she discussed her
 ad-clicking practices with her friend Tom, a computer security expert.  Tom
 warned her about potential privacy implications of clicking on ads without
 knowing what data they target.  For example, if she clicks on an ad targeting
-the keyword ``gay'' and then authenticates to purchase something from that
+the keyword "gay" and then authenticates to purchase something from that
 vendor, she is unwittingly volunteering potentially sensitive information to the
 vendor.  Tom tells Ann that she has two options to protect her privacy.
 She can either disable the ads altogether (using a system like AdBlock), or

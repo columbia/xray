@@ -88,3 +88,8 @@ Configuration file: /home/mathias/gh/xray/_config.yml
 Configuration file: /home/mathias/gh/xray/_config.yml
     Server address: http://0.0.0.0:4000/xray/
   Server running... press ctrl-c to stop.
+Configuration file: /home/mathias/gh/cron/xray/_config.yml
+            Source: /home/mathias/gh/cron/xray
+       Destination: /home/mathias/gh/cron/xray/_site
+      Generating... 
+[33m        Pagination: Pagination is enabled, but I couldn't find an index.html page to use as the pagination template. Skipping pagination.[0m

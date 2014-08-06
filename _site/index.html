@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en-us">
-
   <head>
   <link href="http://gmpg.org/xfn/11" rel="profile">
   <meta http-equiv="content-type" content="text/html; charset=utf-8">
@@ -28,7 +27,6 @@
   <!-- <link rel="alternate" type="application/rss+xml" title="RSS" href="/atom.xml"> -->
 </head>
 
-
   <body class="layout">  <!-- reverse -->
     <div class="sidebar">
   <div class="container sidebar-sticky">
@@ -48,14 +46,24 @@
       
         
           
-        
-      
+            <li class="sidebar-nav-item">
+            <a href="/xray/2-system-description/">XRay</a>
+            </li>
+          
         
       
         
           
             <li class="sidebar-nav-item">
-            <a href="/xray/demo/">Demo Service</a>
+            <a href="/xray/3-use-cases/">Use Cases</a>
+            </li>
+          
+        
+      
+        
+          
+            <li class="sidebar-nav-item">
+            <a href="/xray/4-gmail-demo/">Demo</a>
             </li>
           
         
@@ -66,12 +74,8 @@
       
         
           
-        
-      
-        
-          
             <li class="sidebar-nav-item">
-            <a href="/xray/resources/">Resources</a>
+            <a href="/xray/5-resources/">Links</a>
             </li>
           
         
@@ -79,9 +83,21 @@
         
           
             <li class="sidebar-nav-item">
-            <a href="/xray/team/">Team</a>
+            <a href="/xray/6-team/">People</a>
             </li>
           
+        
+      
+        
+      
+        
+          
+        
+      
+        
+          
+        
+      
         
       
 
@@ -96,84 +112,62 @@
 
     <div class="content container">
       <p class="message" align="right">
-  <i>What are <font color="red">"they"</font> doing with
-     <font color="red">my data</font>?</i>
+  <i>What are <font color="red">"They"</font> doing with
+     <font color="red">our data</font>?</i>
 </p>
 
-<h3 id="tools-for-a-transparent-web">Tools for a Transparent Web</h3>
+<p>The Web can be a black box. When a user sees an ad about spiritual
+meditation methods, she may not realize that she&#39;s seeing that ad
+because she recently received an email about depression or cancer.
+We are seeking to change that, and in doing so bring more transparency
+to the Web.</p>
 
-<p>We live in a data-driven world. Most Web services, mobile apps, and
-third parties we interact with daily are collecting immense amounts of
-information about us -- every location, click, or site that we visit.
-They are mining our emails and documents.  And they are using all of this
-information for various purposes; at times, they even share the data with
-third-parties -- <font color="blue"><em>all without our knowledge or consent</em></font>.</p>
+<p>For this, we developed XRay, a new tool that reveals which
+data in a web account, such as emails, searches, or viewed products,
+are being used to target which outputs, such as ads, recommended
+products, or prices.  It can increase end-user awareness about
+what the services they use do with their data, and it can enable auditors
+and watchdogs with the necessary tools to keep the Web in check.</p>
 
-<p>For example, did you know that credit companies <a href="http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/">might be adjusting loan offers</a> based on your Facebook
-data?   Or that certain travel companies <a href="http://online.wsj.com/news/articles/SB10001424052702304458604577488822667325882">discriminated prices</a>
-based on user profile and location?
-Or that some companies <a href="/xray/demo/">target ads on illness-related emails</a>,
-and if you click on them, you can leak sensitive information to them?
-Maybe you already knew these things in the abstract, but the question is: <em>Do
-you know when such things are happening to you</em>?  Not always, we bet.</p>
+<p>Currently, XRay can reveal some forms of targeting for Gmail ads,
+Amazon product recommendations, and YouTube video recommendations.
+However, XRay&#39;s core mechanisms are largely service-agnostic, providing
+the necessary building blocks that we hope will enable a new generation
+of auditing tools that will help lift the curtain on how users&#39; personal
+data is being used.</p>
 
-<p>At Columbia, we have been pondering over the past several years on the following
-related question:  <font color="blue"><em>Can we build tools that reveal what Web
-services are doing with our data</em></font>?  If Web services are tracking our data,
-we wish in turn to track their use of it.  For example, wouldn&#39;t it be great if we
-knew which emails trigger which ads, which prior purchases trigger which
-recommendations or prices?  Or whether our services share our data with third
-parties, and then how <em>those</em> parties use the data?  We believe that it would be
-great to have such visibility.</p>
+<p>Using our XRay Gmail prototype, we found some pretty interesting
+examples of data uses, such as a number of ads targeting depression,
+cancer, and other illnesses.  We also saw quite a few subprime loan ads
+for used cars that targeted debt, loan, or borrow keywords in users&#39;
+inboxes.</p>
 
-<p>Today we are releasing <font color="blue"><b>XRay</b></font>, a new tool that
-brings an unprecedented level of transparency to today&#39;s data-driven Web by
-enabling answers to such questions.  XRay tracks the use of personal data
-on the Web and discerns which specific data inputs (such as emails or searches)
-are used to produce which outputs (such as ads or prices).  It is very general
-and can track data use both within and across arbitrary Web services.
-The key idea behind XRay is quite intuitive, although its details are complex.
-<font color="blue"><em>XRay detects data use by correlating data inputs with
-outputs</em></font>. It populates a series of extra accounts with subsets of the
-inputs and then looks at the differences and commonalities between the outputs
-that they get in order to obtain correlation.  This mechanism is effective
-at detecting certain types of data uses, though not all.  For its details,
-please refer to our <a href="/xray/public/xray.pdf">research paper</a>,
-which will appear in August at USENIX Security 2014, a top systems security
-conference.</p>
+<!--
+Privacy has all but disappeared in today's data-driven world.
+This is due to users who are often too eager to share their data online
+and Web services that are too eager to collect and use their information.
+Our approach is to <font color="blue"><b>increase transparency</b></font>
+of what Web services do with users' data -- what data they collect, for what
+purposes they are using it, and with whom they share it -- thereby empowering
+users, and auditors on their behalf, to reach informed conclusions about
+the services they use.  We are releasing <font color="blue"><b>XRay</b></font>,
+a first tool that reveals how Web services use our data (such as emails or
+searches) to target various outputs (such as ads or recommendations).
+-->
 
-<p>The big breakthrough in XRay is its <font color="blue"><em>robust, accurate, 
-and scalable correlation engine</em></font> that applies to many services.
-We initially built XRay to correlate ads to the emails they target in Gmail,
-and then applied its correlation engine <em>as-is</em> to correlate recommendations
-in YouTube and Amazon based on various inputs.  Across these very different
-services, XRay predicted targeting with 80-90% accuracy without a single change in
-its code or parameters.  Moreover, we discovered that revealing certain forms
-of data use only requires a modest number of extra accounts (<em>logarithmic</em>
-in the number of tracked inputs).  We know of no other system that
-comes close to XRay&#39;s accuracy, scale, or robustness.  We thus deem XRay
-as a major new step toward making the data-driven Web a more transparent place.</p>
+<p>Read about:</p>
 
-<p>While our long-term plans for XRay and Web transparency are ambitious, our
-prototype is still in a research stage.  Many difficult challenges remain open
-for tracking data in this complex data-driven Web.  A major challenge, on which
-we are working now, is to ensure XRay&#39;s robustness against Web services that
-might wish to evade its monitoring.  Usability and ease of instantiation for a
-new service also remain challenging.  Finally, our current prototype can detect
-specific forms of data targeting, but not all.</p>
-
-<p>To spur further progress in this important, and largely unexplored, area of Web
-transparency, we are making our prototype available open-source on
-<a href="https://github.com/MatLecu/xray">GitHub</a>.  We have also packaged our XRay Gmail
-prototype into a <a href="/xray/demo/"><font color="blue">demo
-service</font></a>, which can already give
-a unique level of visibility into Gmail&#39;s targeted ad environment to researchers
-and journalists interested in this topic.  For example, using this service,
-we found some pretty interesting targeting cases, such as a Shamanic healer
-targeting depression, clothing ads targeting pregnancy, and lots of subprime
-loan ads to buy used cars targeted at users with debt or broke. Please see our
-<a href="/xray/demo/"><font color="blue">demo page</font></a> for
-more examples.</p>
+<ul>
+<li>The XRay system. [<a href="/xray/2-system-description/"><font color="blue">XRay</font></a>]</li>
+<li>Examples of findings using XRay on Gmail.
+[<a href="/xray/3-use-cases/"><font color="blue">Use Cases</font></a>]</li>
+<li>How to use our Gmail ad demo service, which reveals ads
+targeted on certain sensitive topics, such as depression, cancer,
+pregnancy, race, or debt.  [<a href="/xray/4-gmail-demo/"><font color="blue">Demo</font></a>]</li>
+<li>Released artifacts: USENIX Security paper and XRay&#39;s
+source code. [<a href="/xray/5-resources/"><font color="blue">Links</font></a>]</li>
+<li>Our team. [<a href="/xray/5-resources/"><font color="blue">People</font></a>]</li>
+</ul>
 
       <div id="footer" style="font-size:medium">
   <div class="message" align="center">
