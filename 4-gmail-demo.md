@@ -14,7 +14,7 @@ breakthroughs have been in making XRay and the service itself sufficiently
 robust and scalable so it can track many different topics and support
 large studies of Gmail's ad targeting ecosystem.  However, peeking at
 its data a little, we have already seen a lot of pretty interesting
-associations (examples discussed in [Use Cases]({{ site.baseurl }}/3-use-cases/)).
+associations (examples discussed in [Use Cases]({{ site.baseurl }}/3-use-cases#findings)).
 We believe that the data has incredible potential to reveal potentially
 abusive targeting practices.
 

@@ -11,11 +11,11 @@ title: Use Cases
 XRay can be used to increase user awareness about how their data is being used,
 as well as provide much needed tools for auditors seeking to keep that use under
 scrutiny (e.g., FTC investigators, researchers, or journalists).  You can find
-some hypothetical example use cases we imagine for XRay
-[here]({{ site.baseurl }}/usecases/).
+some powerful example use cases we envision XRay supporting in the future
+[here]({{ site.baseurl }}/scenarios/).
 
-To assess XRay's usefulness in the real world, we have been developing a 
-<a href="{{ site.baseurl }}/gmail-demo/"><font color="blue">service</font></a>,
+To assess XRay's usefulness at this time, we have been developing a 
+<a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue">service</font></a>,
 which continuously collects ads from Gmail and reports those strongly correlated
 with certain topics, such as cancer, depression, race, or debt.  It's still work
 in progress, but we've already found some pretty <font color="blue">jarring
@@ -32,7 +32,7 @@ service's targeting data available to anyone interested in sensitive-topic ad
 targeting in Gmail.
 
 
-<h3 id="observations">Example Associations</h3>
+<h3 id="findings">Example Associations</h3>
 
 The table below (scroll down) shows examples of topic/ad correlations XRay
 made.  For each topic, we were tracking targeting of an email containing
@@ -126,12 +126,12 @@ The Table:
 ### Interested in Ad Data?  Visit our Demo Service
 
 The above observations were reached from an early look at XRay's data.
-Our <a href="{{ site.baseurl }}/gmail-demo/"><font color="blue"><b>XRay demo
+Our <a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue"><b>XRay demo
 service</b></font></a> has since been collecting much more data, which we
 invite you to visit to draw your own observations about Gmail's ad ecosystem.
 
 If you have an idea for a new topic that would be interesting to track ad
-targeting for, please [send us an email]({{ site.baseurl }}/team/).  We'll try to
+targeting for, please [send us an email]({{ site.baseurl }}/5-resources#team/).  We'll try to
 incorporate your topic of interest into our service and make the ads
 targeting that topic available to you.  Due to the volume of emails we receive,
 we may not be able to respond directly to all requests.
