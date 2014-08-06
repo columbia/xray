@@ -54,7 +54,6 @@ Read about:
 * How to use our Gmail ad demo service, which reveals ads
 targeted on certain sensitive topics, such as depression, cancer,
 pregnancy, race, or debt.  [[Demo]({{ site.baseurl }}/gmail-demo/)]
-* Materials we make available today, including our upcoming
-USENIX Security paper and XRay's source code, plus contact info.
-[[Resources]({{ site.baseurl }}/resources/)]
+* Our released artifacts: an upcoming USENIX Security paper and XRay's
+  source code. [[Resources]({{ site.baseurl }}/resources/)]
 

@@ -19,16 +19,12 @@ and <i>sad</i>; the pregnancy email included <i>pregnancy</i> and <i>pregnant</i
 
 Using our service, we've already found some pretty interesting associations,
 about which you can read on our <a href="{{ site.baseurl }}/findings/">
-<font color="blue">Results</font></a> page.
-For example, we've seen ads correlating with various illnesses and
-lots of subprime loan ads for used cars that correlate strongly with
-the presence of the *debt* or *broke* keywords users' inboxes.
-
-We are convinced that there are many more interesting things to be gleaned
-from this data, so we invite researchers, journalists, and other
-investigators to take a look at our service.  However, before you do so,
-please be sure you read at least the following caveats on data
-interpretation, if not our [technical paper]({{ site.baseurl }}/public/usenix14lecuyer.pdf).
+<font color="blue">Results</font></a> page.  We are convinced that there are
+many more interesting things to be gleaned from such data, so we invite
+researchers, journalists, and other investigators to take a look at our service
+and tell us if they want to access the data it continuously gathers.
+However, before you do so, please be sure you read at least the following
+caveats on data interpretation, if not our [technical paper]({{ site.baseurl }}/public/usenix14lecuyer.pdf).
 
 <center>
   <a href="http://data.lec.io/">
@@ -50,7 +46,7 @@ every ad to verify that it meets your requirement for certainty.  To interpret
 that data,you need some background in statistics.
 
 2. XRay reports *correlation* between emails and ads, but it cannot
-report *causality*.  Just because a particular ad correlates with a particular
+report *causation*.  Just because a particular ad correlates with a particular
 email does not mean that the advertiser himself/herself caused that correlation.
 Other aspects, such as Gmail's own algorithms for ad placement, could have
 created a correlation that an advertiser might not even have thought about.

@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Results
+title: Use Cases
 ---
 
 <p class = "message" align="right">
@@ -8,30 +8,38 @@ title: Results
        <font color="red">depression</font> keyword in my inbox?!</i>
 </p>
 
-We analyzed data from an early deployment of our [XRay demo service]({{ site.baseurl }}/gmail-demo/).  While our data is too small scale to reach definite conclusions,
-we did observe some pretty interesting associations.
-For example, a <font color="red">"Shamanic healing"</font> ad appeared
-exclusively in accounts containing emails about <font color="red">depression</font>;
-a number of <font color="green">clothing brand ads</font> correlate strongly
-with the presence of <font color="green">pregnancy-related emails</font>
-in a user's inbox; and <font color="magenta">used car ads</font> correlate
-strongly with <font color="magenta">debt-related emails</font>, suggesting
-subprime targeting.
+XRay can be used to increase user awareness about how their data is being used,
+as well as provide much needed tools for auditors seeking to keep that use under
+scrutiny (e.g., FTC investigators, researchers, or journalists).  You can find
+some hypothetical example use cases we imagine for XRay
+[here]({{ site.baseurl }}/usecases/).
 
-This page shows some example associations we found, and some high-level
-observations we draw from them.
+To assess XRay's usefulness in the real world, we have been developing a 
+<a href="{{ site.baseurl }}/gmail-demo/"><font color="blue">service</font></a>,
+which continuously collects ads from Gmail and reports those strongly correlated
+with certain topics, such as cancer, depression, race, or debt.  It's still work
+in progress, but we've already found some pretty <font color="blue">jarring
+associations</font> by peeking into one week's worth of its data.  For example,
+we've seen ads on spiritual meditation courses that targeted depression or cancer;
+we've seen big-store clothing ads targeting pregnancy; and we've seen used car
+ads that correlate strongly with the presence of the debt keyword in a user's inbox.
+
+This page shows some example interesting associations and some high-level
+implications we draw from them.  Our purpose is to illustrate through
+examples the great potential inherent in the targeting data XRay is gathering.
+Thorough studies of the data are among our future plans.  We are making the
+service's targeting data available to anyone interested in sensitive-topic ad
+targeting in Gmail.
 
 
-<h3 id="table">Example Associations</h3>
+<h3 id="observations">Example Associations</h3>
 
-The table below shows examples of topic/ad correlations XRay made.
-For each topic, we were tracking targeting of an email containing
+The table below (scroll down) shows examples of topic/ad correlations XRay
+made.  For each topic, we were tracking targeting of an email containing
 keywords related to that topic (e.g., the depression-related email
 included *depression*, *depressed*, and *sad*).  We used XRay to
 detect correlation between emails and ads. Conservatively, we only
-show here correlations that were very strong. We next derive
-[higher-level observations]({{ site.baseurl }}/findings#observations)
-based on our data.
+show here correlations that were very strong.
 
 We've just started to peek into the service's data and we've already
 seen a lot of interesting things.  While thorough investigations are
@@ -48,14 +56,14 @@ fight breast cancer correlates with the cancer email.  See other examples in
 the table.
 
 **Obs. 2: Targeting is often obscure and potentially dangerous:**
-For many ads, targeting was extremely obscure and, we believe, non-obvious to 
-end-users. For example, nothing in the shamanic healing ad suggests association
-with the depression keyword; nothing in the clothing-related ads suggest association
-with pregnancy. In such cases, users might click on an ad not realizing they might be
-disclosing private information to advertisers. Imagine an insurance company wanting
-to learn about pre-existing conditions of its customers before signing them up.
-The company could create two ad campaigns, one targeting cancer and the other youth,
-and assign  different URLs to each campaign. It could then offer higher premium
+Look at many of the ads in the table; is their targeting obvious to you?
+We don't think so. For example, nothing in the shamanic healing ad suggests
+association with the depression keyword. In such cases, users might click
+on an ad not realizing they might be disclosing private information to
+advertisers. Imagine an insurance company wanting to learn about pre-existing
+conditions of its customers before signing them up. The company could create
+two ad campaigns, one targeting cancer and the other youth, and assign
+different URLs to each campaign. It could then offer higher premium
 quotes to users coming  in from the cancer-related ads to discourage them from
 signing up while offering lower premium quotes to people coming in from the
 youth-related ads.
@@ -70,8 +78,9 @@ for full-fledged investigations.  Just by peeking at the targeting data we
 have seen some signs of abuse, whereby vulnerable populations being targeted
 with ads for questionable services.
 
-As an example, we have seen signs of what could be *subprime targeting*.
-According to a recent [New York Times article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0),
+As an example, we have seen signs of what could be <font color="blue">subprime
+targeting</font>.  According to a recent
+[NYT article](http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0),
 our society is undergoing a subprime loan bubble for used cars.
 In our dataset, we've come across a number of loan ads for buying used
 cars that promised 100% acceptance without credit checks. Many of these
@@ -82,9 +91,9 @@ that ad correlates with the *debt* keyword.  XRay alone cannot confirm whether
 the ad correlations with debt-related keywords were the result of intentional
 targeting of debt-ridden populations by the lenders, however the example
 does illustrate how XRay can be used to discover interesting trends and help
-obtain some quantification of them.
+obtain quantitative support for them.
 
-
+The Table:
 
 <font size="3.5pt">
 
