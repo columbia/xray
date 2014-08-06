@@ -10,14 +10,6 @@ title: XRay
 
 ### The Problem
 
-<!-- Many of the Web services, mobile apps, and third parties we interact with
-daily collect immense amounts of information about us -- every location,
-click, search, and site that we visit. They mine our emails and documents.
-Occasionally, they share our information with third parties.  All of this
-happens *without our knowledge or consent*. This <font color="blue">lack of
-transparency</font> exposes us to unforeseen risks and abusive uses of our
-data. -->
-
 We live in a data-driven world. Many of the Web services, mobile apps, and third parties we interact with daily are collecting immense amounts of information about us -- every location, click, search, email, document, and site that we visit. And they are using all of this information for various purposes. Some uses of these uses might be beneficial for us (e.g., recommendations for new videos or songs to see); other uses may not be as beneficial. The problem is that we have <font color="blue"><i>limited visibility</i></font> into how our data is being used, and hence we are vulnerable to potential deceptive or unfair practices.
 
 For example, did you know that credit companies [might be adjusting loan
@@ -38,28 +30,6 @@ recommendations or prices? Or whether our services share our data with third par
 and then how those parties use the data? We believe that such visibility would be
 valuable for users but also to auditors, such as researchers, journalists, or
 regulators, who can serve as watchdogs of this data-driven world.
-
-<!--
-A common approach to increasing privacy is to *prevent services' use of our data*.
-If you talk to a security expert, s/he might tell you to install an ad blocker,
-never click on recommendations, and encrypt your emails.  But these defenses all
-come with downsides.  Many of us love our recommendations for new music and
-movies to watch; if we encrypt our emails we cannot search for them; and the
-services we all use for free are funded, for better or worse, through this data.
-
-Our approach to privacy is to <font color="blue">*increase transparency*</font>
-of how our data is being used by the various Web services that collect it.
-We seek to enable the end users, as well as auditors on their behalf, to
-better understand and judge the propriety. thereby empowering
-users, and auditors on their behalf, to reach informed conclusions about
-the services they use.  For example, wouldn't it be great if we knew
-which emails trigger which ads so we can avoid clicking on those that might
-reveal sensitive data? Or which prior purchases trigger which prices? Or
-whether our services share our data with third parties, and then how *those*
-parties use the data?  We believe that such visibility would be valuable for
-users but also to auditors, such as researchers, journalists, or regulators,
-who can serve as watchdogs of this data-driven world.
--->
 
 Unfortunately, revealing data use in the uncontrolled Web is incredibly difficult,
 and hardly any tools exist to do so.   Worse, the scientific foundations -- the
