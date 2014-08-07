@@ -34,7 +34,7 @@ targeting in Gmail.
 
 <h3 id="findings">Example Associations</h3>
 
-The table below (scroll down) shows examples of topic/ad correlations XRay
+The table [below](#table) shows examples of topic/ad correlations XRay
 made.  For each topic, we were tracking targeting of an email containing
 keywords related to that topic (e.g., the depression-related email
 included *depression*, *depressed*, and *sad*).  We used XRay to
