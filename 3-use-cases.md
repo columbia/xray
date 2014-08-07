@@ -53,7 +53,7 @@ got ads.  A shamanic healing ad appears exclusively in accounts containing the
 depression-related email, and many times in its context; ads for assisted living
 services strongly correlates with the Alzheimer email; and a Ford campaign to
 fight breast cancer correlates with the cancer email.  See other examples in
-the table.
+the [table](#table).
 
 **Obs. 2: Targeting is often obscure and potentially dangerous:**
 Look at many of the ads in the table; is their targeting obvious to you?
