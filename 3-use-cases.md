@@ -93,7 +93,7 @@ targeting of debt-ridden populations by the lenders, however the example
 does illustrate how XRay can be used to discover interesting trends and help
 obtain quantitative support for them.
 
-The Table:
+<a name="table"></a>The Table:
 
 <font size="3.5pt">
 
