@@ -122,6 +122,12 @@ The Table:
 
 </font>
 
+Note:  We report the results above *not* to point fingers at Gmail
+or any advertisers; indeed, the lack of transparency is a pervasive and
+difficult problem.  Rather, we aim to illustrate the dangers raised
+by the lack of transparency and hopefully bolster a conversation about
+how to go about improving this situation over time.
+
 
 ### Interested in Ad Data?  Visit our Demo Service
 
@@ -131,7 +137,7 @@ service</b></font></a> has since been collecting much more data, which we
 invite you to visit to draw your own observations about Gmail's ad ecosystem.
 
 If you have an idea for a new topic that would be interesting to track ad
-targeting for, please [send us an email]({{ site.baseurl }}/5-resources#team/).  We'll try to
+targeting for, please [send us an email]({{ site.baseurl }}/6-team/).  We'll try to
 incorporate your topic of interest into our service and make the ads
 targeting that topic available to you.  Due to the volume of emails we receive,
 we may not be able to respond directly to all requests.
