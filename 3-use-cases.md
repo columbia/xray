@@ -34,7 +34,7 @@ targeting in Gmail.
 
 <h3 id="findings">Example Associations</h3>
 
-The table below (scroll down) shows examples of topic/ad correlations XRay
+The table [below](#table) shows examples of topic/ad correlations XRay
 made.  For each topic, we were tracking targeting of an email containing
 keywords related to that topic (e.g., the depression-related email
 included *depression*, *depressed*, and *sad*).  We used XRay to
@@ -53,7 +53,7 @@ got ads.  A shamanic healing ad appears exclusively in accounts containing the
 depression-related email, and many times in its context; ads for assisted living
 services strongly correlates with the Alzheimer email; and a Ford campaign to
 fight breast cancer correlates with the cancer email.  See other examples in
-the table.
+the [table](#table).
 
 **Obs. 2: Targeting is often obscure and potentially dangerous:**
 Look at many of the ads in the table; is their targeting obvious to you?
@@ -93,7 +93,7 @@ targeting of debt-ridden populations by the lenders, however the example
 does illustrate how XRay can be used to discover interesting trends and help
 obtain quantitative support for them.
 
-The Table:
+<a name="table"></a>The Table:
 
 <font size="3.5pt">
 

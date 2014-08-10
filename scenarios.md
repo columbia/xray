@@ -25,7 +25,7 @@ convenient way to discover new retail offerings.  Recently, she discussed her
 ad-clicking practices with her friend Tom, a computer security expert.  Tom
 warned her about potential privacy implications of clicking on ads without
 knowing what data they target.  For example, if she clicks on an ad targeting
-the keyword ``gay'' and then authenticates to purchase something from that
+the keyword "gay" and then authenticates to purchase something from that
 vendor, she is unwittingly volunteering potentially sensitive information to the
 vendor.  Tom tells Ann that she has two options to protect her privacy.
 She can either disable the ads altogether (using a system like AdBlock), or
@@ -77,9 +77,10 @@ article to expose the policy change and its implications.
 **Scenario 4: Does Delete Mean Delete?**  Dan, a CS researcher, has seen
 the latest news that Snapchat, an ephemeral-image sharing Website, does not
 destroy users' images after the requested timeout but instead just unlinks
-them~\cite{Snapc0:Online}.  He wonders whether the reasons for this are purely
-technical as the company has declared (e.g., flash wearing levels, undelete
-support, spam filtering)~\cite{snapchatblog, snapchatblog2} or whether these
+[them](http://www.theguardian.com/media-network/partner-zone-infosecurity/snapchat-photos-not-deleted-hidden).  He wonders whether the reasons for this are purely
+technical as the company has
+[declared](http://blog.snapchat.com/post/50060403002/how-snaps-are-stored-and-deleted) (e.g., flash wearing levels, undelete
+support, spam filtering) or whether these
 photos, or metadata drawn from them, are mined to target ads or other products
 on the Website.  The answer will influence his decision about whether to
 continue using the service. Dan instantiates XRay to track the correlation
