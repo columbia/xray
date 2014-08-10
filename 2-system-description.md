@@ -10,7 +10,7 @@ title: XRay
 
 ### The Problem
 
-We live in a data-driven world. Many of the Web services, mobile apps, and third parties we interact with daily are collecting immense amounts of information about us -- every location, click, search, email, document, and site that we visit. And they are using all of this information for various purposes. Some uses of these uses might be beneficial for us (e.g., recommendations for new videos or songs to see); other uses may not be as beneficial. The problem is that we have <font color="blue"><i>limited visibility</i></font> into how our data is being used, and hence we are vulnerable to potential deceptive or unfair practices.
+We live in a data-driven world. Many of the Web services, mobile apps, and third parties we interact with daily are collecting immense amounts of information about us -- every location, click, search, email, document, and site that we visit. And they are using all of this information for various purposes. Some uses of these uses might be beneficial for us (e.g., recommendations for new videos or songs to see); other uses may not be as beneficial. The problem is that we have <font color="blue"><i>limited visibility</i></font> into how our data is being used, and hence we are vulnerable to potential abuses.
 
 For example, did you know that credit companies [might be adjusting loan
 offers](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/)
