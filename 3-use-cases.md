@@ -24,12 +24,13 @@ we've seen ads on spiritual meditation courses that targeted depression or cance
 we've seen big-store clothing ads targeting pregnancy; and we've seen used car
 ads that correlate strongly with the presence of the debt keyword in a user's inbox.
 
-This page shows some example associations and some high-level
-implications we draw from them.  Our purpose is to illustrate through
-examples the great potential inherent in the targeting data XRay is gathering.
-Thorough studies of the data are among our future plans.  We are making the
-service's targeting data available to anyone interested in sensitive-topic ad
-targeting in Gmail.
+This page shows some example associations and some of their high-level implications.
+Note that we report these examples results *not* to point fingers at Gmail
+or any advertisers; indeed, the lack of transparency is a pervasive and
+difficult problem.  Rather, we aim to illustrate the dangers raised
+by the lack of transparency and hopefully bolster a conversation about
+how to go about improving this situation over time.  Moreover, all results should
+be viewed in the context of our system's [limitations]({{ site.baseurl }}/4-gmail-demo#caveats).
 
 
 <h3 id="findings">Example Associations</h3>
@@ -87,13 +88,13 @@ cars that promised 100% acceptance without credit checks. Many of these
 strongly correlated with the presence of keywords such as *debt*, *borrow*, or
 *loan* in user inboxes.  For example, in the table below, you can see a car
 dealership ad that entices users to take a Toyota test drive for $50 strongly;
-that ad correlates with the *debt* keyword.  XRay alone cannot confirm whether
+that ad correlates with the *debt* keyword.  XRay cannot confirm whether
 the ad correlations with debt-related keywords were the result of intentional
-targeting of debt-ridden populations by the lenders, however the example
-does illustrate how XRay can be used to discover interesting trends and help
-obtain quantitative support for them.
+targeting of debt-ridden populations by the lenders (see [caveats]({{ site.baseurl }}/4-gmail-demo#caveats)),
+however the example does illustrate how XRay can be used to discover interesting
+trends and help obtain quantitative support for them.
 
-<a name="table"></a>The Table:
+<a name="table"></a>**The Table:**
 
 <font size="3.5pt">
 
@@ -121,12 +122,6 @@ obtain quantitative support for them.
 | **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*                 |
 
 </font>
-
-Note:  We report the results above *not* to point fingers at Gmail
-or any advertisers; indeed, the lack of transparency is a pervasive and
-difficult problem.  Rather, we aim to illustrate the dangers raised
-by the lack of transparency and hopefully bolster a conversation about
-how to go about improving this situation over time.
 
 
 ### Interested in Ad Data?  Visit our Demo Service
