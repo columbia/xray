@@ -47,6 +47,8 @@ reveal *causation*.  Just because a particular ad correlates with a particular
 email does not mean that the advertiser himself/herself caused that correlation.
 Other aspects, such as Gmail's own algorithms for ad placement, could have
 created a correlation that an advertiser might not even have thought about.
+Hence, when we say "ad X targets topic Y," we really mean that "ad X correlates
+strongly with topic Y."
 
 3. The data we report right now is small in scale.  We track only about 20
 topics. We plan to increase that significantly in the near future, to
