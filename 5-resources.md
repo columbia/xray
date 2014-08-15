@@ -20,5 +20,5 @@ Theofilos Petsios, Riley Spahn, Augustin Chaintreau, and Roxana Geambasu.
 
 ### Prototype Source Code
 
-Available on [Github](https://github.com/MatLecu/xray).
+Available on [Github](https://github.com/matlecu/xray).
 
