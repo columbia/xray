@@ -25,12 +25,11 @@ we've seen big-store clothing ads targeting pregnancy; and we've seen used car
 ads that correlate strongly with the presence of the debt keyword in a user's inbox.
 
 This page shows some example associations and some of their high-level implications.
-Note that we report these examples results *not* to point fingers at Gmail
-or any advertisers; indeed, the lack of transparency is a pervasive and
-difficult problem.  Rather, we aim to illustrate the dangers raised
-by the lack of transparency and hopefully bolster a conversation about
-how to go about improving this situation over time.  Moreover, all results should
-be viewed in the context of our system's [limitations]({{ site.baseurl }}/4-gmail-demo#caveats).
+Our purpose is to illustrate through examples the great potential inherent in the
+targeting data XRay is gathering. Thorough studies of the data are among our future
+plans. We are making the service's targeting data available to anyone interested in
+sensitive-topic ad targeting in Gmail.  All results should be viewed in the context
+of our system's [limitations]({{ site.baseurl }}/4-gmail-demo#caveats).
 
 
 <h3 id="findings">Example Associations</h3>
@@ -122,6 +121,12 @@ trends and help obtain quantitative support for them.
 | **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*                 |
 
 </font>
+
+Note: We report these examples results *not* to point fingers at Gmail
+or any advertisers; indeed, the lack of transparency is a pervasive and
+difficult problem.  Rather, we aim to illustrate the dangers raised
+by the lack of transparency in targeted ad placement and hopefully bolster
+a conversation about how to go about improving this situation over time.
 
 
 ### Interested in Ad Data?  Visit our Demo Service
