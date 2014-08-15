@@ -88,7 +88,7 @@ which wraps our XRay Gmail prototype and can be used by researchers, journalists
 investigators to gain visibility into Gmail's ad ecosystem.  Our experience using it
 reveals some interesting associations, which we describe in [Use Cases]({{ site.baseurl }}/3-use-cases#findings).
 
-2. Our prototype's <a href="https://github.com/MatLecu/xray/"><font color="blue">source
+2. Our prototype's <a href="https://github.com/matlecu/xray/"><font color="blue">source
 code</font></a>, which can be used by researchers to both improve XRay and
 instantiate new tools on it to reveal data targeting on new Web services.
 
