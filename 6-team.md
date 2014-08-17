@@ -15,7 +15,7 @@ Professors:
 <td>
 Primary Students:
 <ul>
-<li> <a href="http://www.cs.columbia.edu/~mathias/">Mathias Lecuyer</a> (Ph.D.) -- project lead </li>
+<li> <a href="http://www.cs.columbia.edu/~mathias/">Mathias Lecuyer</a> (Ph.D., project lead) </li>
 <li> Francis Lan (M.S.) </li>
 <li> Guillaume Ducoffe (visitor) </li>
 </ul>
@@ -28,7 +28,7 @@ Contributors:
 <li> <a href="http://www.cs.columbia.edu/~riley/">Riley Spahn</a> (Ph.D.) </li>
 <li> <a href="http://www.cs.columbia.edu/~theofilos/">Theofilos Petsios</a> (Ph.D.) </li>
 <li> Bogdan Geambasu (consultant) </li>
-<li> Sravan Bhamidipati (former M.S.) </li>
+<li> Sravan Bhamidipati (M.S.) </li>
 </ul>
 </td>
 </tr>
