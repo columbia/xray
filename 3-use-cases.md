@@ -80,7 +80,7 @@ with ads for questionable services.
 
 As an example, we have seen signs of what could be <font color="blue">subprime
 targeting</font>.  According to a recent
-<a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0" target="_blank">NYT article</a>,
+<a href="http://dealbook.nytimes.com/2014/07/19/in-a-subprime-bubble-for-used-cars-unfit-borrowers-pay-sky-high-rates/?_php=true&_type=blogs&_r=0" target="_top">NYT article</a>,
 our society is undergoing a subprime loan bubble for used cars.
 In our dataset, we've come across a number of loan ads for buying used
 cars that promised 100% acceptance without credit checks. Many of these
