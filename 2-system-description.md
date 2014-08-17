@@ -12,12 +12,11 @@ title: XRay
 
 We live in a data-driven world. Many of the Web services, mobile apps, and third parties we interact with daily are collecting immense amounts of information about us -- every location, click, search, email, document, and site that we visit. And they are using all of this information for various purposes. Some uses of these uses might be beneficial for us (e.g., recommendations for new videos or songs to see); other uses may not be as beneficial. The problem is that we have <font color="blue"><i>limited visibility</i></font> into how our data is being used, and hence we are vulnerable to potential abuses.
 
-For example, did you know that credit companies [might be adjusting loan
-offers](http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/)
-based on your Facebook data?   Or that certain travel companies [used to
-discriminate prices](http://online.wsj.com/news/articles/SB10001424052702304458604577488822667325882)
-based on user profile and location?  Or that some companies [target ads on
-illness-related emails]({{ site.baseurl }}/3-use-cases#findings), and if you click on them, you can leak sensitive information to them?  Maybe you already knew these
+For example, did you know that credit companies <a href="http://money.cnn.com/2013/08/26/technology/social/facebook-credit-score/" target="_blank">might be adjusting loan
+offers</a>
+based on your Facebook data?   Or that certain travel companies <a href="http://online.wsj.com/news/articles/SB10001424052702304458604577488822667325882" target="_blank">used to
+discriminate prices</a>
+based on user profile and location?  Or that some companies <a href="{{ site.baseurl }}/3-use-cases#findings" target="_blank">target ads on illness-related emails</a>, and if you click on them, you can leak sensitive information to them?  Maybe you already knew these
 things in the abstract, but do you always know when such things are happening
 to *you*?  Not always, we bet.
 
@@ -34,8 +33,10 @@ regulators, who can serve as watchdogs of this data-driven world.
 Unfortunately, revealing data use in the uncontrolled Web is incredibly difficult,
 and hardly any tools exist to do so.   Worse, the scientific foundations -- the
 algorithms, mechanisms, and protocols -- for doing so are largely non-existent.
-While some tools (e.g., [this](https://www.eff.org/privacybadger), [this](https://www.mozilla.org/en-US/lightbeam/), [this](https://citp.princeton.edu/webtransparency/)) exist for revealing data *collection* by Web services, none of them
-can reveal data *use*.
+While some tools (e.g., <a href="https://www.eff.org/privacybadger" target="_blank">this</a>,
+<a href="https://www.mozilla.org/en-US/lightbeam/" target="_blank">this</a>,
+<a href="https://citp.princeton.edu/webtransparency/" target="_blank">this</a>)
+exist for revealing data *collection* by Web services, none of them can reveal data *use*.
 Our research, then, aims to build both the <font color="blue"><i>tools</i></font>
 and the <font color="blue"><i>scientific building blocks</i></font> necessary to
 reveal data use on the Web.
