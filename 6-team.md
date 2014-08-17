@@ -15,7 +15,7 @@ Professors:
 <td>
 Primary Students:
 <ul>
-<li> <a href="http://www.cs.columbia.edu/~mathias/">Mathias Lecuyer</a> (Ph.D.) </li>
+<li> <a href="http://www.cs.columbia.edu/~mathias/">Mathias Lecuyer</a> (Ph.D.) -- student lead </li>
 <li> Francis Lan (M.S.) </li>
 <li> Guillaume Ducoffe (visiting student) </li>
 </ul>
