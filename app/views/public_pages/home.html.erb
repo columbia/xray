@@ -1,0 +1,24 @@
+<%# <% if user_signed_in? %>
+		<div class="container">
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-md-6">
+          <h3>List of Keywords</h3>
+          <p>Show a list of keywords and click on each to get the ads targeting it. </p>
+          <p><%= link_to "List of Keywords", list_kw_path, :class => 'btn btn-primary btn-lg', :role => 'button' %></p>
+        </div>
+        <div class="col-md-6">
+          <h3>Search by URL (in progress)</h3>
+          <p>Enter an ad url to get the keywords it's targeting from the dictionary we are tracking.</p>
+          <p><%= link_to "Search by URL (in progress)", search_url_path, :class => 'btn btn-primary disabled btn-lg' %></p>
+        </div>
+      </div>
+    </div> <!-- /container -->
+<%# <% else %>
+  <%# <div class="container">
+    <h1>XRay demo</h1>
+    <p>This is a demo. Youhou!</p>
+    <p><%= link_to 'Sign up', new_user_registration_path, :class => 'btn btn-primary btn-lg' %>
+      <%# <%= link_to 'Login', new_user_session_path, :class => 'btn btn-lg btn-success' %><%# </p>
+  </div>
+<% end %>

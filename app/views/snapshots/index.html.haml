@@ -1,0 +1,10 @@
+= paginate @snapshots, params: @params
+
+%table
+  %tr
+    %td Signatures
+  - @snapshots.each do |snapshot|
+    %tr
+      %td #{snapshot.signatures.map { |s| s[0..50] }.join(" -|- ").force_encoding('ISO-8859-1').encode("UTF-8")}
+
+= paginate @snapshots, params: @params

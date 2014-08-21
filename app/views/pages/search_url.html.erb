@@ -1,0 +1,23 @@
+<h3>Search by URL</h3>
+
+	<%= form_tag :search_url, url: search_url_path do %>
+	  <%#<%= hidden_field_tag :arg, @params["Experiment"] %>
+	  	<%= select :p, :selectExp ,@list_kw_exp %>
+	  	<%= search_field_tag :url %>
+	    <%= submit_tag "Search", :class => "btn btn-primary" %>
+	<% end %>
+  	
+
+	<% if !@list_ads.nil? %>
+		<strong>Url : </strong><%= @list_ads["url"] %></br>
+	  	<% if !@list_ads["ad"].nil? %>
+	  		<strong>Ad : </strong><%= link_to "#{@list_ads["ad"]}", info_ad_path(:exp_name => @list_ads["exp_name"], :id => @list_ads["id"]), :class => 'link' %></br>
+	  		<% if !@list_ads["kw"].nil? %>
+	  			<strong>Keyword(s) targeted : </strong><%= @list_ads["kw"] %></br>
+			<% else %>
+				<strong>This ad doesn't seem to be targeting a keyword from our database.</br>
+			<% end %>
+	  	<% else %>
+	  		<strong>Ad not found in our database.</strong>
+	  	<% end %>
+	<% end %>

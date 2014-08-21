@@ -1,0 +1,10 @@
+= paginate @truths, params: @params
+
+%table
+  %tr
+    %td Signatures
+  - @truths.each do |truth|
+    %tr
+      %td #{truth.signatures.map { |s| s[0..50] }.join(" -|- ").force_encoding('ISO-8859-1').encode("UTF-8")}
+
+= paginate @truths, params: @params

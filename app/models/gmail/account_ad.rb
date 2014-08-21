@@ -1,0 +1,3 @@
+class AccountAd < AccountSnapshotCluster
+
+end

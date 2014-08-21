@@ -1,0 +1,3 @@
+class AccountRecommendation < AccountSnapshotCluster
+
+end

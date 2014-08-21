@@ -1,0 +1,33 @@
+<h3>Search by Keyword</h3>
+  <% if !@params.nil? %>
+  	<% @params.each do |k,v| %>
+  		<strong><%= k %> : </strong> <%= v %></br>
+  	<% end %>
+  <% end %>
+
+	<%= form_tag :search_kw, url: search_kw_path do %>
+	  <%#<%= hidden_field_tag :arg, @params["Experiment"] %>
+  	<% if @list_ads %>
+  		<%= select :p, :selectExp ,@list_kw_exp, :selected => @list_ads["exp_name"] %>
+  	<% else %>
+  		<%= select :p, :selectExp ,@list_kw_exp %>
+  	<% end %>
+  	<%= search_field_tag :keyword %>
+    <%= submit_tag "Search", :class => "btn btn-primary" %>
+	<% end %>
+  	
+
+  
+
+	<% if !@list_ads.nil? %>
+		<strong>Keyword : </strong><%= @list_ads["keyword"] %></br>
+		<% if @list_ads["ads"] != [] %>
+	  	<ul>
+		  	<% @list_ads["ads"].each do |ad| %>
+		  		<li><strong>Ad : </strong><%= link_to "#{ad[0]} -- #{ad[1]}", info_ad_path(:exp_name => @list_ads["exp_name"], :id => ad[2]), :class => 'link' %></li>
+		  	<% end %>
+	  	</ul>
+    <% else %>
+      <strong>No ad is targeting this keyword in our database.</strong>
+	  <% end %>
+  <% end %>

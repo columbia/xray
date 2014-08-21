@@ -1,0 +1,53 @@
+<h3>Experiment data</h3>
+
+  <% if @info %>
+  <strong><abbr title="The experiment this data comes from.">Experiment: </abbr></strong><%= @info["exp"]["exp_description"] %></br>
+  <strong><abbr title="The days when we collected data.">Experiment dates: </abbr></strong><%= @info["exp"]["exp_date"].join(" | ") %></br>
+  <strong><abbr title="The number of shadow accounts we used and the number of accounts each email was in.">Experiment features: </abbr></strong><%= @info["exp"]["exp_accs"] %> accounts total, the emails are in <%= @info["exp"]["exp_email_accs"] %> accounts each</br>
+  <strong><abbr title="The subject of the targeted email.">Email title: </abbr></strong><%= @info["email"]["subject"] %></br>
+  <strong><abbr title="The body of the targeted email.">Email body: </abbr></strong><%= @info["email"]["text"].first.gsub(/\n/, " ") %></br>
+
+<h3>Ad targeting data</h3>
+
+  <table class="table table-striped">
+    <tr>
+      <td><strong><abbr title="The text displayed by the ad.">Text</abbr></strong></td>
+      <td><%= @info["data"]["Text"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="The url displayed by the ad.">Url</abbr></strong></td>
+      <td><%= @info["data"]["Url"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="The email that correlates with this ad.">Correlated email</abbr></strong></td>
+      <td><%= @info["data"]["Email targeted"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="Number of shadow accounts with the targeted email AND th e ad displayed / Total number of accounts with the ad displayed.">#WithEmail / #Active</abbr></strong></td>
+      <td><%= @info["data"]["#WithEmail / #Active"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="The behavioral (profile) correlation score given by XRay.">Behavioral score</abbr></strong></td>
+      <td><%= @info["data"]["Behavioral score"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="Number of displays in the context of the correlated email / total number of displays. In all accounts.">#EmailContext / #Displays</abbr></strong></td>
+      <td><%= @info["data"]["#EmailContext / #Displays"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="Number of displays in the context of the correlated email / total number of displays. In the main accountonly.">Main account: #EmailContext / #Displays</abbr></strong></td>
+      <td><%= @info["data"]["Main account: #EmailContext / #Displays"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="The contextual correlation score given by XRay. This uses the main account information only.">Contextual score</abbr></strong></td>
+      <td><%= @info["data"]["Contextual score"] %></td>
+    </tr>
+    <tr>
+      <td><strong><abbr title="Average of behavioral and contextual scores.">Mix score</abbr></strong></td>
+      <td><%= @info["data"]["Mix score"] %></td>
+    </tr>
+
+    <% if @info["data"] != nil && @info["data"].has_key?("Error") %>
+      <strong><%= @info["data"]["Error"] %></strong>
+    <% end %>
+  <% end %>

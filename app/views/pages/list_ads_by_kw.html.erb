@@ -1,0 +1,36 @@
+<h3>Experiment data</h3>
+
+<% if !@params.nil? %>
+  <strong><abbr title="The experiment this data comes from.">Experiment: </abbr></strong><%= @params["exp"]["exp_description"] %></br>
+  <strong><abbr title="The days when we collected data.">Experiment dates: </abbr></strong><%= @params["exp"]["exp_date"].join(" | ") %></br>
+  <strong><abbr title="The number of shadow accounts we used and the number of accounts each email was in.">Experiment features: </abbr></strong><%= @params["exp"]["exp_accs"] %> accounts total, the emails are in <%= @params["exp"]["exp_email_accs"] %> accounts each</br>
+  <strong><abbr title="The subject of the targeted email.">Email title: </abbr></strong><%= @params["email"]["subject"] %></br>
+  <strong><abbr title="The body of the targeted email.">Email body: </abbr></strong><%= @params["email"]["text"].first.gsub(/\n/, " ") %></br>
+
+<h3>Targeted Ads</h3>
+
+<% if @params["ads"] != [] %>
+  <table class="table table-striped">
+  <tr>
+    <th><abbr title="More targeting information about the ad.">Info</abbr></th>
+    <th><abbr title="The day we collected the ad.">Experiment date</abbr></th>
+    <th><abbr title="The text displayed for the ad.">Text</abbr></th>
+    <th><abbr title="The displayed URL for the ad.">Url</abbr></th>
+    <th><abbr title="The behavioral score giver by XRay for the ad targeting.">Score</abbr></th>
+    <th><abbr title="Number of shadow accounts with the targeted email AND the ad displayed / Total number of accounts with the ad displayed.">#WithEmail / #Active</abbr></th>
+  </tr>
+  <% @params["ads"].sort_by { |x| x["text"] }.each do |ad| %>
+      <tr>
+        <td><%= link_to "Data", info_ad_path(:exp_name => ad["exp"], :id => ad["id"], :email => @params["email"]["subject"]), :class => 'link' %></td>
+        <td><%= ad["exp_date"] %></td>
+        <td><%= ad["text"] %></td>
+        <td><%= ad["url"] %></td>
+        <td><%= ad["behavior_score"] %></td>
+        <td style="text-align:right"><%= "#{ad["aa_with_email"]}/#{ad["active_accounts"]}" %></td>
+     </tr>
+  <% end %>
+  </table>
+  <% else %>
+  <strong>No ad is targeting this keyword in our database.</strong>
+  <% end %>
+<% end %>

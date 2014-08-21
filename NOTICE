@@ -1,0 +1,14 @@
+XRay: Transparency Tools for the Web
+Copyright Columbia University
+
+This software includes software developed at Columbia University
+(https://www.cs.columbia.edu).  It is offered under Apache 2.0
+license, AS-IS, and without any warranty of any kind.
+
+The majority of this software was developed by Mathias Lecuyer
+(http://mathias.lecuyer.me/).  Other contributors include:
+Francis Lan (service and correlation engine developments),
+Riley Spahn (Amazon port), and Theofilos Petsios (Youtube port).
+
+The software does not contain code from elsewhere.  Its package
+dependencies are available in Gemfiles.

@@ -1,0 +1,33 @@
+<h3>Choose an experiment</h3>
+
+  <%= form_tag :list_kw, url: list_kw_path do %>
+      <% if @list_kw %>
+        <%= select :p, :selectExp, @list_kw_exp, :selected => @list_kw["exp_name"] %>
+      <% else %>
+        <%= select :p, :selectExp, @list_kw_exp %>
+      <% end %>
+      <%= submit_tag "Select", :class => "btn btn-primary"%> 
+  <% end %>
+
+  <% if @list_kw %>
+<h3>List of Emails</h3>
+
+  <strong><abbr title="The experiment this data comes from.">Experiment: </abbr></strong><%= @list_kw["exp"]["exp_description"] %></br>
+  <strong><abbr title="The days when we collected data.">Experiment dates: </abbr></strong><%= @list_kw["exp"]["exp_date"].join(" | ") %></br>
+  <strong><abbr title="The number of shadow accounts we used and the number of accounts each email was in.">Experiment features: </abbr></strong><%= @list_kw["exp"]["exp_accs"] %> accounts total, the emails are in <%= @list_kw["exp"]["exp_email_accs"] %> accounts each</br>
+    <br></br>
+    <table class="table table-striped">
+      <tr>
+        <th><abbr title="The subject of the email we sent in the accounts.">Title</abbr></th>
+        <th><abbr title="The body of the email we sent in the accounts.">Body</abbr></th>
+        <th><abbr title="The number of ads that XRay correlated with this email.">#Ads</abbr></th>
+      </tr>
+      <% @list_kw["list"].sort_by { |x| x[:subject] }.each do |e_data| %>
+      <tr>
+        <td><%= link_to (e_data[:display_subject] || e_data[:subject]), list_ads_by_kw_path(:exp_name => @list_kw["exp_name"], :subject => e_data[:subject]), :class => 'link' %></td>
+        <td><%= (e_data[:display_text] || e_data[:text].first).gsub(/\n/, " ")%></td>
+        <td style="text-align:right"><%= e_data[:ad_number]%></td>
+      </tr>
+      <% end %>
+  </table>
+  <% end %>
