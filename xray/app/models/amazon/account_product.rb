@@ -1,0 +1,3 @@
+class AccountProduct < AccountSnapshotCluster
+
+end

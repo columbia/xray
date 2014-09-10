@@ -1,0 +1,26 @@
+production:
+  sessions:
+    default:
+      database: prod
+      hosts:
+        - localhost:27017
+      options:
+        safe: true
+
+development:
+  sessions:
+    default:
+      database: dev
+      hosts:
+        - localhost:27017
+      options:
+        safe: true
+
+test:
+  sessions:
+    default:
+      database: test
+      hosts:
+        - localhost:27017
+      options:
+        safe: true

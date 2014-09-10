@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>XRay</title>
+  <%= stylesheet_link_tag    "bootstrap.min", :media => "all" %>
+  <%#<%= stylesheet_link_tag 	 "custom",  	:media => "screen" %>
+  <%= javascript_include_tag "application" %>
+  <%= csrf_meta_tags %>
+</head>
+<body>
+
+  <header class="navbar navbar-inverse navbar-fixed-top bs-docs-nav" id="top" role="banner">
+  <div class="container">
+    <div class="navbar-header">
+      <%= link_to image_tag("logo3.png", :alt => "XRay"), root_path, :class => 'navbar-brand' %>
+      <ul class="nav navbar-nav">
+        <li><%= link_to "Website", about_path %></li>
+        <li><%= link_to "Help", help_path %></li>
+        <li><%= link_to "Contact", contact_path %></li>
+      </ul>
+    </div>
+    <nav class="collapse navbar-collapse bs-navbar-collapse" role="navigation">
+      <ul class="nav navbar-nav navbar-right">
+        <% if user_signed_in? %>
+          <li class="navbar-text">Logged in as <strong><%= current_user.email %></strong>.</li>
+          <li><%= link_to 'Edit profile', edit_user_registration_path %></li>
+          <li><%= link_to "Logout", destroy_user_session_path, method: :delete %></li>
+        <% else %>
+          <%# <li><%= link_to "Sign up", new_user_registration_path %></li> %>
+          <%# <li><%= link_to "Login", new_user_session_path %></li> %>
+        <% end %>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+</br></br></br></br>
+
+  <div class="container">
+    <p class="alert alert-success">Please use XRay's results to gain intuition and not as absolute truth.  Read about their potential caveats <%= link_to "here", help_path %>.  Most notably, the results indicate correlation of various ads to specific topics, which does not constitute a proof that advertisers intentionally targeted a particular topic.  Finally, we mean no offense in any of the emails/topics that we crafted below to attract ads.</p>
+    <section>
+    	<% if notice %>
+        <p class="alert alert-success"><%= notice %></p>
+      <% end %>
+      <% if alert %>
+        <p class="alert alert-danger"><%= alert %></p>
+      <% end %>
+
+      <div class="jumbotron">
+        <%= yield %>
+      </div>
+    </section>
+  </div>
+  
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-53859523-2', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+</body>
+</html>
