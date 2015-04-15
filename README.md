@@ -56,7 +56,7 @@ rbenv shell 1.9.3-p484
 rbenv rehash
 
 //install mongodb (yes...)
-http://docs.mongodb.org/manual/tutorial/install-mongodb-on-ubuntu/
+http://docs.mongodb.org/manual/installation/
 
 // clone xray
 git clone git@github.com:matlecu/xray.git
@@ -78,6 +78,9 @@ mongod --dbpath=/home/mathias/mongodata/xray/db_data --port the_port
     * Will launch 25 workers.
     * The queue name is `email` for sending and the experiment name for scraping.
     * You can view the sidekiq control panel at: `host:3000/sidekiq`
+* Start Mongod: `mongod`
+* Open a rails console: `rails c`
+
 * Instantiate an experiment:
     ```
     exp = Experiment.create({
