@@ -17,10 +17,11 @@ Theofilos Petsios, Riley Spahn, Augustin Chaintreau, and Roxana Geambasu.
 "XRay: Increasing the Web's Transparency with Differential Correlation."
 <a href="http://arxiv.org/abs/1407.2323" target="_top">Technical report</a>, July 2014.
 
+* A follow-up paper <a href="https://roxanageambasu.github.io/publications/ccs2015sunlight.pdf" target="_top">Sunlight</a>, 2015. More information, code, and data can be found on <a href="https://columbia.github.io/sunlight/" target="_top">the website</a>.
 
 ### Prototype Source Code
 
-Available on <a href="https://github.com/matlecu/xray" target="_top">Github</a>.
+Available on <a href="https://github.com/columbia/xray" target="_top">Github</a>.
 
 ### Media
 
