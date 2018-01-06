@@ -1,4 +1,3 @@
-# XRay: increasing the web's transparency
 
 XRay is a research project from Columbia University that aims to improve
 transparency of data usage on the web. You can learn more on our
