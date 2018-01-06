@@ -16,10 +16,7 @@ some powerful example use cases we envision XRay supporting in the future
 
 This page shows some example associations and some of their high-level implications.
 Our purpose is to illustrate through examples the great potential inherent in the
-targeting data XRay is gathering. Thorough studies of the data are among our future
-plans. We are making the service's targeting data available to anyone interested in
-sensitive-topic ad targeting in Gmail.  All results should be viewed in the context
-of our system's [limitations]({{ site.baseurl }}/4-gmail-demo#caveats).
+targeting data XRay is gathering.
 
 
 <h3 id="findings">Example Associations</h3>
@@ -75,7 +72,7 @@ strongly correlated with the presence of keywords such as *debt*, *borrow*, or
 dealership ad that entices users to take a Toyota test drive for $50 strongly;
 that ad correlates with the *debt* keyword.  XRay cannot confirm whether
 the ad correlations with debt-related keywords were the result of intentional
-targeting of debt-ridden populations by the lenders (see [caveats]({{ site.baseurl }}/4-gmail-demo#caveats)),
+targeting of debt-ridden populations by the lenders,
 however the example does illustrate how XRay can be used to discover interesting
 trends and help obtain quantitative support for them.
 
