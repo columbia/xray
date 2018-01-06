@@ -80,20 +80,14 @@ toward <font color="blue">increased transparency</font> in this data-driven Web*
 ### What We Release
 
 While our long-term plans for XRay and Web transparency are ambitious, our prototype is still in a research stage. Many difficult challenges remain open for revealing data use in this complex Web world, including robustness in face of malicious services, usability, and ease of instantiation on more services.
-More about our prototype's limitations [here]({{ site.baseurl }}/4-gmail-demo#caveats).
 
 To spur further progress in this important, and largely unexplored, area of Web transparency, we are releasing several artifacts:
 
-1. A <a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue">demo service</font></a>,
-which wraps our XRay Gmail prototype and can be used by researchers, journalists, and
-investigators to gain visibility into Gmail's ad ecosystem.  Our experience using it
-reveals some interesting associations, which we describe in [Use Cases]({{ site.baseurl }}/3-use-cases#findings).
-
-2. Our prototype's <a href="https://github.com/matlecu/xray/"><font color="blue">source
+1. Our prototype's <a href="https://github.com/matlecu/xray/"><font color="blue">source
 code</font></a>, which can be used by researchers to both improve XRay and
 instantiate new tools on it to reveal data targeting on new Web services.
 
-3. Our upcoming <a href="{{ site.baseurl }}/public/usenix14lecuyer.pdf">
+2. Our <a href="{{ site.baseurl }}/public/usenix14lecuyer.pdf">
 <font color="blue">USENIX Security paper</font></a>, which gives the necessary
 details to understand our system's design, quirks, and limitations.  It should be
 read before using our prototype!
