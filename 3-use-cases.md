@@ -97,6 +97,7 @@ trends and help obtain quantitative support for them.
 
 <font size="3.5pt">
 
+
 | Topic               | Ad Text                                                          |
 | -------------------:|:---------------------------------------------------------------- |
 | **Alzheimer**       | *Black Mold Allergy Symptoms? Expert to remove Black Mold.*      |
@@ -120,6 +121,24 @@ trends and help obtain quantitative support for them.
 | **Loan**            | *Car Loan without Cosigner 100% Accepted. [...]*                 |
 | **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*                 |
 
+<table style="width:100%">
+  <tr>
+    <th>Firstname</th>
+    <th>Lastname</th> 
+    <th>Age</th>
+  </tr>
+  <tr>
+    <td>Jill</td>
+    <td>Smith</td> 
+    <td>50</td>
+  </tr>
+  <tr>
+    <td>Eve</td>
+    <td>Jackson</td> 
+    <td>94</td>
+  </tr>
+</table>
+
 </font>
 
 Note: We report these examples results *not* to point fingers at Gmail
@@ -127,18 +146,3 @@ or any advertisers; indeed, the lack of transparency is a pervasive and
 difficult problem.  Rather, we aim to illustrate the dangers raised
 by the lack of transparency in targeted ad placement and hopefully bolster
 a conversation about how to go about improving this situation over time.
-
-
-### Interested in Ad Data?  Visit our Demo Service
-
-The above observations were reached from an early look at XRay's data.
-Our <a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue"><b>XRay demo
-service</b></font></a> has since been collecting much more data, which we
-invite you to visit to draw your own observations about Gmail's ad ecosystem.
-
-If you have an idea for a new topic that would be interesting to track ad
-targeting for, please [send us an email]({{ site.baseurl }}/6-team/).  We'll try to
-incorporate your topic of interest into our service and make the ads
-targeting that topic available to you.  Due to the volume of emails we receive,
-we may not be able to respond directly to all requests.
-
