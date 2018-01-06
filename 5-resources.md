@@ -19,9 +19,9 @@ Theofilos Petsios, Riley Spahn, Augustin Chaintreau, and Roxana Geambasu.
 
 * A follow-up paper <a href="https://roxanageambasu.github.io/publications/ccs2015sunlight.pdf" target="_top">Sunlight</a>, 2015. More information, code, and data can be found on <a href="https://columbia.github.io/sunlight/" target="_top">the website</a>.
 
-### Prototype Source Code
+### Prototype Source Code and Data
 
-Available on <a href="https://github.com/columbia/xray" target="_top">Github</a>.
+The code in available on <a href="https://github.com/columbia/xray" target="_top">Github</a>. The Gmail experiment data is available as a <a href="http://www.cs.columbia.edu/~mathias/sunlight/gmail/data.zip" target="_top">dump</a>.
 
 ### Media
 
