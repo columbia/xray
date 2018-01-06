@@ -80,9 +80,6 @@ trends and help obtain quantitative support for them.
 
 <font size="3.5pt">
 
-| **Loan**            | *Car Loan without Cosigner 100% Accepted. [...]*                 |
-| **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*                 |
-
 <table style="width:100%">
   <tr>
     <th>Topic</th>
