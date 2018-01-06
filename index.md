@@ -52,9 +52,6 @@ Read about:
 * The XRay system. [<a href="{{ site.baseurl }}/2-system-description/"><font color="blue">XRay</font></a>]
 * Examples of findings using XRay on Gmail.
 [<a href="{{ site.baseurl }}/3-use-cases/"><font color="blue">Use Cases</font></a>]
-* How to use our Gmail ad demo service, which reveals ads
-targeted on certain sensitive topics, such as depression, cancer,
-pregnancy, race, or debt.  [<a href="{{ site.baseurl }}/4-gmail-demo/"><font color="blue">Demo</font></a>]
 * Released artifacts: USENIX Security paper and XRay's
   source code. [<a href="{{ site.baseurl }}/5-resources/"><font color="blue">Links</font></a>]
 * Our team. [<a href="{{ site.baseurl }}/5-resources/"><font color="blue">People</font></a>]
