@@ -80,45 +80,93 @@ trends and help obtain quantitative support for them.
 
 <font size="3.5pt">
 
-
-| Topic               | Ad Text                                                          |
-| -------------------:|:---------------------------------------------------------------- |
-| **Alzheimer**       | *Black Mold Allergy Symptoms? Expert to remove Black Mold.*      |
-| **Alzheimer**       | *Adult Assisted Living. Affordable assisted Living.*             |
-| **Cancer**          | *Ford Warriors in Pink. Join the fight.*                         |
-| **Cancer**          | *Rosen Method Bodywork for physical or emotional pain.*          |
-| **Depression**      | *Shamanic healing over the phone.*                               |
-| **Depression**      | *Text Coach - Get the girl you want and desire.*                 |
-| **African American**| *Racial Harassment? Learn your rights now.*                     |
-| **African American**| *Racial Harassment. Hearing racial slurs?*                      |
-| **Homosexuality**   | *SF Gay Pride Hotel. Luxury Waterfront.*                         |
-| **Homosexuality**   | *Cedars Hotel Loughborough. 36 Bedrooms, restaurant, bar.*       |
-| **Pregnancy**       | *Find Baby Shower Invitations. Get up to 60% off here!*          |
-| **Pregnancy**       | *Ralph Lauren Apparel.  Official online store.*                  |
-| **Pregnancy**       | *Bonobos Official Site. Your closet will thank you.*             |
-| **Pregnancy**       | *Clothing Label-USA. Best custom woven labels.*                  |
-| **Divorce**         | *Law Attorneys specializing in special needs kids education.*    |
-| **Divorce**         | *Cerbone Law Firm. Helping good people thru bad times.*          |
-| **Debt/broke**      | *Take a New Toyota Test Drive. Get a $50 gift card on the spot.* |
-| **Debt/broke**      | *Great Credit Card Search.  Apply for VISA, Mastercard...*       |
 | **Loan**            | *Car Loan without Cosigner 100% Accepted. [...]*                 |
 | **Loan**            | *Car Loans w/ Bad Credit 100% Acceptance! [...]*                 |
 
 <table style="width:100%">
   <tr>
-    <th>Firstname</th>
-    <th>Lastname</th> 
-    <th>Age</th>
+    <th>Topic</th>
+    <th>Ad Text</th> 
   </tr>
   <tr>
-    <td>Jill</td>
-    <td>Smith</td> 
-    <td>50</td>
+    <td>Alzheimer</td>
+    <td>Black Mold Allergy Symptoms? Expert to remove Black Mold.</td> 
   </tr>
   <tr>
-    <td>Eve</td>
-    <td>Jackson</td> 
-    <td>94</td>
+    <td>Alzheimer</td>
+    <td>Adult Assisted Living. Affordable assisted Living.</td> 
+  </tr>
+  <tr>
+    <td>Cancer</td>
+    <td>Ford Warriors in Pink. Join the fight.</td> 
+  </tr>
+  <tr>
+    <td>Cancer</td>
+    <td>Rosen Method Bodywork for physical or emotional pain.</td> 
+  </tr>
+  <tr>
+    <td>Depression</td>
+    <td>Shamanic healing over the phone.</td> 
+  </tr>
+  <tr>
+    <td>Depression</td>
+    <td>Text Coach - Get the girl you want and desire.</td> 
+  </tr>
+  <tr>
+    <td>African American</td>
+    <td>Racial Harassment? Learn your rights now.</td> 
+  </tr>
+  <tr>
+    <td>African American</td>
+    <td>Racial Harassment. Hearing racial slurs?</td> 
+  </tr>
+  <tr>
+    <td>Homosexuality</td>
+    <td>SF Gay Pride Hotel. Luxury Waterfront.</td> 
+  </tr>
+  <tr>
+    <td>Homosexuality</td>
+    <td>Cedars Hotel Loughborough. 36 Bedrooms, restaurant, bar.</td> 
+  </tr>
+  <tr>
+    <td>Pregnancy</td>
+    <td>Find Baby Shower Invitations. Get up to 60% off here!</td> 
+  </tr>
+  <tr>
+    <td>Pregnancy</td>
+    <td>Ralph Lauren Apparel.  Official online store.</td> 
+  </tr>
+  <tr>
+    <td>Pregnancy</td>
+    <td>Bonobos Official Site. Your closet will thank you.</td> 
+  </tr>
+  <tr>
+    <td>Pregnancy</td>
+    <td>Clothing Label-USA. Best custom woven labels.</td> 
+  </tr>
+  <tr>
+    <td>Divorce</td>
+    <td>Law Attorneys specializing in special needs kids education.</td> 
+  </tr>
+  <tr>
+    <td>Divorce</td>
+    <td>Cerbone Law Firm. Helping good people thru bad times.</td> 
+  </tr>
+  <tr>
+    <td>Debt/broke</td>
+    <td>Take a New Toyota Test Drive. Get a $50 gift card on the spot.</td> 
+  </tr>
+  <tr>
+    <td>Debt/broke</td>
+    <td>Great Credit Card Search.  Apply for VISA, Mastercard...</td> 
+  </tr>
+  <tr>
+    <td>Loan</td>
+    <td>Car Loan without Cosigner 100% Accepted. [...].</td> 
+  </tr>
+  <tr>
+    <td>Loan</td>
+    <td>Car Loans w/ Bad Credit 100% Acceptance! [...].</td> 
   </tr>
 </table>
 
