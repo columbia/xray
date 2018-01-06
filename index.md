@@ -52,7 +52,7 @@ Read about:
 * The XRay system. [<a href="{{ site.baseurl }}/2-system-description/"><font color="blue">XRay</font></a>]
 * Examples of findings using XRay on Gmail.
 [<a href="{{ site.baseurl }}/3-use-cases/"><font color="blue">Use Cases</font></a>]
-* Released artifacts: USENIX Security paper and XRay's
-  source code. [<a href="{{ site.baseurl }}/5-resources/"><font color="blue">Links</font></a>]
+* Released artifacts: USENIX Security paper, XRay's
+  source code, and Gmail experiment data. [<a href="{{ site.baseurl }}/5-resources/"><font color="blue">Links</font></a>]
 * Our team. [<a href="{{ site.baseurl }}/5-resources/"><font color="blue">People</font></a>]
 
